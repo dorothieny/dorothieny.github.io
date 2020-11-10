@@ -8,5 +8,6 @@ p{
     text-decoration: underline;
 }
 body{
-    background-image: url('Frontside.jpg')
+    background-image: url('Frontside.jpg');
+    background-size: 100%
 }
