@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: darkcyan;
+}
+p {
+    text-decoration: wavy;
+}
+body{
+    background-image: url('Frontside.jpg')
+}
