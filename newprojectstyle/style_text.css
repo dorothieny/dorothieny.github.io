@@ -45,7 +45,7 @@ div> h2{
 div> img#first {
  display: block;
  position: relative;
- width:100%;
+ width: 100%;
  top: -40px;
  z-index: -1;
 }
@@ -62,7 +62,7 @@ color: #1D1D1B;
 h1#im{
 display: block;
 margin-left: 97px;
-margin-top: 250px;
+margin-top: 300px;
 }
 p.little{
   font-family: Futura;
@@ -89,14 +89,14 @@ font-size: 35px;
 line-height: 38px;
 letter-spacing: -0.03em;
 color: #1D1D1B;
-width: 400px;
+width: 391px;
 }
 p.main#two{
   margin-top: 466px;
   margin-left: 97px;
 }
 p.little#two{
-  margin-left: 1155px;
+  float: right;
   margin-top: 188px;
 }
 p.bold{
@@ -176,9 +176,12 @@ h1#four{
   margin-left: 311px;
   margin-bottom: 91px;
 }
+.end{
+  margin-left: 97px;
+}
 div>p.little, div>p.main{
   display:inline-flex;
-  margin-left: 91px;
+  margin-left: 20px;
 }
 #five{
   margin-top:113px;
@@ -190,7 +193,7 @@ h1+h1{
   height:40px;
 }
 #six{
-  margin-left: 825px;
+  float:right;
   margin-top: 84px;
 }
 h3{
@@ -202,7 +205,7 @@ line-height: 108%;
 /* or 43px */
 text-align: center;
 letter-spacing: -0.03em;
-color: #FFFFFF;
+/* color: #FFFFFF; */
 }
 p.link{
   font-family: Futura;
@@ -214,7 +217,7 @@ line-height: 108%;
 
 letter-spacing: -0.03em;
 
-color: #FFFFFF;
+/* color: #FFFFFF; */
 }
 a{
   color:inherit;
