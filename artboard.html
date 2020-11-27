@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    div{
+      display: block;
+      position: absolute;
+    }
+      .red {
+        Width: 1700px;
+        Height: 1700px;
+        background: #E30713;
+        border-radius: 50%;
+        Top: 4535px;
+        Left:-524px;
+        transition: all 4s ease-out;
+      }
+      .red:hover{
+        transform: scale(1.1);
+        transition: all 2s ease-out;
+      }
+      .orange {
+        background: orange;
+        width: 600px;
+        height: 400px;
+        top: 200px;
+        left: 100px;
+        transform: rotate(45deg);
+      }
+      .orange:hover{
+        transform: rotate(60deg);
+        transition: all 4s ease-out;
+      }
+      .black{
+        background: black;
+        width: 600px;
+        height: 100px;
+        top: 500px;
+        left: 500px;
+        border-color: red;
+        border: 30px solid red;
+        transition: all 4s ease-out;
+        /* padding: 10px; */
+      }
+      .black:hover{
+        transform: rotate(-100deg);
+        transition: all 5s ease-out;
+      }
+      .letter{
+        font-size: 1000px;
+        left: 700px;
+        top: -200px;
+        color: #999;
+        opacity: .5;
+        transition: all 3s ease-out;
+
+      }
+      .letter:hover{
+        opacity: 1;
+        transform: scale(3);
+        transition: all 3s ease-out;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="letter">
+      A
+
+    </div>
+    <div class="orange">
+    </div>
+    <div class="red">
+    </div>
+<div class="black">
+
+</div>
+
+  </body>
+</html>
