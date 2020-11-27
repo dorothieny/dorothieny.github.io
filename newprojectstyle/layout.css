@@ -1,0 +1,19 @@
+.red {
+  position: absolute;
+  Width: 1832px;
+  Height: 1832px;
+  background: #E30713;
+  border-radius: 50%;
+  Top: 4535px;
+  Left:-524px;
+  transition: all 4s ease-out;
+  z-index: -1;
+}
+.bottom{
+  position: absolute;
+  width: 100%;
+  height: 194px;
+  background: #1D1D1B;
+  Top: 7650px;
+  z-index: -1;
+}
