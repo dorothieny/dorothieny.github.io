@@ -97,10 +97,21 @@ letter-spacing: -0.03em;
 color: #1D1D1B;
 width: 391px;
 }
+
+div.la{
+position:absolute;
+  margin-top: 530px;
+  width:1440px;
+  height:1484px;
+  background: url('wow.jpg');
+  z-index: -1;
+
+}
 p.main#two{
   border: 8px solid #1D1D1B;
   border-left: none;
   margin-top: 466px;
+  /* top: 30%; */
   padding-left: 97px;
   padding-bottom: 20px;
 }
