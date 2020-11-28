@@ -25,7 +25,7 @@ img.ss{
   position: absolute;
   width: ;
   top: 67%;
-  left:;
+  left:0;
 }
 img.ee{
   position: absolute;
@@ -37,6 +37,6 @@ img.ee{
 img.aa{
   position: absolute;
   top:6500px;
-  left:;
+  left:0;
 
 }
