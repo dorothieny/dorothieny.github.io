@@ -236,7 +236,7 @@ div.six > p{
   width:450px;
   margin-left: 60%;
   border: 8px solid #E30613;
-  padding: 67px;
+  padding: 67px 50px 67px 67px;
   border-right: none;
 
 }
