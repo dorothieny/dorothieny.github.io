@@ -185,7 +185,7 @@ color: #E30613;
 width: 572px;
 margin-top: 64px;
 margin-left: 50%;
-margin-bottom: 970px;
+/* margin-bottom: 970px; */
 }
 h1.st{
   color: #FFFFFF;
@@ -194,6 +194,9 @@ h1.st{
   letter-spacing: -0.03em;
 }
 h1#four{
+  /* position: absolute; */
+  /* display: block; */
+  padding-top: 970px;
   margin-left: 20%;
   margin-bottom: 91px;
 }
