@@ -98,12 +98,15 @@ color: #1D1D1B;
 width: 391px;
 }
 p.main#two{
+  border: 8px solid #1D1D1B;
+  border-left: none;
   margin-top: 466px;
   padding-left: 97px;
+  padding-bottom: 20px;
 }
 p.little#two{
-  margin-left: 76%;
-  margin-top: 188px;
+  margin-left: 79%;
+  margin-top: 168px;
 }
 p.bold{
   font-family: Futura;
@@ -171,7 +174,7 @@ color: #E30613;
 width: 572px;
 margin-top: 64px;
 margin-left: 50%;
-margin-bottom: 860px;
+margin-bottom: 970px;
 }
 h1.st{
   color: #FFFFFF;
@@ -218,6 +221,9 @@ div.six{
 div.six > p{
   width:450px;
   margin-left: 60%;
+  border: 8px solid #E30613;
+  padding: 67px;
+  border-right: none;
 
 }
 h3{
@@ -270,6 +276,6 @@ div.link1{
 }
 div.sup{
   display: inline-flex;
-  margin-top: 186px;
+  margin-top: 119px;
   background: #1D1D1B;
 }

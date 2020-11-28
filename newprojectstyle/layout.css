@@ -1,9 +1,42 @@
-
-/* .bottom{
+.red_circle{
+position: absolute;
+left: -36.39%;
+top: 57.81%;
+border-radius: 50%;
+width: 1832px;
+height: 1832px;
+background: #E30613;
+z-index: -1;
+}
+img.m{
   position: absolute;
-  width: 100%;
-  height: 194px;
-  background: #1D1D1B;
-  Top: 7650px;
+  width: 1440px;
   z-index: -1;
-/* } 
+  top: 31.71%;
+
+}
+img.ns{
+  position:absolute;
+  width:50%;
+  top:52%;
+  left: 50%;
+}
+img.ss{
+  position: absolute;
+  width: ;
+  top: 67%;
+  left:;
+}
+img.ee{
+  position: absolute;
+  width:;
+  top:72.5%;
+  left:52%;
+
+}
+img.aa{
+  position: absolute;
+  top:78.5%;
+  left:;
+
+}
