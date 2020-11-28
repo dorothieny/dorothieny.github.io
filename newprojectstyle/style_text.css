@@ -61,7 +61,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 60px;
 line-height: 80px;
-letter-spacing: -0.11em;
+letter-spacing: -0.03em;
 color: #1D1D1B;
 }
 #im{
@@ -177,7 +177,7 @@ h1.st{
   color: #FFFFFF;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #1D1D1B;
-  letter-spacing: -0.0299em;
+  letter-spacing: -0.03em;
 }
 h1#four{
   margin-left: 20%;
@@ -200,6 +200,7 @@ div.kubrick{
 h1+h1{
   /* margin-left: 30%; */
   height:40px;
+  padding-left: 200px;
 
 }
 div.six{
