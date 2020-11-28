@@ -39,13 +39,15 @@ body{
   color: #FFFFFF;
   top: 50px;
   display: block;
+  margin-left: 90px;
+
 }
 
 div> h2{
   background: #1D1D1B;
   padding: 20px;
   display: inline;
-  margin-left: 110px;
+  margin-right: 110px;
 }
 img#first {
  display: block;
