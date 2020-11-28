@@ -40,9 +40,9 @@ div> h2{
   background: #1D1D1B;
   padding: 20px;
   display: inline;
-  margin: 0 50px;
+  margin-left: 110px;
 }
-div> img#first {
+img#first {
  display: block;
  position: relative;
  width: 100%;
@@ -59,10 +59,10 @@ line-height: 80px;
 letter-spacing: -0.11em;
 color: #1D1D1B;
 }
-h1#im{
-display: block;
-margin-left: 97px;
+#im{
+/* display: block; */
 margin-top: 300px;
+padding-left: 97px;
 }
 p.little{
   font-family: Futura;
@@ -75,11 +75,12 @@ color: #E30613;
 width: 220px;
 }
 div>p{
-  display: inline-grid;
+  display: inline;
 }
 div#wo{
-  margin-left:428px;
-  margin-top: 138px
+  margin-left: 30%;
+  padding-top:138px;
+
 }
 p.main{
   font-family: Futura;
@@ -93,10 +94,10 @@ width: 391px;
 }
 p.main#two{
   margin-top: 466px;
-  margin-left: 97px;
+  padding-left: 97px;
 }
 p.little#two{
-  float: right;
+  margin-left: 76%;
   margin-top: 188px;
 }
 p.bold{
@@ -107,11 +108,11 @@ font-size: 35px;
 line-height: 38px;
 letter-spacing: -0.03em;
 color: #1D1D1B;
-width:570px;
 }
 p#three{
   margin-top:897px;
-  margin-left: 243px;
+  padding-left: 243px;
+  width: 450px;
 }
 p#owo{
   font-family: Futura;
@@ -123,9 +124,9 @@ letter-spacing: -0.03em;
 color: transparent;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: #FFFFFF;
-margin-left: 97px;
 margin-top: 258px;
 width:600px;
+padding-left: 97px;
 }
 p.white{
 font-family: Futura;
@@ -135,9 +136,9 @@ font-size: 50px;
 line-height: 54px;
 letter-spacing: -0.03em;
 color: #FFFFFF;
-margin-left: 97px;
 margin-top: 165px;
 width: 683px;
+margin-left: 10%;
 }
 p.black{
   font-family: Futura;
@@ -148,8 +149,9 @@ line-height: 54px;
 letter-spacing: -0.03em;
 color: #1D1D1B;
 margin-top: 64px;
-margin-left: 500px;
+: 500px;
 width: 660px;
+margin-left: 35%;
 }
 p.re{
   font-family: Futura;
@@ -163,7 +165,7 @@ color: #E30613;
 -webkit-text-stroke-color: #FFFFFF;
 width: 572px;
 margin-top: 64px;
-margin-left: 720px;
+margin-left: 50%;
 margin-bottom: 860px;
 }
 h1.st{
@@ -173,28 +175,35 @@ h1.st{
   letter-spacing: -0.0299em;
 }
 h1#four{
-  margin-left: 311px;
+  margin-left: 20%;
   margin-bottom: 91px;
 }
 .end{
-  margin-left: 97px;
+  padding-left: 97px;
 }
-div>p.little, div>p.main{
+div>p{
   display:inline-flex;
-  margin-left: 20px;
+
 }
 #five{
   margin-top:113px;
-  margin-left: 883px;
+  margin-left: 60%;
   height:40px;
 }
 h1+h1{
-  margin-left:1103px;
+  margin-left: 76%;
   height:40px;
 }
-#six{
-  float:right;
+div.six{
   margin-top: 84px;
+  height: auto;
+  width:100%;
+}
+
+div.six > p{
+  width:450px;
+  margin-left: 60%;
+
 }
 h3{
   font-family: Futura;
@@ -223,15 +232,24 @@ a{
   color:inherit;
   text-decoration: none;
 }
-.link{
+
+div.sup{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.link{
   width: 140px;
-  margin-right: 829px;
+  padding-left: 97px;
+
 }
-.link1{
+div.link1{
   width: 240px;
+  padding-right:67px;
 }
-div#sup{
+div.sup{
   display: inline-flex;
-  margin-left: 97px;
   margin-top: 186px;
 }
