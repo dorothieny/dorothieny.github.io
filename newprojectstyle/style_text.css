@@ -43,11 +43,13 @@ body{
 
 }
 
-div> h2{
+div> a{
   background: #1D1D1B;
   padding: 20px;
   display: inline;
   margin-right: 110px;
+  text-decoration: none;
+  color:inherit;
 }
 img#first {
  display: block;
@@ -198,7 +200,7 @@ h1.st{
 h1#four{
   /* position: absolute; */
   /* display: block; */
-  padding-top: 970px;
+  margin-top: 970px;
   margin-left: 20%;
   margin-bottom: 91px;
 }
@@ -265,7 +267,7 @@ letter-spacing: -0.03em;
 
 color: #FFFFFF;
 }
-a{
+a#we{
   color:inherit;
   text-decoration: none;
 }
