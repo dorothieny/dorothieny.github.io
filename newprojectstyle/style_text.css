@@ -22,6 +22,11 @@ font-weight: bold;
 font-style: normal;
 
 }
+body{
+  width: 1440px;
+  margin: 0;
+  position: relative;
+}
 
  div.menu{
   font-family: Futura;
@@ -185,14 +190,17 @@ div>p{
   display:inline-flex;
 
 }
-#five{
+div.kubrick{
   margin-top:113px;
   margin-left: 60%;
+}
+#five{
   height:40px;
 }
 h1+h1{
-  margin-left: 76%;
+  /* margin-left: 30%; */
   height:40px;
+
 }
 div.six{
   margin-top: 84px;
@@ -214,7 +222,7 @@ line-height: 108%;
 /* or 43px */
 text-align: center;
 letter-spacing: -0.03em;
-/* color: #FFFFFF; */
+color: #FFFFFF;
 }
 p.link{
   font-family: Futura;
@@ -226,7 +234,7 @@ line-height: 108%;
 
 letter-spacing: -0.03em;
 
-/* color: #FFFFFF; */
+color: #FFFFFF;
 }
 a{
   color:inherit;
@@ -244,6 +252,10 @@ div.link{
   width: 140px;
   padding-left: 97px;
 
+
+}
+p.link{
+  display: inline;
 }
 div.link1{
   width: 240px;
@@ -252,4 +264,5 @@ div.link1{
 div.sup{
   display: inline-flex;
   margin-top: 186px;
+  background: #1D1D1B;
 }
