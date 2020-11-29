@@ -278,6 +278,11 @@ div.sup{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 119px;
+  background: #1D1D1B;
+  
+
+
 }
 
 div.link{
@@ -292,9 +297,4 @@ p.link{
 div.link1{
   width: 240px;
   padding-right:67px;
-}
-div.sup{
-  display: inline-flex;
-  margin-top: 119px;
-  background: #1D1D1B;
 }
