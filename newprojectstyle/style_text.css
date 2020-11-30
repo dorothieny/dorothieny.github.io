@@ -278,6 +278,8 @@ div.sup{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* align-items: center; */
+  height:200px;
   margin-top: 119px;
   background: #1D1D1B;
 
