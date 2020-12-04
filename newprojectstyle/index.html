@@ -8,6 +8,21 @@
     <title>Futura Odyssey</title>
     <link rel="stylesheet" href="style_text.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(function() {
+  $('.menu a').each(function() {
+    $(this).on('click', function(e) {
+      e.preventDefault();
+      var scrollTo = $(this).attr('href');
+      var whitespace = scrollTo == '#s1' ? 70 : 30;
+      $('html,body').animate({
+        scrollTop: $(scrollTo).offset().top - whitespace
+      }, 1000);
+    });
+  });
+});
+</script>
   </head>
   <body>
     <!-- text objects -->
