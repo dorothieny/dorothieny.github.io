@@ -1,0 +1,54 @@
+<meta name="description" content="Сайт о Стенли Кубрике и шрифте Futura">
+<meta name="keywords" content="Kubrick, Stanley, Futura, Film, space, space odyssey">
+<meta name="author" content="Ponomareva Daria">
+<title>Futura Odyssey</title>
+<link rel="stylesheet" href="style_text.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(function() {
+$('.menu a').each(function() {
+$(this).on('click', function(e) {
+  e.preventDefault();
+  var scrollTo = $(this).attr('href');
+  var whitespace = scrollTo == '#s1' ? 70 : 30;
+  $('html,body').animate({
+    scrollTop: $(scrollTo).offset().top - whitespace
+  }, 1000);
+});
+});
+});
+</script>
+
+ <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fc4124a7485825e"></script>
+
+
+ <meta name="viewport" content="width=device-width">
+
+ @media only screen and (min-width: 1224px) {
+  /* Desktop */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
