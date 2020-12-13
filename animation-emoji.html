@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .emoji{
+        width: 160px;
+        height: 160px;
+        display: inline-block;
+        position: relative;
+        background: url("emoji-160.png");
+      }
+      .emoji-m{
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left:0;
+        top:0;
+        background: url("emoji-160.png");
+        background-position: -160px top;
+      }
+      .emoji-e{
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left:0;
+        top:0;
+        background: url("emoji-160.png");
+        background-position: -640px top;
+      }
+      .smile{
+        animation: smile 1s steps(1) alternate infinite;
+      }
+      .blink{
+        animation: blink 1s steps(1) alternate infinite;
+      }
+      .emoji:hover .blink,   .emoji:hover .smile{
+        animation-play-state: paused;
+      }
+
+      @keyframes smile {
+        0%{background-position: -160px top;}
+        33%{background-position: -320px top;}
+        66%{background-position: -479px top;}
+      }
+
+      @keyframes blink {
+        0%{background-position: -640px top;}
+        33%{background-position: -800px top;}
+        66%{background-position: -960px top;}
+      }
+      @keyframes spin {
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emoji" style="animation: spin 2s infinite">
+<div class="emoji-m smile"></div>
+<div class="emoji-e blink"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .one .container {
+  animation: jump 5s infinite linear;
+  position: absolute;
+  left: calc(50% - 4em);
+  top: 10%;
+  transform: scale(2);
+}
+.one .a {
+  /* animation: move 5s infinite; */
+  border-radius: 50%;
+  position: absolute;
+  left: auto;
+  top: auto;
+}
+.one .round{
+  position: absolute;
+  left: calc(50% - 4em);
+  top: 25%;
+  animation: ride 4s infinite ease-out;
+}
+.b{
+  position: absolute;
+  left: 70%;
+  top: 50%;
+ animation: spin 4s infinite alternate ;
+}
+.c{
+  position: absolute;
+  left: calc(50% - 4em);
+  top: 90%;
+ animation: sc 4s infinite;
+}
+@keyframes sc {
+  0%{opacity:0;}
+  20%{opacity:1; transform: scaleX(2) scaleY(.5)}
+  30%{transform: translateY(-10em) scaleX(.5) scaleY(2);}
+  70%{transform: translatey(-15em);}
+  72%{transform: translateY(-5em) scaleX(.8) scaleY(1.3);}
+  75%{transform: scaleX(2) scaleY(.5);opacity:1}
+  80%{opacity:0}
+  100%{opacity:0;}
+}
+@keyframes spin {
+  0%{transform: rotate(0deg);}
+  20%{transform: rotate(10deg);}
+  80%{transform: translateX(-4em)rotate(-90deg);}
+  100%{transform: translateX(-4em) rotate(-80deg);}
+}
+@keyframes ride {
+  0%{ transform: translateX(10em);}
+  50%{ transform: translateX(-30em);}
+  56%{transform: translateX(-32em)scaleX(0.5) scaleY(1.2);}
+  58%{transform: translateX(-31em);}
+  69%{transform: translateY(13em);}
+  90%{transform: translateX(10em) translateY(-12em);opacity:1;}
+  93%,100%{opacity:0}
+}
+@keyframes jump {
+0% {
+    transform: translateX(-8em);
+    animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  15.5% {
+    transform: translateX(8em) scaleX(0.8) scaleY(1.2);
+    animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  16% {
+    transform: translateX(8em) scaleX(1.1) scaleY(0.9);
+    animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  17% {
+    transform: translateX(8em);
+    animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  100% {
+    transform: translateX(-8em);
+    animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+}
+      body {
+        margin: 0;
+        background:#bc3b2e;
+      }
+      .principle {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+      .shape{
+          background: white;
+          width: 4em;
+          height: 4em;
+          position: absolute;
+          /* top: calc(50% - 2em);
+          left: calc(50% - 2em); */
+        }
+
+    </style>
+  </head>
+  <body>
+    <article class="principle one">
+        <div class="container">
+          <div class="shape a"></div>
+        </div>
+        <div class="round"><div class="shape a"></div></div>
+        <div class="shape b"></div>
+          <div class="shape c"></div>
+      </article>
+  </body>
+</html>

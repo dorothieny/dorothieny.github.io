@@ -1,0 +1,13 @@
+
+.fish img{
+  z-index: -1;
+  position: absolute;
+  top:80em;
+  left:-50%;
+  animation: fishes 50s infinite linear;
+}
+@keyframes fishes {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(-360deg);}
+
+}

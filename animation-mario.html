@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+.mario{
+  width:68px;
+  height: 68px;
+  display:block;
+  position:relative;
+  background: url("mario-walk-n-jump-68.png")
+}
+.walk{
+animation: walk 0.4s steps(1) infinite;
+}
+.path{
+  width:68px;
+  height: 68px;
+  display:block;
+  position:absolute;
+  animation: path 4s linear infinite;
+}
+.jump{
+  animation: jump 4s steps(1) infinite;
+  position:absolute;
+  top:0;
+  left:0;
+}
+@keyframes walk {
+  0%{background-position: 0 top;}
+  25%{background-position: -68px top;}
+  50%{background-position: -136px top;}
+  75%{background-position: -204px top;}
+}
+@keyframes jump {
+  0%{opacity: 0}
+  48%{background-position: -272px top; opacity: 1;}
+  50%{background-position: -340px top; poacity:1;}
+  52%{background-position: -340px top; opacity: 0}
+  100%{opacity:0;}
+
+}
+@keyframes path {
+  0%{left:-68px; top:200px;}
+  48%{left: 48%; top: 200px;}
+  50%{left: 50%; top: 100px;}
+  52%{left: 52%; top: 200px;}
+  100%{left: 100%; top: 200px;}
+
+}
+  </style>
+
+  </head>
+  <body>
+    <div class="path">
+      <div class="mario walk"></div>
+      <div class="mario jump"></div>
+
+    </div>
+  </body>
+</html>

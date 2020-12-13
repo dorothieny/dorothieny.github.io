@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    .blast{
+        width:151px;
+        height: 151px;
+        display:block;
+        position:absolute;
+        background: url("blast-151.png")
+      }
+  .blast{
+        animation: blast 3s steps(1) infinite;
+        left: 50%;
+        top:300px;
+        transform: scale(5);
+      }
+      @keyframes blast{
+        0%{background-position: 0 0; opacity:0;}
+        3%{background-position: 0 0; opacity:1;}
+        6%{background-position: -151px 0}
+        9%{background-position: -302px 0}
+        12%{background-position: -453px 0}
+        15%{background-position: -604px 0;}
+        18%{background-position: -755px 0;}
+        21%{background-position: -906px 0;}
+        24%{background-position: -1057px 0;}
+        27%{background-position: 0 -151px;}
+        30%{background-position: -151px -151px}
+        33%{background-position: -302px -151px}
+        36%{background-position: -453px -151px}
+        39%{background-position: -604px -151px;}
+        42%{background-position: -755px -151px;}
+        45%{background-position: -906px -151px;}
+        48%{background-position: -1057px -151px;}
+        51%{background-position: 0 -302px;}
+        54%{background-position: -151px -302px}
+        57%{background-position: -302px -302px}
+        60%{background-position: -453px -302px}
+        63%{background-position: -604px -302px;}
+        66%{background-position: -755px -302px;}
+        69%{background-position: -906px -302px;}
+        72%{background-position: -1057px -302px;}
+        75%{background-position: 0 -453px;}
+        78%{background-position: -151px -453px}
+        81%{background-position: -302px -453px}
+        84%{background-position: -453px -453px}
+        87%{background-position: -604px -453px;}
+        90%{background-position: -755px -453px;}
+        93%{background-position: -906px -453px;}
+        96%{background-position: -1057px -453px;}
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="blast">
+
+
+    </div>
+  </body>
+</html>
