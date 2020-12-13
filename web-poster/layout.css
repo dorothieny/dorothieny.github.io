@@ -1,13 +1,24 @@
-
-.fish img{
+div.try{
+  position:relative;
+ overflow: hidden;
+ margin-top: -155%;
+ height:100em;
+ z-index: -1;
+ overflow: hidden;
+}
+img.fish{
+  position:absolute;
   z-index: -1;
-  position: absolute;
-  top:80em;
-  left:-50%;
+  width:100%;
+  object-fit: cover;
   animation: fishes 50s infinite linear;
 }
+@media all and (min-width: 375px)(max-width: 1440px) {
+img.fish{width:100%;}
+}
+
 @keyframes fishes {
-  0%{transform: rotate(0deg);}
-  100%{transform: rotate(-360deg);}
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(-360deg);}
 
 }
