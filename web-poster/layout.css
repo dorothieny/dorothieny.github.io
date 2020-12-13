@@ -16,7 +16,15 @@ img.fish{
 @media all and (min-width: 375px)(max-width: 1440px) {
 img.fish{width:100%;}
 }
-
+@media all and (max-width: 480px) {
+  div.try{
+    position:relative;
+   overflow: hidden;
+   margin-top: -155%;
+   height:55em;
+   z-index: -1;
+   overflow: hidden;
+}
 @keyframes fishes {
   0%{transform:rotate(0deg);}
   100%{transform:rotate(-360deg);}
