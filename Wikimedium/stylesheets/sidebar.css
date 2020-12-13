@@ -1,0 +1,39 @@
+nav {
+  width: 250px;
+  display: block;
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  padding: 30px;
+  box-sizing: border-box;
+  opacity: .09;
+  transition: all .4s ease-out;
+}
+nav:hover {
+  opacity: 1;
+  transition: all .1s ease-out;
+}
+nav ul li #fu {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  line-height: 16px;
+}
+nav ul{
+  width:100%;
+}
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+  /* line-height: 10px; */
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 16px;
+}
+nav ul ul li{
+  color: #777;
+  margin-left: 10px;
+  line-height: 20px;
+}

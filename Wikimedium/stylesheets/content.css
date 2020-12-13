@@ -1,0 +1,68 @@
+article{
+    margin: 0 auto;
+}
+
+article *{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+article ul{
+  list-style-type: circle;
+}
+article ul li{
+  margin-left: 20px;
+}
+article h1, article h2, article h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+}
+article h1 { margin-top: 40px; font-size: 38px; line-height: 45px;
+}
+article h1 + p { margin-top: 8px; font-family: 'PT Sans Caption', sans-serif; font-size: 22px; line-height: 32px; color: rgba(0,0,0,.4);
+}
+article h1 + p + p { margin-top: 30px;
+}
+article h2 { margin-top: 43px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, .8);
+}
+article h2 + p,
+article h2 + blockquote { margin-top: 7px;
+}
+article h3 { margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, .8);
+}
+article h3 + p,
+article h3 + blockquote { margin-top: 6px;
+}
+article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
+}
+article blockquote {
+  font-style: italic;
+  display: block;
+  position: relative;
+}
+article blockquote::before{
+  content: "  ";
+  position: absolute;
+  width: 3px;
+  background: black;
+  height: 100%;
+  left: -23px;
+
+}
+article img.in { display: block; width: 1000px; margin: 79px auto 0;
+}
+article img + h2 { margin-top: 79px;
+}
+article img + p,
+article img + blockquote,
+article img + ul { margin-top: 77px;
+}
+article h2 + img { margin-top: 82px;
+}
+article h3 + img { margin-top: 81px;
+}
