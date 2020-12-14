@@ -49,11 +49,11 @@ div.ticket{
 }
 
 @keyframes swim {
-  0%,5%{opacity:0}
-  6%{transform: translateX(80em); opacity:1}
+  0%,7%{opacity:0}
+  8%{transform: translateX(80em); opacity:1}
   13%{transform: translateX(40em);}
-  96%{ transform: translateX(-80em) translateY(-5em) rotate(8deg);;opacity:1}
-  97%,100%{opacity:0}
+  94%{ transform: translateX(-80em) translateY(-5em) rotate(8deg);;opacity:1}
+  94.5%,100%{opacity:0}
 }
 @keyframes daily {
   0%,5%{opacity:0}
