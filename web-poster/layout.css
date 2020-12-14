@@ -42,7 +42,7 @@ div.ticket{
 .reg{
   width: 100%;
   object-fit: cover;
-  animation: swim 20s infinite ease-in-out;
+  animation: swim 40s infinite ease-in-out;
 }
 .ticket:hover .reg{
   animation-play-state: paused;
