@@ -1,7 +1,7 @@
 div.try{
   position:relative;
  overflow: hidden;
- margin-top: -155%;
+ margin-top: -200%;
  height:100em;
  z-index: -1;
  overflow: hidden;
@@ -13,30 +13,59 @@ img.fish{
   object-fit: cover;
   animation: fishes 50s infinite linear;
 }
-@media all and (min-width: 375px)(max-width: 1440px) {
-img.fish{width:100%;}
-}
-@media all and (max-width: 480px) {
-  div.try{
-    position:relative;
-   overflow: hidden;
-   margin-top: -155%;
-   height:55em;
-   z-index: -1;
-   overflow: hidden;
-}
-}
-@media all and (max-width: 1024px) and (orientation:landscape) {
-  div.try{
-    position:relative;
-   overflow: hidden;
-   margin-top: -120%;
-   height:70em;
-   z-index: -1;
-   overflow: hidden;}
- }
 @keyframes fishes {
   0%{transform:rotate(0deg);}
   100%{transform:rotate(-360deg);}
-
 }
+
+div.deco{
+  margin-top: -60%;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-end;
+}
+.daily img{
+  width:100%;
+  object-fit: cover;
+  animation: daily 6s infinite ease-out;
+}
+.time img{
+  width:100%;
+  object-fit: cover;
+  animation: time 20s infinite linear alternate;
+}
+div.ticket{
+  display: grid;
+  margin-top: -10%;
+  overflow:hidden;
+}
+.reg{
+  width: 100%;
+  object-fit: cover;
+  animation: swim 20s infinite ease-in-out;
+}
+.ticket:hover .reg{
+  animation-play-state: paused;
+}
+
+@keyframes swim {
+  0%,9%{opacity:0}
+  10%{transform: translateX(80em); opacity:1}
+  35%{transform: translateX(40em);}
+  96%{ transform: translateX(-80em) translateY(-5em) rotate(8deg);;opacity:1}
+  97%,100%{opacity:0}
+}
+@keyframes daily {
+  0%,5%{opacity:0}
+  75%{transform: scale(1.1);}
+  80%{transform: scaleX(1.2);opacity:1}
+  82%{transform: scaleX(2) scaleY(2);opacity:1}
+  83%,100%{opacity: 0}
+}
+ @keyframes time {
+   20%{transform: rotate(10deg)}
+   40%{transform: rotate(-10deg);}
+   50%{transform:translateY(2em) rotate(10deg);
+   70$t{transform: rotate(-10deg)}
+   100%{transform:translateY(4em);}
+ }

@@ -1,0 +1,28 @@
+@media all and (max-width: 480px) {
+  div.try{
+    position:relative;
+   overflow: hidden;
+   margin-top: -155%;
+   height:51em;
+   z-index: -1;
+   overflow: hidden;
+}
+div.deco{
+  margin-top: -60%;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-end;
+}
+}
+@media all and (max-width: 1024px) and (orientation:landscape) {
+  div.try{
+    position:relative;
+   overflow: hidden;
+   margin-top: -120%;
+   height:70em;
+   z-index: -1;
+   overflow: hidden;}
+ }
+ /* @media all and (min-width: 375px)(max-width: 1440px) {
+ img.fish{width:100%;}
+ } */
