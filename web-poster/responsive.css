@@ -3,7 +3,7 @@
     position:relative;
    overflow: hidden;
    margin-top: -155%;
-   height:46em;
+   height:42em;
    z-index: -1;
    overflow: hidden;
 }
@@ -12,6 +12,12 @@ div.deco{
   display:grid;
   grid-template-columns: 1fr 2fr;
   align-items: flex-end;
+}
+div.ticket{
+  display: grid;
+  margin-top: -10%;
+  padding-top: 4em;
+  overflow:hidden;
 }
 }
 @media all and (max-width: 1024px) and (orientation:landscape) {
