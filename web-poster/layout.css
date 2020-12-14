@@ -52,7 +52,7 @@ div.ticket{
   0%,5%{opacity:0}
   6%{transform: translateX(80em); opacity:1}
   13%{transform: translateX(40em);}
-  96%{ transform: translateX(-70em) translateY(-5em) rotate(8deg);;opacity:1}
+  96%{ transform: translateX(-80em) translateY(-5em) rotate(8deg);;opacity:1}
   97%,100%{opacity:0}
 }
 @keyframes daily {
