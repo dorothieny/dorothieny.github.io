@@ -42,7 +42,7 @@ div.ticket{
 .reg{
   width: 100%;
   object-fit: cover;
-  animation: swim 40s infinite ease-in-out;
+  animation: swim 40s infinite ease;
 }
 .ticket:hover .reg{
   animation-play-state: paused;
@@ -51,7 +51,7 @@ div.ticket{
 @keyframes swim {
   0%,9%{opacity:0}
   10%{transform: translateX(80em); opacity:1}
-  35%{transform: translateX(40em);}
+  13%{transform: translateX(40em);}
   96%{ transform: translateX(-80em) translateY(-5em) rotate(8deg);;opacity:1}
   97%,100%{opacity:0}
 }
