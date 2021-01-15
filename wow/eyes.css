@@ -16,7 +16,7 @@
   transform: rotate(-360deg);}
  }
 .wow input[type="checkbox"]:checked ~ .harry {
-animation: running;
+animation-play-state: : running;
 }
 input:checked ~ label{
   color: hotpink;
