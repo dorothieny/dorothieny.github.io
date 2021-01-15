@@ -16,7 +16,7 @@
   transform: rotate(-360deg);}
  }
 input[type="checkbox"]:checked ~ .harry {
-animation-play-state: : running;
+animation-play-state:running;
 }
 input:checked ~ label{
   color: hotpink;
