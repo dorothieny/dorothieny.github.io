@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="eyes.css">
+    <title></title>
+  </head>
+  <body>
+    <svg class="harry" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="200">
+    <defs>
+      <filter id="filter">
+        <feGaussianBlur stdDeviation="2" />
+      </filter>
+      <mask id="mask">
+        <ellipse cx="50%" cy="50%" rx="25%" ry="40%" fill="white" filter="url(#filter)"></ellipse>
+      </mask>
+    </defs>
+    <image xlink:href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" width="170" height="200" mask="url(#mask)"></image>
+</svg>
+<div>
+    <input type="checkbox" id="move" name="changing" value="move">
+    <label for="move">Move it</label>
+  </div>
+  </body>
+</html>
