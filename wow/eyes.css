@@ -5,7 +5,7 @@
 
 
 .harry{
- animation: smth 2s infinite running
+ animation: smth 2s infinite paused
  }
  @keyframes smth{
   0%{
@@ -15,7 +15,7 @@
   100%{
   transform: rotate(-360deg);}
  }
-.wow input[type="checkbox"]:checked ~ .harry {
+input[type="checkbox"]:checked ~ .harry {
 animation-play-state: : running;
 }
 input:checked ~ label{
