@@ -1,10 +1,12 @@
 /* svg{
   transition: 4s ease;
 } */
-  .harry{
-  animation: smth 2s infinite paused;
-  }
-  
+
+
+
+.harry{
+ animation: smth 2s infinite running
+ }
  @keyframes smth{
   0%{
     transform:scale(1);
@@ -13,7 +15,9 @@
   100%{
   transform: rotate(-360deg);}
  }
-
- input[type="checkbox"]:checked ~ .harry{
-   animation-play-state: running;
- }
+.wow input[type="checkbox"]:checked ~ .harry {
+animation: running;
+}
+input:checked ~ label{
+  color: hotpink;
+}
