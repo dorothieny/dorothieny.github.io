@@ -1,0 +1,5 @@
+[2021-1-16 19:03:12] layer "photo.png": Duplicate path: photo.png
+[2021-1-16 19:03:12] layer "photo.png": Duplicate path: photo.png
+[2021-1-16 19:08:17] layer "photo.png": Duplicate path: photo.png
+[2021-1-16 19:03:12] layer "photo.png": Duplicate path: photo.png
+[2021-1-16 19:03:13] layer "photo.png": Duplicate path: photo.png

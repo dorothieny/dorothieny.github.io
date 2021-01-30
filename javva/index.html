@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <style media="screen">
+      .box{
+        display: inline-block;
+        width:200px;
+        height:200px;
+        background: grey;
+        transition: all 1s;
+      }
+      .red{
+        background: red;
+      }
+      .green{
+        background: green;
+      }
+      .black{
+        background: black;
+      }
+      .hidden{
+        opacity:0;
+      }
+      .blocker{
+        display:none;
+      }
+      .rounder{
+        border-radius: 50%;
+      }
+      .transform{
+        transform: rotate(50deg);
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      	$(".orange, .red").click(function(){
+      		$(".green.hidden").removeClass("blocker");
+          setTimeout(function(){
+            $(".green").toggleClass("hidden");
+          }, 1);
+          setTimeout(function(){
+            $(".green.hidden").addClass("blocker");
+            $(".green").toggleClass("rounder");
+          }, 500);
+      	});
+        $(".red").click(function(){
+      		$(".green").toggleClass("transform");})
+});
+    </script>
+  </head>
+  <body>
+<div class="box red"></div>
+<div class="box green"></div>
+<div class="box orange"></div>
+
+</html>
