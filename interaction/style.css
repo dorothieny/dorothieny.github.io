@@ -1,0 +1,117 @@
+@import 'reset.css';
+@font-face{
+font-family: 'Wermut';
+src: url('Wermut.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Pragmatica';
+src: url('Pragmatica.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+
+body{
+  background-color: black;
+}
+.top{
+  display:flex;
+  flex-direction: column;
+  width:100vw;
+  overflow: hidden;
+}
+.text
+{
+  font-family: Wermut;
+  color: rgba(127,44, 54, 0.8);
+  font-size: 227px;
+  text-shadow: 0px 0px 40px rgba(172,18,37,1);
+  -webkit-text-stroke: 3px white;
+  margin:  0 30px ;
+}
+span{
+  position: relative;
+  left:20px;
+}
+.header{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+}
+.right-rays{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  height:190px;
+  justify-content: space-around;
+  padding-top: 25px;
+  margin-left: -5%;
+  width: 481.01px;
+}
+.line{
+position: relative;
+height: 4.89px;
+width: 100%;
+background: #FFFFFF;
+filter: blur(2px);
+border: 5px solid rgba(172,18,37,0.9);
+border-right: 15px solid rgba(172,18,37,0.9);
+border-left: 15px solid rgba(172,18,37,0.9);
+border-radius: 5px;
+box-shadow:  0px 7px 15px rgba(231,4,10,0.8), 0px -7px 15px rgba(231,4,10,0.8);
+}
+.left-rays{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  height:190px;
+  justify-content: space-around;
+  padding-top: 25px;
+  width: 481.01px;
+}
+
+.lights{
+  display:flex;
+  flex-direction: column;
+}
+.circle{
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 2px;
+  display: inline-block;
+  box-shadow: 2px 2px 5px rgba(172,18,37,1), -2px -2px 5px rgba(172,18,37,1),-2px 2px 5px rgba(172,18,37,1),2px -2px 5px rgba(172,18,37,1);
+}
+.fonari{
+  display:flex;
+  justify-content: space-between;
+  width:900px;;
+  margin: 2% auto;
+}
+.main{
+  display:flex;
+  flex-direction: column;
+  font-family: Pragmatica;
+  align-items: center;
+  justify-content: center;
+  height: 403px;
+  width: 100vw;
+  background:radial-gradient(24.71% 85.51% at 25.29% 100%, rgba(63, 39, 2, 0.6) 0%, rgba(251, 239, 182, 0) 100%), radial-gradient(24.42% 125.26% at 74.42% 100%, rgba(69, 45, 8, 0.6) 0%, rgba(252, 240, 183, 0) 100%), linear-gradient(90deg, #372203 0%, rgba(252, 240, 183, 0) 18.49%), linear-gradient(270deg, #3D2400 0%, rgba(252, 240, 183, 0) 14.84%), #FCF0B7;
+}
+h1{
+  font-size:80px;
+  line-height: 90px;
+  text-align: center;
+}
+article{
+  display:flex;
+  justify-content: space-between;
+  width:741px;
+
+}
