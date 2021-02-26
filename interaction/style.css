@@ -142,13 +142,13 @@ article{
   filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
 }
 .wow{
-  animation: move 2s 1 ease-in-out 3s forwards, drug 1s ease-out 6s alternate infinite;
+  animation: move 2s 1 ease-in 2s forwards, drug 1s ease-out 4.5s alternate infinite;
 }
 .hidden{
   opacity:0;
 }
 .back{
-  animation: go 2s 1 ease-out forwards
+  animation: go 1s 1 ease-in forwards
 }
 .size{
   animation: sizing 2s 1 linear 2s forwards;
@@ -161,10 +161,10 @@ article{
 }
 @keyframes move{
   0% {
-   bottom: -600px;
+   bottom: -500px;
  }
  90%{
-   bottom: -245px;
+   bottom: -240px;
  }
  100%{
    bottom: -250px;
@@ -184,10 +184,10 @@ article{
    bottom: -250px;
  }
  10%{
-   bottom: -245px;
+   bottom: -240px;
  }
  100%{
-   bottom: -600px;
+   bottom: -500px;
  }
 }
 @keyframes sizing {
