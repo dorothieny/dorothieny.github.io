@@ -131,7 +131,7 @@ article{
 
 }
 .ticket{
-  content: url(Ticket.svg);
+  content: url(ticket.svg);
   position:fixed;
   left:40vw;
   bottom:-500px;
