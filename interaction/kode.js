@@ -6,6 +6,9 @@ $(document).ready(function(){
       }, 1);
       $(".top").addClass("size");
       $(".footer").addClass("saze");
-      $(".main").addClass("none");
+      setTimeout(function(){
+        $(".main, .footer, .top. ticket").addClass("none");
+      }, 7000);
+
     });
 });

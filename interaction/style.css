@@ -156,6 +156,9 @@ article{
 .saze{
   animation: sazing 5s 1 linear 2s forwards;
 }
+.none{
+  display: none;
+}
 @keyframes move{
   0% {
    bottom: -600px;
