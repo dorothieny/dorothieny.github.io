@@ -16,6 +16,7 @@ font-style: normal;
 body{
   background-color: black;
   cursor: default;
+  overflow: hidden;
 }
 .top{
   display:flex;
@@ -143,20 +144,21 @@ article{
 .wow{
   animation: move 2s 1 ease-in-out 3s forwards, drug 1s ease-out 6s alternate infinite;
 }
-/* .ticket:hover{
-  animation-play-state: paused;
-
-} */
 .hidden{
   opacity:0;
 }
 .back{
   animation: go 2s 1 ease-out forwards
 }
-
+.size{
+  animation: sizing 2s 1 linear 2s forwards;
+}
+.saze{
+  animation: sazing 5s 1 linear 2s forwards;
+}
 @keyframes move{
   0% {
-   bottom: -500px;
+   bottom: -600px;
  }
  90%{
    bottom: -245px;
@@ -182,6 +184,28 @@ article{
    bottom: -245px;
  }
  100%{
-   bottom: -500px;
+   bottom: -600px;
  }
+}
+@keyframes sizing {
+  0%{
+    transform:scale(0);
+    transform: translateY(0);
+  }
+  100%{
+    transform:scale(10);
+    transform: translateY(-500px);
+  }
+
+}
+@keyframes sazing {
+  0%{
+    transform:scale(0);
+    transform: translateY(0);
+  }
+  100%{
+    transform:scale(10);
+    transform: translateY(500px);
+  }
+
 }

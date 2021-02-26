@@ -4,6 +4,8 @@ $(document).ready(function(){
       setTimeout(function(){
         $(".main").addClass("hidden");
       }, 1);
+      $(".top").addClass("size");
+      $(".footer").addClass("saze");
       $(".main").addClass("none");
     });
 });
