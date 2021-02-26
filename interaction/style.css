@@ -15,6 +15,7 @@ font-style: normal;
 
 body{
   background-color: black;
+  cursor: default;
 }
 .top{
   display:flex;
@@ -115,6 +116,7 @@ margin:0;
   width: 100vw;
   background:radial-gradient(24.71% 85.51% at 25.29% 100%, rgba(63, 39, 2, 0.6) 0%, rgba(251, 239, 182, 0) 100%), radial-gradient(24.42% 125.26% at 74.42% 100%, rgba(69, 45, 8, 0.6) 0%, rgba(252, 240, 183, 0) 100%), linear-gradient(90deg, #372203 0%, rgba(252, 240, 183, 0) 18.49%), linear-gradient(270deg, #3D2400 0%, rgba(252, 240, 183, 0) 14.84%), #FCF0B7;
   -webkit-mask-box-image:url(Group.svg);
+  transition: all 2s;
 }
 h1{
   font-size:80px;
@@ -135,13 +137,23 @@ article{
   position:fixed;
   left:40vw;
   bottom:-500px;
+    cursor: pointer;
   filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
+}
+.wow{
   animation: move 2s 1 ease-in-out 3s forwards, drug 1s ease-out 6s alternate infinite;
 }
-.ticket:hover{
+/* .ticket:hover{
   animation-play-state: paused;
-  cursor: pointer;
+
+} */
+.hidden{
+  opacity:0;
 }
+.back{
+  animation: go 2s 1 ease-out forwards
+}
+
 @keyframes move{
   0% {
    bottom: -500px;
@@ -160,4 +172,16 @@ article{
   to{
     transform: rotate(10deg);
   }
+}
+
+@keyframes go {
+  0% {
+   bottom: -250px;
+ }
+ 10%{
+   bottom: -245px;
+ }
+ 100%{
+   bottom: -500px;
+ }
 }
