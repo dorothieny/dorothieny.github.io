@@ -103,12 +103,14 @@ box-shadow:  0px 7px 15px rgba(231,4,10,0.8), 0px -7px 15px rgba(231,4,10,0.8);
   height: 403px;
   width: 100vw;
   background:radial-gradient(24.71% 85.51% at 25.29% 100%, rgba(63, 39, 2, 0.6) 0%, rgba(251, 239, 182, 0) 100%), radial-gradient(24.42% 125.26% at 74.42% 100%, rgba(69, 45, 8, 0.6) 0%, rgba(252, 240, 183, 0) 100%), linear-gradient(90deg, #372203 0%, rgba(252, 240, 183, 0) 18.49%), linear-gradient(270deg, #3D2400 0%, rgba(252, 240, 183, 0) 14.84%), #FCF0B7;
+  -webkit-mask-box-image:url(Vector.svg);
 }
 h1{
   font-size:80px;
   line-height: 90px;
   text-align: center;
 }
+
 article{
   display:flex;
   justify-content: space-between;
