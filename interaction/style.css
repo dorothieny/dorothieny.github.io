@@ -119,7 +119,7 @@ h1{
   font-size:80px;
   line-height: 90px;
   text-align: center;
-  color: black
+  color: black;
   margin:0;
 }
 
@@ -129,4 +129,10 @@ article{
   width:741px;
   margin-top:3px;
 
+}
+.ticket{
+  content: url(Ticket.svg);
+  position:fixed;
+  left:40vw;
+  bottom:-250px;
 }
