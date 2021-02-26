@@ -117,7 +117,7 @@ margin:0;
   width: 100vw;
   background:radial-gradient(24.71% 85.51% at 25.29% 100%, rgba(63, 39, 2, 0.6) 0%, rgba(251, 239, 182, 0) 100%), radial-gradient(24.42% 125.26% at 74.42% 100%, rgba(69, 45, 8, 0.6) 0%, rgba(252, 240, 183, 0) 100%), linear-gradient(90deg, #372203 0%, rgba(252, 240, 183, 0) 18.49%), linear-gradient(270deg, #3D2400 0%, rgba(252, 240, 183, 0) 14.84%), #FCF0B7;
   -webkit-mask-box-image:url(Group.svg);
-  transition: all 2s;
+  transition: opacity 2s;
 }
 h1{
   font-size:80px;
@@ -138,7 +138,7 @@ article{
   position:fixed;
   left:40vw;
   bottom:-500px;
-    cursor: pointer;
+  cursor: pointer;
   filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
 }
 .wow{
@@ -192,22 +192,18 @@ article{
 }
 @keyframes sizing {
   0%{
-    transform:scale(0);
     transform: translateY(0);
   }
   100%{
-    transform:scale(10);
     transform: translateY(-500px);
   }
 
 }
 @keyframes sazing {
   0%{
-    transform:scale(0);
     transform: translateY(0);
   }
   100%{
-    transform:scale(10);
     transform: translateY(500px);
   }
 
