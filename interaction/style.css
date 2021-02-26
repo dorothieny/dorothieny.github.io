@@ -134,5 +134,29 @@ article{
   content: url(Ticket.svg);
   position:fixed;
   left:40vw;
-  bottom:-250px;
+  bottom:-500px;
+  filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
+  animation: move 2s 1 ease-in-out 3s forwards, drug 1s ease-out 6s alternate infinite;
+}
+@keyframes move{
+  0% {
+   left: 40vw;
+   bottom: -500px;
+ }
+ 90%{
+   left: 40vw;
+   bottom: -245px;
+ }
+ 100%{
+   left: 40vw;
+   bottom: -250px;
+ }
+}
+@keyframes drug {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
 }
