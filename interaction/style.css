@@ -140,15 +140,12 @@ article{
 }
 @keyframes move{
   0% {
-   left: 40vw;
    bottom: -500px;
  }
  90%{
-   left: 40vw;
    bottom: -245px;
  }
  100%{
-   left: 40vw;
    bottom: -250px;
  }
 }
