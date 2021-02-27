@@ -1,0 +1,25 @@
+@import 'reset.css';
+.background{
+  width:100vw;
+  height:100vh;
+background: radial-gradient(94.35% 50% at 50% 50%, #000000 22.4%, #360000 100%);
+display: flex;
+flex-direction: column;
+
+}
+.head{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+  height: 134px;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+  background: radial-gradient(17.01% 412.71% at 92.29% 74.52%, rgba(100, 19, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(14.55% 1798.9% at 5.76% 74.52%, rgba(95, 18, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), #010101;
+  -webkit-mask-box-image:url(mask.svg);
+}
+hr{
+  width: 100%;
+  height: 15px;
+  border: none;
+  background: radial-gradient(43.18% 337275.95% at 50.36% 39.4%, rgba(71, 16, 12, 0.3) 0%, #3B0E0B 69.27%);
+}
