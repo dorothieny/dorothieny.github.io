@@ -32,7 +32,7 @@ body{
   font-size: 227px;
   text-shadow: 5px 5px 20px rgba(172,18,37,1),  -5px -5px 20px rgba(172,18,37,1);
   /* -webkit-text-stroke: 3px white; */
-  margin:  0 2% ;
+  margin:  0 2% 0 4% ;
 }
 /* span{
   position: relative;
