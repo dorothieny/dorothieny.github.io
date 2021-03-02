@@ -1,7 +1,7 @@
 @import 'reset.css';
 @font-face{
-font-family: 'Wermut';
-src: url('Wermut.ttf');
+font-family: 'Nolde';
+src: url('NoldeOutline.ttf');
 font-weight: normal;
 font-style: normal;
 }
@@ -26,17 +26,18 @@ body{
 }
 .text
 {
-  font-family: Wermut;
-  color: rgba(127,44, 54, 0.8);
+  font-family: Nolde;
+  /* color: rgba(127,44, 54, 0.8); */
+  color: white;
   font-size: 227px;
-  text-shadow: 0px 0px 40px rgba(172,18,37,1);
-  -webkit-text-stroke: 3px white;
+  text-shadow: 5px 5px 20px rgba(172,18,37,1),  -5px -5px 20px rgba(172,18,37,1);
+  /* -webkit-text-stroke: 3px white; */
   margin:  0 2% ;
 }
-span{
+/* span{
   position: relative;
   left:20px;
-}
+} */
 .header{
   display: -webkit-flex;
   display: -ms-flex;
