@@ -104,14 +104,45 @@ z-index:0 }
   background: #9F2B07;
 }
 .stul.che{
-  cursor: pointer;
+
   background: linear-gradient(221.75deg, #1B0404 14.88%, #7B1F02 65%), #1B0404;
 }
-.stul.che::after{
-  content: url(chel.svg);
-  position: relative;
-
+.fi{
+  position:relative;
 }
+.fi >.chel{
+    cursor: pointer;
+  content: url(chel.svg);
+  transform: scale(0.9);
+  position: absolute;
+  top: -350px;
+  left: -50px;
+  z-index: -2;
+}
+.pyat>.man{
+  cursor: pointer;
+content: url(kiss one.svg);
+transform: scale(0.9);
+position: absolute;
+top: -150px;
+left: -50px;
+z-index: -2;
+}
+.shest>.woman{
+  cursor: pointer;
+content: url(kiss two.svg);
+transform: scale(0.9);
+position: absolute;
+top: -150px;
+left: -50px;
+z-index: -2;
+}
+.sit{
+  animation:sit 1.5s 1 ease-in .5s forwards;
+}
+/* .stand{
+  animation:stand 1s 1 ease-out forwards;
+} */
 .stul.pyat{
   background: #9F2B07;
 }
@@ -129,7 +160,7 @@ z-index:0 }
   background: #0E0101;
   filter: blur(10px);
   border-radius: 38px 38px 0px 0px;
-  z-index: 3;
+
 }
 .chairs.first{
   position:fixed;
@@ -140,9 +171,7 @@ z-index:0 }
   position:fixed;
   bottom:-6vh;
 }
-/* .first > .stul{
-    height:180px;
-} */
+
 .second > .stul{
     width:185px;
 }
@@ -154,3 +183,27 @@ z-index:0 }
 .third > .stul{
     width:190px;
 }
+@keyframes sit {
+  0%{
+    top:-350px;
+  }
+  70%{
+    top:-140px;
+  }
+  100%{
+    top:-150px;
+  }
+
+}
+/* @keyframes stand {
+  0%{
+    top:-150px;
+  }
+  70%{
+    top:-290px;
+  }
+  100%{
+    top:-300px;
+  }
+
+} */
