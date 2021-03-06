@@ -107,7 +107,7 @@ z-index:0 }
 
   background: linear-gradient(221.75deg, #1B0404 14.88%, #7B1F02 65%), #1B0404;
 }
-.fi{
+.fi, .re, .do{
   position:relative;
 }
 .fi >.chel{
@@ -119,6 +119,7 @@ z-index:0 }
   left: -50px;
   z-index: -2;
 }
+
 .re >.man{
 cursor: pointer;
 content: url(kissone.svg);
@@ -133,12 +134,15 @@ z-index: -2;
 content: url(kisstwo.svg);
 transform: scale(0.9);
 position: absolute;
-top: -150px;
+top: -145px;
 left: -50px;
 z-index: -2;
 }
 .sit{
   animation:sit 1.5s 1 ease-in .5s forwards;
+}
+.kiss{
+  animation: kiss 2s 1 ease-in-out .2s alternate;
 }
 /* .stand{
   animation:stand 1s 1 ease-out forwards;
@@ -194,6 +198,11 @@ z-index: -2;
     top:-150px;
   }
 
+}
+@keyframes kiss {
+  0%,100%{left: -50px;}
+40%{left:-40px;}
+70%{left:-40px;}
 }
 /* @keyframes stand {
   0%{

@@ -9,5 +9,10 @@ $(document).ready(function(){
     //       $(".chel.stand").removeClass("stand");
     //     }, 1200);
     //   });
-    
+    $(".man").click(function(){
+      $(".man").addClass("kiss");
+      setTimeout(function(){
+            $(".man.kiss").removeClass("kiss");
+          }, 3500);
+    });
 });
