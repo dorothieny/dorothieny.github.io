@@ -41,12 +41,14 @@ hr{
   border-right: 28px solid black;
   overflow: hidden;
 }
-.slider{
+.center{
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: relative;
+  transform: translateX(150px);
 }
-.slider>div{
-margin: auto;
+.center>div{
+  position: relative;
 transform: scale(0.8);
 }
 .one{
