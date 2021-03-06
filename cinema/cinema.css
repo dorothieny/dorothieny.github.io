@@ -107,7 +107,7 @@ z-index:0 }
 
   background: linear-gradient(221.75deg, #1B0404 14.88%, #7B1F02 65%), #1B0404;
 }
-.fi, .re, .do{
+.fi, .re, .do, .mi{
   position:relative;
 }
 .fi >.chel{
@@ -138,15 +138,33 @@ top: -145px;
 left: -50px;
 z-index: -2;
 }
+.mi> .palez{
+cursor: pointer;
+content: url(palez.svg);
+transform: scale(0.9);
+position: absolute;
+top: -145px;
+left: -50px;
+z-index: -2;
+}
+.mi> .nebol{
+  cursor: pointer;
+content: url(neboltai.svg);
+transform: scale(0.9);
+position: absolute;
+top: -145px;
+left: -50px;
+z-index: -2;
+}
 .sit{
   animation:sit 1.5s 1 ease-in .5s forwards;
 }
 .kiss{
   animation: kiss 2s 1 ease-in-out .2s alternate;
 }
-/* .stand{
+.stand{
   animation:stand 1s 1 ease-out forwards;
-} */
+}
 .stul.pyat{
   background: #9F2B07;
 }
@@ -204,7 +222,7 @@ z-index: -2;
 40%{left:-40px;}
 70%{left:-40px;}
 }
-/* @keyframes stand {
+@keyframes stand {
   0%{
     top:-150px;
   }
@@ -215,4 +233,4 @@ z-index: -2;
     top:-300px;
   }
 
-} */
+}

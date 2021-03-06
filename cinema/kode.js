@@ -9,6 +9,13 @@ $(document).ready(function(){
     //       $(".chel.stand").removeClass("stand");
     //     }, 1200);
     //   });
+  //   $('.chel').click(function() {
+  // if (!$(".chel").hasClass('stand')) {
+  //   $(this).addClass('stand');
+  // } else {
+  //   $(".chel").addClass('sit');
+  // }
+// });
     $(".man").click(function(){
       $(".man").addClass("kiss");
       setTimeout(function(){
