@@ -107,6 +107,11 @@ z-index:0 }
   cursor: pointer;
   background: linear-gradient(221.75deg, #1B0404 14.88%, #7B1F02 65%), #1B0404;
 }
+.stul.che::before{
+  content: url(chel.svg);
+  position: relative;
+
+}
 .stul.pyat{
   background: #9F2B07;
 }
