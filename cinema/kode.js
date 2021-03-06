@@ -29,10 +29,11 @@ $(document).ready(function(){
           }, 3500);
     });
 });
-$(document).ready(function(){
-  $let x;
-$(window).click(function() {
-	x = $(window).scrollRight();
-	$('.center').css('transform', 100 + parseInt(x / 10) + '% ');
-});
-});
+
+// $(document).ready(function(){
+//   $let x;
+// $(window).click(function() {
+// 	x = $(window).scrollRight();
+// 	$('.center').css('transform', 100 + parseInt(x / 10) + '% ');
+// });
+// });
