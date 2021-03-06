@@ -31,7 +31,7 @@ $(document).ready(function(){
 });
 
 // $(document).ready(function(){
-//   $let x;
+//  
 // $(window).click(function() {
 // 	x = $(window).scrollRight();
 // 	$('.center').css('transform', 100 + parseInt(x / 10) + '% ');
