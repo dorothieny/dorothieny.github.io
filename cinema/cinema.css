@@ -128,15 +128,15 @@ z-index:0 }
 }
 .chairs.first{
   position:fixed;
-  bottom:-6vh;
+  bottom:0vh;
 }
 .chairs.second{
   width:96%;
   position:fixed;
   bottom:-5vh;
 }
-.first > .stul{
-    height:180px;
+/* .first > .stul{
+    height:180px; */
 }
 .second > .stul{
     width:185px;
@@ -144,7 +144,7 @@ z-index:0 }
 .chairs.third{
   width:100%;
   position:fixed;
-  bottom:-12vh;
+  bottom:-10vh;
 }
 .third > .stul{
     width:190px;
