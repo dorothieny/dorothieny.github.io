@@ -128,16 +128,16 @@ z-index:0 }
 }
 .chairs.first{
   position:fixed;
-  bottom:-6vh;
+  bottom:0vh;
 }
 .chairs.second{
   width:96%;
   position:fixed;
   bottom:-5vh;
 }
-.first > .stul{
+/* .first > .stul{
     height:180px;
-}
+} */
 .second > .stul{
     width:185px;
 }
