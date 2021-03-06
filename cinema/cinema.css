@@ -139,12 +139,11 @@ left: -50px;
 z-index: -2;
 }
 .mi> .palez{
-cursor: pointer;
 content: url(palez.svg);
 transform: scale(0.9);
 position: absolute;
-top: -145px;
-left: -50px;
+top: -15px;
+left: 140px;
 z-index: -2;
 }
 .mi> .nebol{
@@ -152,18 +151,21 @@ z-index: -2;
 content: url(neboltai.svg);
 transform: scale(0.9);
 position: absolute;
-top: -145px;
-left: -50px;
+top: -155px;
+left: -10px;
 z-index: -2;
 }
 .sit{
   animation:sit 1.5s 1 ease-in .5s forwards;
 }
 .kiss{
-  animation: kiss 2s 1 ease-in-out .2s alternate;
+  animation: kiss 2s 1 ease-in-out .2s ;
 }
 .stand{
   animation:stand 1s 1 ease-out forwards;
+}
+.ts{
+  animation: ts 2.5s 1 ease-out .2s;
 }
 .stul.pyat{
   background: #9F2B07;
@@ -233,4 +235,15 @@ z-index: -2;
     top:-300px;
   }
 
+}
+@keyframes ts {
+  0%,100%{
+    top: -15px;
+  }
+  40%{
+    top: -65px;
+  }
+  60%{
+    top: -60px;
+  }
 }

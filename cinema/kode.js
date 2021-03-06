@@ -22,4 +22,10 @@ $(document).ready(function(){
             $(".man.kiss").removeClass("kiss");
           }, 3500);
     });
+    $(".nebol").click(function(){
+      $(".palez").addClass("ts");
+      setTimeout(function(){
+            $(".palez.ts").removeClass("ts");
+          }, 3500);
+    });
 });
