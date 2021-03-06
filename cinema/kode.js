@@ -29,11 +29,3 @@ $(document).ready(function(){
           }, 3500);
     });
 });
-
-// $(document).ready(function(){
-//  
-// $(window).click(function() {
-// 	x = $(window).scrollRight();
-// 	$('.center').css('transform', 100 + parseInt(x / 10) + '% ');
-// });
-// });
