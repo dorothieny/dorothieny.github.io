@@ -119,18 +119,18 @@ z-index:0 }
   left: -50px;
   z-index: -2;
 }
-.pyat>.man{
-  cursor: pointer;
-content: url(kiss one.svg);
+.re >.man{
+cursor: pointer;
+content: url(kissone.svg);
 transform: scale(0.9);
 position: absolute;
 top: -150px;
 left: -50px;
 z-index: -2;
 }
-.shest>.woman{
+.do >.woman{
   cursor: pointer;
-content: url(kiss two.svg);
+content: url(kisstwo.svg);
 transform: scale(0.9);
 position: absolute;
 top: -150px;
