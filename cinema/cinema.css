@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import 'slide.css';
 @font-face{
 font-family: 'Pragmatica';
 src: url('Pragmatica.ttf');
@@ -32,7 +33,8 @@ hr{
   border: none;
   background: radial-gradient(43.18% 337275.95% at 50.36% 39.4%, rgba(71, 16, 12, 0.3) 0%, #3B0E0B 69.27%);
 }
-.slider{
+
+.cont{
   width:61%;
   height: 70vh;
   background: linear-gradient(179.87deg, #2E0101 0.11%, rgba(247, 235, 179, 0) 99.89%), linear-gradient(78.86deg, #2E0101 -3.48%, rgba(252, 240, 183, 0) 49.4%), linear-gradient(277.84deg, #2E0101 -5.8%, rgba(254, 246, 211, 0) 47.1%), #FF9979;
@@ -41,15 +43,14 @@ hr{
   border-right: 28px solid black;
   overflow: hidden;
 }
-.center{
+.slides{
   display: inline-flex;
   justify-content: space-around;
   position: relative;
-  transform: translateX(150px);
 }
-.center>div{
+img{
   position: relative;
-transform: scale(0.8);
+  width: 500px;
 }
 .one{
   position: absolute;

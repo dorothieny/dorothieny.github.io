@@ -1,0 +1,34 @@
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:538px;
+  height:359px;
+  overflow:auto; /* разрешаем прокрутку */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin-top:30px;
+  width:538px;
+  height:359px;
+}
+
+/**
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:300px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(img/control_left.jpg) no-repeat 0 0;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(img/control_right.jpg) no-repeat 0 0;
+}
