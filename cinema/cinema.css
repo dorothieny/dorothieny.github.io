@@ -100,12 +100,14 @@ text-align: center;
 .door{
   margin-top:15px;
   background-color: black;
-  height: 150px;
+  height: 1000px;
 }
 .vy{
   position: relative;
 left: -20%;
 top: 1%;
+width: 10%;
+min-width: 200px;
 z-index:0 }
 
 .chairs{
