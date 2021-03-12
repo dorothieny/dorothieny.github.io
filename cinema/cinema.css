@@ -16,7 +16,7 @@ font-style: normal;
 .background{
   width:100vw;
   height:100vh;
-background: radial-gradient(94.35% 50% at 50% 50%, #000000 22.4%, #360000 100%);
+background: radial-gradient(125.38% 66.44% at 50% 50%, #000000 22.4%, #360000 100%);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -48,6 +48,9 @@ hr{
   border-left: 28px solid black;
   border-right: 28px solid black;
 
+}
+.cont:hover{
+  filter: drop-shadow(0px 4px 100px rgba(231,4,10,0.2));
 }
 .photo{
   margin:0 auto;
@@ -159,6 +162,13 @@ z-index:0 }
   left: -50px;
   z-index: -2;
 }
+.chel:hover{
+  transform: scale(0.91);
+
+}
+
+
+
 
 .re >.man{
 cursor: pointer;
@@ -166,8 +176,11 @@ content: url(mankiss.svg);
 transform: scale(0.9);
 position: absolute;
 top: -150px;
-left: -50px;
+left: -35px;
 z-index: -2;
+}
+.man:hover{
+  transform: scale(0.91);
 }
 .do >.woman{
   cursor: pointer;
@@ -175,8 +188,11 @@ content: url(womankiss.svg);
 transform: scale(0.9);
 position: absolute;
 top: -140px;
-left: -50px;
+left: -55px;
 z-index: -2;
+}
+.woman:hover{
+  transform: scale(0.91);
 }
 .mi> .palez{
 content: url(palez.svg);
@@ -194,6 +210,9 @@ position: absolute;
 top: -155px;
 left: -10px;
 z-index: -2;
+}
+.nebol:hover {
+ transform: scale(0.91);
 }
 .sit{
   animation:sit 1.5s 1 ease-in .5s forwards;
@@ -261,9 +280,9 @@ z-index: -2;
 
 }
 @keyframes kiss {
-  0%,100%{left: -50px;}
-40%{left:-30px;}
-70%{left:-30px;}
+  0%,100%{left: -35px;}
+40%{left:-25px;}
+70%{left:-25px;}
 }
 @keyframes stand {
   0%{
