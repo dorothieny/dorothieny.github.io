@@ -9,10 +9,10 @@ $(document).ready(function(){
       setTimeout(function(){
         $(".screenone").addClass("none");
       }, 7000);
-    $(".screentwo").removeClass("none");
+
     setTimeout(function(){
       $(".screentwo").css("opacity", "1");
-    }, 1500);});
+    }, 3500);});
 
     $(".chel").click(function(){
       $(".chel").toggleClass("sit");
@@ -33,14 +33,14 @@ $(document).ready(function(){
     $(".vy").click(function(){
       $(".screentwo").css("opacity", "0");
       setTimeout(function(){
-            $(".screentwo").addClass("none");
+
             $(".screenone").removeClass("none")
             $(".ticket").removeClass("back");
               $(".main").removeClass("hidden");
             $(".top").removeClass("size");
             $(".footer").removeClass("saze");
             ;
-          }, 3000);
+          }, 4000);
 
     });
     $('.slider').slick({});
