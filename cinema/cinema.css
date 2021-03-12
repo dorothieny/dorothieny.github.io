@@ -152,7 +152,7 @@ z-index:0 }
 }
 .fi >.chel{
     cursor: pointer;
-  content: url(chel.svg);
+  content: url(chelovek.svg);
   transform: scale(0.9);
   position: absolute;
   top: -350px;
@@ -162,7 +162,7 @@ z-index:0 }
 
 .re >.man{
 cursor: pointer;
-content: url(kissone.svg);
+content: url(mankiss.svg);
 transform: scale(0.9);
 position: absolute;
 top: -150px;
@@ -171,10 +171,10 @@ z-index: -2;
 }
 .do >.woman{
   cursor: pointer;
-content: url(kisstwo.svg);
+content: url(womankiss.svg);
 transform: scale(0.9);
 position: absolute;
-top: -145px;
+top: -140px;
 left: -50px;
 z-index: -2;
 }
@@ -188,7 +188,7 @@ z-index: -2;
 }
 .mi> .nebol{
   cursor: pointer;
-content: url(neboltai.svg);
+content: url(ts.svg);
 transform: scale(0.9);
 position: absolute;
 top: -155px;
@@ -199,7 +199,7 @@ z-index: -2;
   animation:sit 1.5s 1 ease-in .5s forwards;
 }
 .kiss{
-  animation: kiss 2s 1 ease-in-out .2s ;
+  animation: kiss 2.5s 1 ease-in-out .2s ;
 }
 .stand{
   animation:stand 1s 1 ease-out forwards;
@@ -262,8 +262,8 @@ z-index: -2;
 }
 @keyframes kiss {
   0%,100%{left: -50px;}
-40%{left:-40px;}
-70%{left:-40px;}
+40%{left:-30px;}
+70%{left:-30px;}
 }
 @keyframes stand {
   0%{
