@@ -7,8 +7,12 @@ $(document).ready(function(){
       $(".top").addClass("size");
       $(".footer").addClass("saze");
       setTimeout(function(){
-        $(".main, .footer, .top. ticket").addClass("none");
+        $(".screenone").addClass("none");
       }, 7000);
+    $(".screentwo").removeClass("none");
+    setTimeout(function(){
+      $(".screentwo").css("opacity", "1");
+    }, 6000);
 
     });
 });
