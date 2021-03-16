@@ -82,6 +82,7 @@ position: absolute;
   margin: auto;
   filter: blur(2px);
 }
+
 .one{
   /* height:50px;
   width:20px;
@@ -99,6 +100,20 @@ position: absolute;
   right: 3%;
   top: 70px;
   -webkit-filter: drop-shadow(0px 0px 15px rgba(231,4,10,0.8));
+}
+.one:hover > .lamp{
+  background:rgba(172,18,37,0.3);
+  filter: blur(1px);
+}
+.one:hover{
+  -webkit-filter: none;
+}
+.two:hover > .lamp{
+  background:rgba(172,18,37,0.3);
+  filter: blur(1px);
+}
+.two:hover{
+  -webkit-filter: none;
 }
 h2{
   font-family: Pragmatica;
