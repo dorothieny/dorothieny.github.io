@@ -1,6 +1,11 @@
 $(document).ready(function(){
     $(".ticket").click(function(){
+      $(".ticket").removeClass("wow")
       $(".ticket").addClass("back");
+      setTimeout(function(){
+        $(".ticket").addClass("wow");
+      }, 7000);
+
       setTimeout(function(){
         $(".main").addClass("hidden");
       }, 1);

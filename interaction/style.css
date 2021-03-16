@@ -124,7 +124,8 @@ h1{
   line-height: 90px;
   text-align: center;
   color: black;
-  margin:0;
+  margin:0 auto;
+  width: 91%;
 }
 
 article{
@@ -141,8 +142,14 @@ article{
   cursor: pointer;
   filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
 }
+
 .wow{
-  animation: move 2s 1 ease-in 2s forwards, drug 1s ease-out 4.5s alternate infinite;
+  animation: move 2s 1 ease-in 1s forwards, drug 1s ease-out alternate infinite paused;
+}
+.wow:hover{
+  position: absolute;
+  bottom: -250px;
+  animation: move 2s 1 ease-in 1s forwards paused, drug 1s ease-out alternate infinite ;
 }
 .hidden{
   opacity:0;
