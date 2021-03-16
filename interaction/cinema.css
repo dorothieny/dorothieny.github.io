@@ -60,7 +60,7 @@ position: absolute;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
-  animation: opa 2s steps(3) alternate infinite;
+  animation: opa 1.5s steps(3) alternate infinite;
 }
 
 .slide{
