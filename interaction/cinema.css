@@ -61,6 +61,7 @@ position: absolute;
   background-size:cover;
   background-position: center;
   animation: opa 1.5s steps(3) alternate infinite;
+  cursor: pointer;
 }
 
 .slide{

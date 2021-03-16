@@ -48,7 +48,7 @@ $(document).ready(function(){
           }, 4000);
 
     });
-    $('#button').click( function () {
+    $('#bang').click( function () {
       let rez = $('<div class="popup"><img src="puzo.png" alt=""></div>');
       $('#main').append(rez);
       setTimeout( function() { rez.remove(); }, 2100);
