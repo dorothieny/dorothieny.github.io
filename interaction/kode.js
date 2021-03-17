@@ -22,7 +22,7 @@ $(document).ready(function(){
     $(".chel").click(function(){
       $(".chel").toggleClass("sit");
     });
-    $(".man").click(function(){
+    $(".man, .woman").click(function(){
       $(".man").addClass("kiss");
       setTimeout(function(){
             $(".man.kiss").removeClass("kiss");
@@ -48,7 +48,7 @@ $(document).ready(function(){
           }, 4000);
 
     });
-    $('#bang').click( function () {
+    $('#bang, #main').click( function () {
       let rez = $('<div class="popup"><img src="puzo.png" alt=""></div>');
       $('#main').append(rez);
       setTimeout( function() { rez.remove(); }, 2100);
