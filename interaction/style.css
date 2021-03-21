@@ -27,11 +27,12 @@ body{
 .text
 {
   font-family: Wermut;
-  color: rgba(127,44, 54, 0.8);
+  color: rgba(127,44, 54, 0.3);
   font-size: 227px;
-  text-shadow: 0px 0px 40px rgba(172,18,37,1);
+  text-shadow: 0px 0px 50px rgba(172,18,37,1),0px 0px 10px rgba(172,18,37,0.6);
   -webkit-text-stroke: 3px white;
   margin:  0 2% ;
+  -webkit-filter: blur(0.7px);
 }
 span{
   position: relative;
@@ -60,7 +61,7 @@ position: relative;
 height: 4.89px;
 width: 100%;
 background: #FFFFFF;
-filter: blur(2px);
+-webkit-filter: blur(2px);
 border: 5px solid rgba(172,18,37,0.9);
 border-right: 15px solid rgba(172,18,37,0.9);
 border-left: 15px solid rgba(172,18,37,0.9);
@@ -70,7 +71,7 @@ box-shadow:  0px 7px 15px rgba(231,4,10,0.8), 0px -7px 15px rgba(231,4,10,0.8);
 .line:hover{
   background: rgba(172,18,37,0.9);
   box-shadow:  none;
-  filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 .left-rays{
   display: -webkit-flex;
@@ -95,6 +96,7 @@ box-shadow:  0px 7px 15px rgba(231,4,10,0.8), 0px -7px 15px rgba(231,4,10,0.8);
   border-radius: 50%;
   margin: 0 3px;
   display: inline-block;
+  -webkit-filter: blur(1px);
   box-shadow: 2px 2px 8px rgba(172,18,37,1), -2px -2px 8px rgba(172,18,37,1),-2px 2px 8px rgba(172,18,37,1),2px -2px 8px rgba(172,18,37,1);
 }
 .circle:hover{
@@ -150,7 +152,7 @@ article{
   left:40vw;
   bottom:-500px;
   cursor: pointer;
-  filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
   z-index: 3;
 }
 #main{
@@ -169,6 +171,15 @@ article{
     /* text-align: center; */
     opacity: 0;
 	  animation: popup 2s ease-in-out;
+}
+#main .popa {
+    position: absolute;
+    top:300px;
+    left: 70px;
+    width: 100%;
+    /* text-align: center; */
+    opacity: 0;
+	  animation: popa 3s ease-in-out;
 }
 .wow{
   animation: move 2s 1 ease-in 1s forwards, drug 1s ease-out alternate infinite paused;
@@ -192,6 +203,14 @@ article{
 }
 .none{
   display: none;
+}
+@keyframes popa {
+	0% 		{ transform: translateY(0px) translateX(50px) scale(0.3); opacity: 0.5; }
+	10% 	{ transform: translateY(0px) translateX(50px) scale(0.8); opacity: 1;   }
+	90% 	{ opacity: 1; }
+	95%	{ transform: translateY(-280px) translateX(50px)scale(0.8)}
+  99% { transform: translateY(-280px) translateX(50px) scale(1);}
+  100%{ opacity: 0;}
 }
 @keyframes popup {
 	0% 		{ transform: translateY(0px) scale(0.5); opacity: 0.5; }
