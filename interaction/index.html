@@ -9,8 +9,37 @@
     <link rel="stylesheet" href="slick/slick-theme.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="kode.js"></script>
-    <script scr="slick/slick.min.js"></script>
+    <script src="salut.js"></script>
 
+<script>
+window.onclick = function () {
+     setTimeout(function(){
+      document.getElementById("fireworks-canvas").style.opacity = "1"}, 100);
+    var firework = JS_FIREWORKS.Fireworks({
+        id : 'fireworks-canvas',
+        hue : 120,
+        particleCount : 50,
+        delay : 0,
+        minDelay : 20,
+        maxDelay : 40,
+        boundaries : {
+            top: 50,
+            bottom: 240,
+            left: 50,
+            right: 590
+        },
+        fireworkSpeed : 1,
+        fireworkAcceleration : 1.05,
+        particleFriction : .95,
+        particleGravity : 1.5
+    });
+    firework.start();
+    setTimeout(function(){
+      firework.stop();
+     document.getElementById("fireworks-canvas").style.opacity = "0"}, 4000);
+
+};
+</script>
   </head>
 
   <body>
@@ -35,6 +64,7 @@
               <div class="caption">
                 – Шарик? Где же ты...Домой, хороший мальчик
               </div>
+
             </div>
             <div class="slide">
               <div class="photo" style= "background-image: url(ya.png);">
@@ -42,6 +72,7 @@
               <div class="caption">
                 – Давай проведем этот Новый Год вместе
               </div>
+              <canvas  id="fireworks-canvas"></canvas>
             </div>
             <div class="slide">
               <div class="photo" style= "background-image: url(couple.png);">

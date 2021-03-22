@@ -275,3 +275,10 @@ article{
   opacity: 0;
   transition: all 4s ease;
 }
+canvas{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:transparent;
+  top:0;
+}
