@@ -46,7 +46,7 @@ JS_FIREWORKS.Fireworks = function (options) {
         _ctx    = _canvas.getContext ? _canvas.getContext('2d') : null,
         _width  = _canvas.width,
         _height = _canvas.height,
-        _hue        = options.hue || 120,
+        _hue        = options.hue || 10,
         _isRunning  = false,
         _fireworks  = [],
         _particles  = [],
@@ -215,7 +215,7 @@ JS_FIREWORKS.Firework = function (x1, y1, x2, y2, context, hue) {
         _ctx.beginPath();
         _ctx.moveTo(_coordinates[last][0], _coordinates[last][1]);
         _ctx.lineTo(_x, _y);
-        _ctx.strokeStyle = 'hsl(' + _hue + ', 100%, ' + _brightness + '%)';
+        _ctx.strokeStyle = 'hsl(' + _hue + ', 20%, ' + _brightness + '%)';
         _ctx.stroke();
     };
 
@@ -226,7 +226,7 @@ JS_FIREWORKS.Firework = function (x1, y1, x2, y2, context, hue) {
             _coordinates.push([_x, _y]);
         }
         _angle = Math.atan2(_dy - _sy, _dx - _sx);
-        _brightness = _randIntRange(50, 70);
+        _brightness = _randIntRange(20, 40);
     })();
 
     return _self;
@@ -285,7 +285,7 @@ JS_FIREWORKS.Particle = function (x, y, context, hue) {
         _ctx.beginPath();
         _ctx.moveTo(_coordinates[last][0], _coordinates[last][1]);
         _ctx.lineTo(_x, _y);
-        _ctx.strokeStyle = 'hsla(' + _hue + ', 100%, ' + _brightness + '%, ' + _alpha + ')';
+        _ctx.strokeStyle = 'hsla(' + _hue + ', 30%, ' + _brightness + '%, ' + _alpha + ')';
         _ctx.stroke();
     };
 
@@ -297,7 +297,7 @@ JS_FIREWORKS.Particle = function (x, y, context, hue) {
         _angle = _randRange(0, _2PI);
         _speed = _randIntRange(1, 10);
         _hue   = _randIntRange(_hue - 20, _hue + 20);
-        _brightness = _randIntRange(50, 80);
+        _brightness = _randIntRange(20, 60);
         _decay = _randRange(.015, .03);
     })();
 

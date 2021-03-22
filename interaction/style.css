@@ -282,4 +282,7 @@ canvas{
   background:transparent;
   top:0;
   cursor: pointer;
+  -webkit-filter:brightness(300%) saturate(0) blur(1px);
+
+
 }
