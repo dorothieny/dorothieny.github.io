@@ -159,8 +159,8 @@ article{
   position:absolute;
   bottom:50px;
   left:0;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 100%;
   cursor: pointer;
 }
 #main .popup {
