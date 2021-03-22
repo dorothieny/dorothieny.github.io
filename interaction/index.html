@@ -18,15 +18,15 @@ window.onclick = function () {
     var firework = JS_FIREWORKS.Fireworks({
         id : 'fireworks-canvas',
         hue : 120,
-        particleCount : 50,
+        particleCount : 70,
         delay : 0,
         minDelay : 20,
         maxDelay : 40,
         boundaries : {
             top: 50,
-            bottom: 240,
+            bottom: 100,
             left: 50,
-            right: 590
+            right: 300
         },
         fireworkSpeed : 1,
         fireworkAcceleration : 1.05,
@@ -36,7 +36,7 @@ window.onclick = function () {
     firework.start();
     setTimeout(function(){
       firework.stop();
-     document.getElementById("fireworks-canvas").style.opacity = "0"}, 4000);
+     document.getElementById("fireworks-canvas").style.opacity = "0"}, 5000);
 
 };
 </script>
