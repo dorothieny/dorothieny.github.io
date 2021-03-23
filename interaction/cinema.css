@@ -248,6 +248,14 @@ z-index: -2;
 .nebol:hover {
  transform: scale(0.91);
 }
+.whu> .sobaka{
+content: url(sobaka.svg);
+transform: scale(0.9);
+position: absolute;
+top: -155px;
+left: -10px;
+z-index: -2;
+}
 .sit{
   animation:sit 1.5s 1 ease-in .5s forwards;
 }
