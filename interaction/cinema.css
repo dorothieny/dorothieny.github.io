@@ -184,7 +184,7 @@ z-index:0 }
 
   background: linear-gradient(221.75deg, #1B0404 14.88%, #7B1F02 65%), #1B0404;
 }
-.fi, .re, .do, .mi{
+.fi, .re, .do, .mi, .whu{
   position:relative;
 }
 .fi >.chel{
@@ -252,9 +252,23 @@ z-index: -2;
 content: url(sobaken.svg);
 transform: scale(0.9);
 position: absolute;
-top: -155px;
-left: -10px;
+top: 0px;
+left: 4px;
 z-index: -2;
+}
+.whu> .hvost{
+  content: url(hvost.svg);
+  transform: scale(0.9);
+  position: absolute;
+  top: 0px;
+  left: 137px;
+  z-index: -2;
+}
+.hvostik{
+  animation: hvost .2s ease-in-out  alternate infinite, up .2s ease-in-out .5s forwards;
+}
+.hvostikback{
+  animation: hvost .3s ease-out  alternate infinite, down 1s ease-in-out forwards;
 }
 .sit{
   animation:sit 1.5s 1 ease-in .5s forwards;
@@ -308,8 +322,12 @@ z-index: -2;
 .third > .stul{
     width:190px;
 }
-
-
+.suka{
+  animation:suka 1s 1 ease-in forwards;
+}
+.sukaback{
+  animation:sukaback 1s 1 ease-in forwards;
+}
 @keyframes sit {
   0%{
     top:-350px;
@@ -359,4 +377,35 @@ z-index: -2;
     opacity:0.9;}
   60%{
     opacity: 0.7;}
+}
+@keyframes suka {
+  0%{top:0px;
+    left: 4px;}
+  80%{top:-120px;
+  left: 10px;}
+  100%{top:-100px;
+  left: 4px;}
+}
+@keyframes sukaback {
+  0%{top:-100px;
+    left: 4px;}
+  20%{top:-120px;
+  left: 10px;}
+  100%{top:0px;
+  left: 4px;}
+}
+@keyframes hvost {
+  0%{transform: rotate(0deg);
+  -webkit-transform-origin: 0 100%}
+  100%{transform: rotate(8deg);
+  -webkit-transform-origin: 0 100%}
+}
+@keyframes up{
+  0%{top:0px;}
+  100%{top: -70px;}
+}
+@keyframes down {
+  0%{top:-70px;}
+  100%{top: 0px;}
+
 }

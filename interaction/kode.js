@@ -56,6 +56,13 @@ $(document).ready(function(){
       $('#main').append(rez);
       setTimeout( function() { rez.remove(); }, 3100);
     });
+$("#ball").click(function (){
+  $(".sobaka").toggleClass("suka");
+  $(".hvost").toggleClass("hvostik");
+  $(".sobaka").toggleClass("sukaback");
+  $(".hvost").toggleClass("hvostikback");
+
+});
 
 $('.slider').slick({});
 });
