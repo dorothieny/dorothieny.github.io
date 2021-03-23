@@ -12,7 +12,9 @@
     <script src="salut.js"></script>
 
 <script>
-window.onclick = function () {
+window.onload = function() {
+var an = document.getElementById('fireworks-canvas');
+an.onclick = function () {
      setTimeout(function(){
       document.getElementById("fireworks-canvas").style.opacity = "1"}, 100);
     var firework = JS_FIREWORKS.Fireworks({
@@ -28,7 +30,7 @@ window.onclick = function () {
             left: 50,
             right: 300
         },
-        fireworkSpeed : 1,
+        fireworkSpeed : 0.5,
         fireworkAcceleration : 1.05,
         particleFriction : .95,
         particleGravity : 1.5
@@ -38,6 +40,7 @@ window.onclick = function () {
       firework.stop();
      document.getElementById("fireworks-canvas").style.opacity = "0"}, 5000);
 
+};
 };
 </script>
   </head>
