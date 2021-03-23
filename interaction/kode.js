@@ -24,10 +24,10 @@ $(document).ready(function(){
         $(".chel").toggleClass("stand");
     });
     $(".man, .woman").click(function(){
-      $(".man").addClass("kiss");
-      setTimeout(function(){
-            $(".man.kiss").removeClass("kiss");
-          }, 3500);
+      $(".man").toggleClass("kiss");
+      // setTimeout(function(){
+      //       $(".man.kiss").removeClass("kiss");
+      //     }, 3500);
     });
     $(".nebol").click(function(){
       $(".palez").addClass("ts");
