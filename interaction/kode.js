@@ -66,13 +66,22 @@ $("#ball").click(function (){
   $(".hvost").toggleClass("hvostikback");
 
 });
-$("#couple").click(function(){
-  $(".woman").toggleClass('shit');
-  $(".woman").toggleClass('okay')
-})
-// if ($('div[data-slick-index="3"]').hasClass('slick-active')) {
-//
-// }
+// $("#couple").click(function(){
+//   $(".woman").toggleClass('shit');
+//   $(".woman").toggleClass('okay')
+// })
+$(this).on('click', ".slick-arrow", function() {
+  console.log('AAA');
+if ($('div[data-slick-index="3"]').hasClass('slick-current')) {
+  $(".woman").removeClass('okay');
+  $(".woman").addClass('shit');
+
+}
+else {
+  $(".woman").removeClass('shit');
+  $(".woman").addClass("okay");
+}
+});
 
 $('.slider').slick({});
 });
