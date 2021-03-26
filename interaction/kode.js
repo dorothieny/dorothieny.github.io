@@ -48,6 +48,8 @@ $(document).ready(function(){
     });
     $('#main').click( function () {
       let rez = $('<div class="popup"><img src="puzo.png" alt=""></div>');
+      // let rez = $('<div class="popup"><img src="'+random+'" alt=""></div>');
+
       $('#main').append(rez);
       setTimeout( function() { rez.remove(); }, 2100);
     });
@@ -56,6 +58,7 @@ $(document).ready(function(){
       $('#main').append(rez);
       setTimeout( function() { rez.remove(); }, 3100);
     });
+
 $("#ball").click(function (){
   $(".sobaka").toggleClass("suka");
   $(".hvost").toggleClass("hvostik");
@@ -63,6 +66,13 @@ $("#ball").click(function (){
   $(".hvost").toggleClass("hvostikback");
 
 });
+$("#couple").click(function(){
+  $(".woman").toggleClass('shit');
+  $(".woman").toggleClass('okay')
+})
+// if ($('div[data-slick-index="3"]').hasClass('slick-active')) {
+//
+// }
 
 $('.slider').slick({});
 });
