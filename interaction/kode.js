@@ -66,10 +66,7 @@ $("#ball").click(function (){
   $(".hvost").toggleClass("hvostikback");
 
 });
-// $("#couple").click(function(){
-//   $(".woman").toggleClass('shit');
-//   $(".woman").toggleClass('okay')
-// })
+
 $(this).on('click', ".slick-arrow", function() {
   console.log('AAA');
 if ($('div[data-slick-index="3"]').hasClass('slick-current')) {

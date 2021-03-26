@@ -16,21 +16,21 @@ window.onload = function() {
 var an = document.getElementById('fireworks-canvas');
 an.onclick = function () {
      setTimeout(function(){
-      document.getElementById("fireworks-canvas").style.opacity = "1"}, 100);
+      document.getElementById("fireworks-canvas").style.opacity = "1"}, 150);
     var firework = JS_FIREWORKS.Fireworks({
         id : 'fireworks-canvas',
         hue : 120,
-        particleCount : 70,
+        particleCount : 80,
         delay : 0,
-        minDelay : 20,
-        maxDelay : 40,
+        minDelay : 10,
+        maxDelay : 20,
         boundaries : {
             top: 50,
             bottom: 100,
             left: 50,
             right: 300
         },
-        fireworkSpeed : 0.5,
+        fireworkSpeed : 1,
         fireworkAcceleration : 1.05,
         particleFriction : .95,
         particleGravity : 1.5
@@ -152,7 +152,7 @@ an.onclick = function () {
           <div class="in"></div>
         </div>
         <div class="stul shest do">
-          <div class="woman"></div>
+          <div class="woman okay"></div>
           <div class="in"></div>
         </div>
         <div class="stul sem">
