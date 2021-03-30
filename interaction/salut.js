@@ -46,13 +46,13 @@ JS_FIREWORKS.Fireworks = function (options) {
         _ctx    = _canvas.getContext ? _canvas.getContext('2d') : null,
         _width  = _canvas.width,
         _height = _canvas.height,
-        _hue        = options.hue || 10,
+        _hue        = options.hue || 40,
         _isRunning  = false,
         _fireworks  = [],
         _particles  = [],
         _particleCount = options.particleCount || 50,
         _tick       = 0,
-        _delay      = options.delay || 30,
+        _delay      = options.delay || 10,
         _minDelay   = options.minDelay || 30,
         _maxDelay   = options.maxDelay || 90,
         _boundaries = options.boundaries || {
@@ -99,7 +99,7 @@ JS_FIREWORKS.Fireworks = function (options) {
             return;
         }
         _ctx.globalCompositeOperation = 'source-over';
-        _ctx.fillStyle = 'rgba(0, 0, 0, 0)';
+        _ctx.fillStyle = 'rgba(0, 0, 0, 1)';
         _ctx.fillRect(0, 0, _width, _height);
     };
 
@@ -215,7 +215,7 @@ JS_FIREWORKS.Firework = function (x1, y1, x2, y2, context, hue) {
         _ctx.beginPath();
         _ctx.moveTo(_coordinates[last][0], _coordinates[last][1]);
         _ctx.lineTo(_x, _y);
-        _ctx.strokeStyle = 'hsl(' + _hue + ', 20%, ' + _brightness + '%)';
+        _ctx.strokeStyle = 'hsl(' + _hue + ', 30%,' + _brightness + '%)';
         _ctx.stroke();
     };
 
@@ -226,7 +226,7 @@ JS_FIREWORKS.Firework = function (x1, y1, x2, y2, context, hue) {
             _coordinates.push([_x, _y]);
         }
         _angle = Math.atan2(_dy - _sy, _dx - _sx);
-        _brightness = _randIntRange(20, 40);
+        _brightness = _randIntRange(60, 70);
     })();
 
     return _self;
@@ -296,8 +296,8 @@ JS_FIREWORKS.Particle = function (x, y, context, hue) {
         }
         _angle = _randRange(0, _2PI);
         _speed = _randIntRange(1, 10);
-        _hue   = _randIntRange(_hue - 20, _hue + 20);
-        _brightness = _randIntRange(20, 60);
+        // _hue   = _randIntRange(_hue - 20, _hue + 20);
+        _brightness = _randIntRange(60, 70);
         _decay = _randRange(.015, .03);
     })();
 
