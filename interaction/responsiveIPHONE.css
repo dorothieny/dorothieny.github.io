@@ -168,7 +168,7 @@
 
   }
   .top{
-    margin-top:0;
+    margin-top:2%;
     display:flex;
     flex-direction: column;
     width:100vw;
@@ -259,7 +259,7 @@
     display:flex;
     justify-content: space-between;
     width:400px;;
-    margin: 2% auto;
+    margin: 1% auto;
   }
   .hr1{
   color:black;
@@ -277,7 +277,7 @@
     font-family: Pragmatica;
     align-items: center;
     justify-content: center;
-    height: 210px;
+    height: 200px;
     width: 100vw;
     background:radial-gradient(24.71% 85.51% at 25.29% 100%, rgba(63, 39, 2, 0.6) 0%, rgba(251, 239, 182, 0) 100%), radial-gradient(24.42% 125.26% at 74.42% 100%, rgba(69, 45, 8, 0.6) 0%, rgba(252, 240, 183, 0) 100%), linear-gradient(90deg, #372203 0%, rgba(252, 240, 183, 0) 18.49%), linear-gradient(270deg, #3D2400 0%, rgba(252, 240, 183, 0) 14.84%), #FCF0B7;
     -webkit-mask-box-image:url(Group.svg);
@@ -309,7 +309,7 @@
 }
 .ticket{
   position:fixed;
-  left:20vw;
+  left:30vw;
   bottom:-500px;
   cursor: pointer;
   -webkit-filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
