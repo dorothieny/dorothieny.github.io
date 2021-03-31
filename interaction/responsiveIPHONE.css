@@ -935,7 +935,7 @@ content: url(palez.svg);
 transform: scale(0.6);
 position: absolute;
 top: -15px;
-left: 90px;
+left: 100px;
 z-index: -2;
 }
 .mi> .nebol{
@@ -943,8 +943,8 @@ z-index: -2;
 content: url(ts.svg);
 transform: scale(0.6);
 position: absolute;
-top: -120px;
-left: -15px;
+top: -125px;
+left: -10px;
 z-index: -2;
 }
 .nebol:hover {
@@ -962,7 +962,7 @@ z-index: -2;
   content: url(hvost.svg);
   transform: scale(0.6);
   position: absolute;
-  top: 50px;
+  top: 60px;
   left: 137px;
   z-index: -2;
 }
@@ -1111,12 +1111,12 @@ z-index: -2;
   -webkit-transform-origin: 0 100%}
 }
 @keyframes up{
-  0%{top:50px;}
+  0%{top:60px;}
   100%{top: -70px;}
 }
 @keyframes down {
   0%{top:-70px;}
-  100%{top: 50px;}
+  100%{top: 60px;}
 
 }
 @keyframes shit {
