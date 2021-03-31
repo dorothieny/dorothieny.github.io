@@ -16,7 +16,7 @@
     font-family: Wermut;
     color: rgba(127,44, 54, 0.3);
     font-size: 197px;
-    text-shadow: 0px 0px 50px rgba(172,18,37,1),0px 0px 10px rgba(172,18,37,0.6);
+    text-shadow: 0px 0px 35px rgba(172,18,37,1),0px 0px 10px rgba(172,18,37,0.6);
     -webkit-text-stroke: 3px white;
     margin:  0 2% ;
     -webkit-filter: blur(0.7px);
