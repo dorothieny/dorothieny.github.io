@@ -1010,12 +1010,12 @@ z-index: -2;
 .chairs.first{
   width:80%
   position:fixed;
-  bottom:-15vh;
+  bottom:-17vh;
 }
 .chairs.second{
   width:85%;
   position:fixed;
-  bottom:-18vh;
+  bottom:-20vh;
 }
 
 .second > .stul{
@@ -1024,7 +1024,7 @@ z-index: -2;
 .chairs.third{
   width:90%;
   position:fixed;
-  bottom:-20vh;
+  bottom:-25vh;
 }
 .third > .stul{
     width:140px;
