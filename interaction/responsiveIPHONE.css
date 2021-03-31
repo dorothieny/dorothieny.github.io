@@ -159,6 +159,9 @@
   99% { transform: translateY(-200px) translateX(-50px) scale(1.2);}
   100%{ opacity: 0;}
 }
+.saze{
+  animation: sazing 2s 1 linear 2s forwards;
+}
 .background{
   width:100vw;
   height:100vh;
