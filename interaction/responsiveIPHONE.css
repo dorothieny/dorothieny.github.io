@@ -188,7 +188,7 @@ position: absolute;
   flex-direction: column;
   justify-content: space-around;
   width:150%;
-  height: 134px;
+  height: 50px;
   clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
   background: radial-gradient(17.01% 412.71% at 92.29% 74.52%, rgba(100, 19, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(14.55% 1798.9% at 5.76% 74.52%, rgba(95, 18, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), #010101;
   -webkit-mask-box-image:url(mask.svg);
