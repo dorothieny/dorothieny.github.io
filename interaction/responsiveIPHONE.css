@@ -1052,8 +1052,8 @@ z-index: -2;
 }
 @keyframes kiss {
   0%,100%{left: -50px;}
-40%{left:-25px;}
-70%{left:-25px;}
+40%{left:-15px;}
+70%{left:-15px;}
 }
 @keyframes stand {
   0%{
