@@ -188,7 +188,7 @@ position: absolute;
   flex-direction: column;
   justify-content: space-around;
   width:150%;
-  height: 50px;
+  height: 40px;
   clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
   background: radial-gradient(17.01% 412.71% at 92.29% 74.52%, rgba(100, 19, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(14.55% 1798.9% at 5.76% 74.52%, rgba(95, 18, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), #010101;
   -webkit-mask-box-image:url(mask.svg);
@@ -310,7 +310,7 @@ z-index:0 }
 }
 .stul{
   height:130px;
-  width:110px;
+  width:125px;
   border-radius: 30px 30px 0px 0px;
 }
 .stul.odin{
@@ -993,24 +993,24 @@ z-index: -2;
 .chairs.first{
   width:80%
   position:fixed;
-  bottom:-9vh;
+  bottom:-12vh;
 }
 .chairs.second{
   width:85%;
   position:fixed;
-  bottom:-12vh;
+  bottom:-15vh;
 }
 
 .second > .stul{
-    width:115px;
+    width:135px;
 }
 .chairs.third{
   width:90%;
   position:fixed;
-  bottom:-15vh;
+  bottom:-18vh;
 }
 .third > .stul{
-    width:120px;
+    width:140px;
 }
 .suka{
   animation:suka 1s 1 ease-in forwards;
