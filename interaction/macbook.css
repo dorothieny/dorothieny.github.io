@@ -22,10 +22,10 @@
   {
     font-family: Wermut;
     color: rgba(127,44, 54, 0.3);
-    font-size: 350px;
+    font-size: 250px;
     text-shadow: 0px 0px 50px rgba(172,18,37,1),0px 0px 50px rgba(172,18,37,0.6);
     -webkit-text-stroke: 5px white;
-    margin:  0;
+    margin:  0 3%;
     -webkit-filter: blur(1.5px);
   }
   span{
@@ -44,7 +44,7 @@
     display: -ms-flex;
     display: flex;
     flex-direction: column;
-    height:300px;
+    height:220px;
     justify-content: space-around;
     padding-top: 25px;
     margin-left: -5%;
@@ -52,11 +52,11 @@
   }
   .line{
   position: relative;
-  height: 8px;
+  height: 6px;
   width: 100%;
   background: #FFFFFF;
   -webkit-filter: blur(3px);
-  border: 10px solid rgba(172,18,37,0.85);
+  border:7px solid rgba(172,18,37,0.85);
   border-right: 15px solid rgba(172,18,37,0.85);
   border-left: 15px solid rgba(172,18,37,0.85);
   border-radius:10px;
@@ -72,7 +72,7 @@
     display: -ms-flex;
     display: flex;
     flex-direction: column;
-    height:300px;
+    height:220px;
     justify-content: space-around;
     padding-top: 25px;
     width: 700px;
@@ -84,20 +84,20 @@
     z-index: 2;
   }
   .circle{
-    width: 15px;
-    height: 15px;
+    width: 8px;
+    height: 8px;
     background-color: white;
     border-radius: 50%;
     margin: 5px 5px;
     display: inline-block;
     -webkit-filter: blur(1px);
-    box-shadow: 7px 7px 20px rgba(172,18,37,1), -7px -7px 20px rgba(172,18,37,1),-7px 7px 20px rgba(172,18,37,1),7px -7px 20px rgba(172,18,37,1);
+    box-shadow: 7px 7px 15px rgba(172,18,37,1), -7px -7px 15px rgba(172,18,37,1),-7px 7px 15px rgba(172,18,37,1),7px -7px 15px rgba(172,18,37,1);
   }
 
   .fonari{
     display:flex;
     justify-content: space-between;
-    width:2000px;;
+    width:1400px;;
     margin: 2% auto;
   }
   .hr1{
@@ -116,15 +116,15 @@
     font-family: Pragmatica;
     align-items: center;
     justify-content: center;
-    height: 740px;
+    height: 490px;
     width: 100vw;
     background:radial-gradient(24.71% 85.51% at 25.29% 100%, rgba(63, 39, 2, 0.6) 0%, rgba(251, 239, 182, 0) 100%), radial-gradient(24.42% 125.26% at 74.42% 100%, rgba(69, 45, 8, 0.6) 0%, rgba(252, 240, 183, 0) 100%), linear-gradient(90deg, #372203 0%, rgba(252, 240, 183, 0) 18.49%), linear-gradient(270deg, #3D2400 0%, rgba(252, 240, 183, 0) 14.84%), #FCF0B7;
     -webkit-mask-box-image:url(Group.svg);
     transition: opacity 2s;
   }
   h1{
-    font-size:130px;
-    line-height: 160px;
+    font-size:80px;
+    line-height: 90px;
     text-align: center;
     color: black;
     margin:0 auto;
@@ -134,9 +134,9 @@
   article{
     display:flex;
     justify-content: space-around;
-    width:2000px;
+    width:1400px;
     margin-top:3px;
-    font-size: 50px;
+    font-size: 20px;
 
   }
   .ticket{
