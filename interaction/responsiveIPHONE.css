@@ -733,7 +733,7 @@ z-index: -2;
 .background{
   width:100vw;
   height:100vh;
-background: radial-gradient(133.5% 70.75% at 7.33% 50%, #000000 22.4%, #360000 100%), #2E0101;
+background: radial-gradient(122.53% 64.93% at 50% 35.07%, #000000 22.4%, #360000 100%), #2E0101;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -805,7 +805,7 @@ margin: auto;
 /* -webkit-filter: blur(2px); */
 position: absolute;
 left: 3%;
-top: 70px;
+top: 10px;
 -webkit-filter:blur(2px) drop-shadow(0px 0px 15px rgba(231,4,10,0.8));
 }
 .two{
@@ -818,7 +818,7 @@ background: white;
  /* -webkit-filter: ; */
 position: absolute;
 right: 3%;
-top: 70px;
+top: 10px;
 -webkit-filter: blur(2px) drop-shadow(0px 0px 15px rgba(231,4,10,0.8));
 }
 .one:hover{
