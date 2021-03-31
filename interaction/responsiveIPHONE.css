@@ -991,23 +991,23 @@ z-index: -2;
 
 }
 .chairs.first{
-  width:100%
+  width:85%
   position:fixed;
-  bottom:0vh;
+  bottom:-9vh;
 }
 .chairs.second{
-  width:110%;
+  width:95%;
   position:fixed;
-  bottom:-6vh;
+  bottom:-12vh;
 }
 
 .second > .stul{
     width:115px;
 }
 .chairs.third{
-  width:110%;
+  width:100%;
   position:fixed;
-  bottom:-12vh;
+  bottom:-15vh;
 }
 .third > .stul{
     width:120px;
