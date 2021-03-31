@@ -892,30 +892,30 @@ z-index:0 }
 .re >.man{
 cursor: pointer;
 content: url(mankiss.svg);
-transform: scale(0.7);
+transform: scale(0.6);
 position: absolute;
 top: -150px;
 left: -80px;
 z-index: -2;
 }
 .man:hover{
-  transform: scale(0.71);
+  transform: scale(0.61);
 }
 .do >.woman{
   cursor: pointer;
 content: url(womankiss.svg);
-transform: scale(0.7);
+transform: scale(0.6);
 position: absolute;
 top: -140px;
 left: -45px;
 z-index: -2;
 }
 .woman:hover{
-  transform: scale(0.71);
+  transform: scale(0.61);
 }
 .mi> .palez{
 content: url(palez.svg);
-transform: scale(0.7);
+transform: scale(0.6);
 position: absolute;
 top: -15px;
 left: 110px;
@@ -924,18 +924,18 @@ z-index: -2;
 .mi> .nebol{
   cursor: pointer;
 content: url(ts.svg);
-transform: scale(0.7);
+transform: scale(0.6);
 position: absolute;
 top: -140px;
 left: -10px;
 z-index: -2;
 }
 .nebol:hover {
- transform: scale(0.71);
+ transform: scale(0.61);
 }
 .whu> .sobaka{
 content: url(sobaken.svg);
-transform: scale(0.7);
+transform: scale(0.6);
 position: absolute;
 top: 0px;
 left: 4px;
@@ -943,7 +943,7 @@ z-index: -2;
 }
 .whu> .hvost{
   content: url(hvost.svg);
-  transform: scale(0.7);
+  transform: scale(0.6);
   position: absolute;
   top: 0px;
   left: 137px;
@@ -991,12 +991,12 @@ z-index: -2;
 
 }
 .chairs.first{
-  width:85%
+  width:80%
   position:fixed;
   bottom:-9vh;
 }
 .chairs.second{
-  width:95%;
+  width:85%;
   position:fixed;
   bottom:-12vh;
 }
@@ -1005,7 +1005,7 @@ z-index: -2;
     width:115px;
 }
 .chairs.third{
-  width:100%;
+  width:90%;
   position:fixed;
   bottom:-15vh;
 }
