@@ -50,7 +50,7 @@
   height: 3px;
   width: 100%;
   background: #FFFFFF;
-  -webkit-filter: blur(1.5px);
+  -webkit-filter: blur(.8px);
   border: 3px solid rgba(172,18,37,0.9);
   border-radius: 5px;
   box-shadow:  0px 3px 10px rgba(231,4,10,0.6), 0px -3px 10px rgba(231,4,10,0.6);
@@ -611,7 +611,7 @@ z-index: -2;
   height: 3px;
   width: 100%;
   background: #FFFFFF;
-  -webkit-filter: blur(1.5px);
+  -webkit-filter: blur(.8px);
   border: 3px solid rgba(172,18,37,0.9);
   border-radius: 5px;
   box-shadow:  0px 3px 10px rgba(231,4,10,0.6), 0px -3px 10px rgba(231,4,10,0.6);
