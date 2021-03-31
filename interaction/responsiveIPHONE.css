@@ -311,7 +311,7 @@ z-index:0 }
 .stul{
   height:130px;
   width:125px;
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 .stul.odin{
   display: none;
@@ -436,7 +436,7 @@ z-index: -2;
   height: 131px;
   background: #0E0101;
   -webkit-filter: blur(10px);
-  border-radius: 38px 38px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
 
 }
 .chairs.first{
@@ -862,7 +862,7 @@ z-index:0 }
 .stul{
   height:130px;
   width:110px;
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 .stul.odin{
   display: none;
@@ -987,7 +987,7 @@ z-index: -2;
   height: 131px;
   background: #0E0101;
   -webkit-filter: blur(10px);
-  border-radius: 38px 38px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
 
 }
 .chairs.first{
