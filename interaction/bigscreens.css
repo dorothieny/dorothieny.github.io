@@ -293,7 +293,7 @@ text-align: center;
   position: relative;
 left: -20%;
 top: 1%;
-width: 8%;
+width: 10%;
 min-width: 150px;
 z-index:0 }
 
@@ -331,7 +331,7 @@ z-index:0 }
   content: url(chelovek.svg);
   transform: scale(1.5);
   position: absolute;
-  top: -350px;
+  top: -300px;
   left: -50px;
   z-index: -2;
 }
@@ -349,7 +349,7 @@ content: url(mankiss.svg);
 transform: scale(1.5);
 position: absolute;
 top: -150px;
-left: -35px;
+left: -25px;
 z-index: -2;
 }
 .man:hover{
@@ -371,8 +371,8 @@ z-index: -2;
 content: url(palez.svg);
 transform: scale(1.5);
 position: absolute;
-top: -15px;
-left: 140px;
+top: 20px;
+left: 200px;
 z-index: -2;
 }
 .mi> .nebol{
@@ -391,7 +391,7 @@ z-index: -2;
 content: url(sobaken.svg);
 transform: scale(1.5);
 position: absolute;
-top: 0px;
+top: 100px;
 left: 4px;
 z-index: -2;
 }
@@ -399,8 +399,8 @@ z-index: -2;
   content: url(hvost.svg);
   transform: scale(1.5);
   position: absolute;
-  top: 0px;
-  left: 137px;
+  top: 100px;
+  left: 250px;
   z-index: -2;
 }
 .hvostik{
@@ -475,42 +475,42 @@ z-index: -2;
 }
 @keyframes sit {
   0%{
-    top:-350px;
+    top:-300px;
   }
   70%{
-    top:-140px;
+    top:-90px;
   }
   100%{
-    top:-150px;
+    top:-100px;
   }
 
 }
 @keyframes kiss {
-  0%,100%{left: -35px;}
-40%{left:-25px;}
-70%{left:-25px;}
+  0%,100%{left: -25px;}
+40%{left:-15px;}
+70%{left:-10px;}
 }
 @keyframes stand {
   0%{
-    top:-150px;
+    top:-100px;
   }
   70%{
-    top:-360px;
+    top:-310px;
   }
   100%{
-    top:-350px;
+    top:-300px;
   }
 
 }
 @keyframes ts {
   0%,100%{
-    top: -15px;
+    top: 20px;
   }
   40%{
-    top: -65px;
+    top: -55px;
   }
   60%{
-    top: -60px;
+    top: -45px;
   }
 }
 @keyframes opa {
@@ -524,7 +524,7 @@ z-index: -2;
     opacity: 0.7;}
 }
 @keyframes suka {
-  0%{top:0px;
+  0%{top:100px;
     left: 4px;}
   80%{top:-120px;
   left: 10px;}
@@ -536,7 +536,7 @@ z-index: -2;
     left: 4px;}
   20%{top:-120px;
   left: 10px;}
-  100%{top:0px;
+  100%{top:100px;
   left: 4px;}
 }
 @keyframes hvost {
@@ -546,12 +546,12 @@ z-index: -2;
   -webkit-transform-origin: 0 100%}
 }
 @keyframes up{
-  0%{top:0px;}
+  0%{top:100px;}
   100%{top: -70px;}
 }
 @keyframes down {
   0%{top:-70px;}
-  100%{top: 0px;}
+  100%{top: 100px;}
 
 }
 @keyframes shit {
