@@ -156,6 +156,22 @@
     height: 100%;
     cursor: pointer;
 }
+@keyframes popa {
+	0% 		{ transform: translateY(0px) translateX(-50px) scale(0.3); opacity: 0.5; }
+	10% 	{ transform: translateY(0px) translateX(-50px) scale(0.8); opacity: 1;   }
+	90% 	{ opacity: 1; }
+	95%	{ transform: translateY(-280px) translateX(-50px)scale(0.8)}
+  99% { transform: translateY(-280px) translateX(-50px) scale(1);}
+  100%{ opacity: 0;}
+}
+@keyframes popup {
+	0% 		{ transform: translateY(0px) translateX(-50px) scale(0.5); opacity: 0.5; }
+	10% 	{ transform: translateY(0px) translateX(-50px) scale(1); opacity: 1;   }
+	90% 	{ opacity: 1; }
+	95%	{ transform: translateY(-200px)translateX(-50px) scale(1)}
+  99% { transform: translateY(-200px) translateX(-50px) scale(1.2);}
+  100%{ opacity: 0;}
+}
 .background{
   width:100vw;
   height:100vh;
@@ -426,12 +442,12 @@ z-index: -2;
 .chairs.first{
   width:100%
   position:fixed;
-  bottom:0vh;
+  bottom: -8vh;
 }
 .chairs.second{
   width:110%;
   position:fixed;
-  bottom:-6vh;
+  bottom:-10vh;
 }
 
 .second > .stul{
@@ -440,7 +456,7 @@ z-index: -2;
 .chairs.third{
   width:110%;
   position:fixed;
-  bottom:-12vh;
+  bottom:-13vh;
 }
 .third > .stul{
     width:120px;
