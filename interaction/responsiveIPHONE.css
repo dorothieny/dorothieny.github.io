@@ -156,6 +156,405 @@
     height: 100%;
     cursor: pointer;
 }
+.background{
+  width:100vw;
+  height:100vh;
+background: radial-gradient(125.38% 66.44% at 50% 50%, #000000 22.4%, #360000 100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+position: absolute;
+
+}
+.head{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:150%;
+  height: 134px;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+  background: radial-gradient(17.01% 412.71% at 92.29% 74.52%, rgba(100, 19, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(14.55% 1798.9% at 5.76% 74.52%, rgba(95, 18, 1, 0.4) 0%, rgba(0, 0, 0, 0) 100%), #010101;
+  -webkit-mask-box-image:url(mask.svg);
+}
+.hr{
+  width: 100%;
+  height: 15px;
+  border: none;
+  background: radial-gradient(43.18% 337275.95% at 50.36% 39.4%, rgba(71, 16, 12, 0.3) 0%, #3B0E0B 69.27%);
+}
+
+.cont{
+  width:88%;
+  height: 60vh;
+  /* background: linear-gradient(179.87deg, #2E0101 0.11%, rgba(247, 235, 179, 0) 99.89%), linear-gradient(78.86deg, #2E0101 -3.48%, rgba(252, 240, 183, 0) 49.4%), linear-gradient(277.84deg, #2E0101 -5.8%, rgba(254, 246, 211, 0) 47.1%), #FF9979; */
+  border-bottom: 30px solid black;
+  border-left: 28px solid black;
+  border-right: 28px solid black;
+
+}
+.cont:hover{
+  -webkit-filter: drop-shadow(0px 4px 100px rgba(231,4,10,0.2));
+}
+.photo{
+  margin:0 auto;
+  width:100%;
+  /* min-width: 538px; */
+  height:60vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  animation: opa 1.5s steps(3) alternate infinite;
+  cursor: pointer;
+}
+
+.slide{
+  position: relative;
+}
+.slide > .caption{
+  position:absolute;
+  width:100%;
+  bottom:7%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Noto Sans;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+/* .lamp{
+ background: white;
+  height:50px;
+  width:20px;
+  border-radius: 50%;
+  margin: auto;
+  -webkit-filter: blur(2px);
+} */
+
+.one{
+  display:none
+}
+
+.two{
+  display:none
+}
+.one:hover{
+  background:rgba(172,18,37,0.3);
+  -webkit-filter: blur(1px);
+}
+/* .one:hover{
+  -webkit-filter: none;
+} */
+.two:hover {
+  background:rgba(172,18,37,0.3);
+  -webkit-filter: blur(1px);
+}
+/* .two:hover{
+  -webkit-filter: none;
+} */
+h2{
+  font-family: Pragmatica;
+  font-size: 15px;
+line-height: 20px;
+text-align: center;
+  color: rgba(255, 155, 0, 1);
+  text-shadow: 0px 0px 15px rgba(255, 200, 57, 0.8);
+}
+.exit{
+  cursor: pointer;
+  background-color: #030303;;
+  padding:5px 10px;
+  border-radius: 6px;
+  -webkit-filter: drop-shadow(0px 0px 3px rgba(255, 155, 0, .3));
+}
+
+.exit:hover{
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 155, 0, 1));
+}
+.door{
+  margin-top:15px;
+  background-color: black;
+  height: 1000px;
+}
+.vy{
+  position: relative;
+left: -20%;
+top: 1%;
+width: 8%;
+min-width: 150px;
+z-index:0 }
+
+.chairs{
+  position:fixed;
+  /* bottom:0vh; */
+  z-index: 1;
+  display:flex;
+  flex-direction: row;
+  width: 90%;
+ justify-content: space-around;
+}
+.stul{
+  height:130px;
+  width:110px;
+  border-radius: 30px 30px 0px 0px;
+}
+.stul.odin{
+  display: none;
+  background: linear-gradient(156.45deg, #1E0000 6.12%, #501401 57.72%), linear-gradient(180deg, #501401 0.27%, #180601 100.08%), #4F1401;
+}
+.stul.dva{
+
+  background: #9F2B07;
+}
+.stul.tri{
+  background: #9F2B07;
+}
+.stul.che{
+  display:none;
+  background: linear-gradient(221.75deg, #1B0404 14.88%, #7B1F02 65%), #1B0404;
+}
+.fi, .re, .do, .mi, .whu{
+  position:relative;
+}
+.fi >.chel{
+  display:none
+}
+
+
+
+
+.re >.man{
+cursor: pointer;
+content: url(mankiss.svg);
+transform: scale(0.7);
+position: absolute;
+top: -150px;
+left: -80px;
+z-index: -2;
+}
+.man:hover{
+  transform: scale(0.71);
+}
+.do >.woman{
+  cursor: pointer;
+content: url(womankiss.svg);
+transform: scale(0.7);
+position: absolute;
+top: -140px;
+left: -45px;
+z-index: -2;
+}
+.woman:hover{
+  transform: scale(0.71);
+}
+.mi> .palez{
+content: url(palez.svg);
+transform: scale(0.7);
+position: absolute;
+top: -15px;
+left: 110px;
+z-index: -2;
+}
+.mi> .nebol{
+  cursor: pointer;
+content: url(ts.svg);
+transform: scale(0.7);
+position: absolute;
+top: -140px;
+left: -10px;
+z-index: -2;
+}
+.nebol:hover {
+ transform: scale(0.71);
+}
+.whu> .sobaka{
+content: url(sobaken.svg);
+transform: scale(0.7);
+position: absolute;
+top: 0px;
+left: 4px;
+z-index: -2;
+}
+.whu> .hvost{
+  content: url(hvost.svg);
+  transform: scale(0.7);
+  position: absolute;
+  top: 0px;
+  left: 137px;
+  z-index: -2;
+}
+.hvostik{
+  animation: hvost .2s ease-in-out  alternate infinite, up .2s ease-in-out .5s forwards;
+}
+.hvostikback{
+  animation: hvost .3s ease-out  alternate infinite, down 1s ease-in-out forwards;
+}
+.sit{
+  animation:sit 1.5s 1 ease-in .5s forwards;
+}
+.kiss{
+  animation: kiss 2.5s 1 ease-in-out .2s ;
+}
+.stand{
+  animation:stand 1s 1 ease-out forwards;
+}
+.ts{
+  animation: ts 2.5s 1 ease-out .2s;
+}
+.shit{
+  animation: shit 2s 1 ease-in-out forwards;
+}
+.stul.pyat{
+  background: #9F2B07;
+}
+.stul.shest{
+  background: #9F2B07;
+}
+.stul.sem{
+  display:none;
+  background: linear-gradient(-156.45deg, #1E0000 6.12%, #501401 57.72%), linear-gradient(-180deg, #501401 0.27%, #180601 100.08%), #4F1401;
+}
+.in{
+  position: relative;
+  margin:5px auto 0;
+  width: 110px;
+  height: 131px;
+  background: #0E0101;
+  -webkit-filter: blur(10px);
+  border-radius: 38px 38px 0px 0px;
+
+}
+.chairs.first{
+  width:100%
+  position:fixed;
+  bottom:0vh;
+}
+.chairs.second{
+  width:110%;
+  position:fixed;
+  bottom:-6vh;
+}
+
+.second > .stul{
+    width:115px;
+}
+.chairs.third{
+  width:110%;
+  position:fixed;
+  bottom:-12vh;
+}
+.third > .stul{
+    width:120px;
+}
+.suka{
+  animation:suka 1s 1 ease-in forwards;
+}
+.sukaback{
+  animation:sukaback 1s 1 ease-in forwards;
+}
+.okay{
+  animation: okay 3s 1 ease-in-out forwards;
+}
+@keyframes sit {
+  0%{
+    top:-350px;
+  }
+  70%{
+    top:-140px;
+  }
+  100%{
+    top:-150px;
+  }
+
+}
+@keyframes kiss {
+  0%,100%{left: -80px;}
+40%{left:-65px;}
+70%{left:-65px;}
+}
+@keyframes stand {
+  0%{
+    top:-150px;
+  }
+  70%{
+    top:-360px;
+  }
+  100%{
+    top:-350px;
+  }
+
+}
+@keyframes ts {
+  0%,100%{
+    top: -15px;
+  }
+  40%{
+    top: -65px;
+  }
+  60%{
+    top: -60px;
+  }
+}
+@keyframes opa {
+  0%,100%{
+    opacity: 1;}
+  20%{
+    opacity:0.7;}
+  40%{
+    opacity:0.9;}
+  60%{
+    opacity: 0.7;}
+}
+@keyframes suka {
+  0%{top:0px;
+    left: 4px;}
+  80%{top:-120px;
+  left: 10px;}
+  100%{top:-100px;
+  left: 4px;}
+}
+@keyframes sukaback {
+  0%{top:-100px;
+    left: 4px;}
+  20%{top:-120px;
+  left: 10px;}
+  100%{top:0px;
+  left: 4px;}
+}
+@keyframes hvost {
+  0%{transform: rotate(0deg);
+  -webkit-transform-origin: 0 100%}
+  100%{transform: rotate(8deg);
+  -webkit-transform-origin: 0 100%}
+}
+@keyframes up{
+  0%{top:0px;}
+  100%{top: -70px;}
+}
+@keyframes down {
+  0%{top:-70px;}
+  100%{top: 0px;}
+
+}
+@keyframes shit {
+  0%{left: -45px;
+  top:-150px}
+  80%{left:160px;
+  top:-150px;}
+  95%{left:200px;
+  top:-150px;}
+  100%{left:200px;
+  top: -140px}
+}
+@keyframes okay {
+  0%{left:200px;
+  top: -140px;}
+  50%{left:-20px;
+  top:-140px;}
+  70%{left:-20px;
+  top:-140px;}
+  100%{left: -45px;
+  top:-140px}
+}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
