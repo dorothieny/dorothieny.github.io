@@ -22,7 +22,7 @@
     text-shadow: 0px 0px 50px rgba(172,18,37,1),0px 0px 10px rgba(172,18,37,0.6);
     -webkit-text-stroke: 1.5px white;
     margin:  0 1.5% ;
-    -webkit-filter: blur(0.7px);
+    -webkit-filter: blur(0.4px);
   }
   span{
     position: relative;
@@ -182,7 +182,7 @@
     text-shadow: 0px 0px 50px rgba(172,18,37,1),0px 0px 10px rgba(172,18,37,0.6);
     -webkit-text-stroke: 1.5px white;
     margin:  0 1.5% ;
-    -webkit-filter: blur(0.7px);
+    -webkit-filter: blur(0.4px);
   }
   span{
     position: relative;
@@ -309,7 +309,7 @@
 }
 .ticket{
   position:fixed;
-  left:60vw;
+  left:30vw;
   bottom:-500px;
   cursor: pointer;
   -webkit-filter: drop-shadow(5px 2px 3px rgba(0,0,0,0.5));
