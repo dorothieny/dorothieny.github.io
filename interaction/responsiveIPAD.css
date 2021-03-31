@@ -29,10 +29,10 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
   }
-  .right-rays{
+  .rays{
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
@@ -40,18 +40,14 @@
     height:160px;
     justify-content: space-around;
     padding-top: 25px;
-    margin-left: -5%;
     width: 481.01px;
   }
   .line{
-  position: relative;
   height: 4.89px;
   width: 100%;
   background: #FFFFFF;
   -webkit-filter: blur(2px);
   border: 5px solid rgba(172,18,37,0.9);
-  border-right: 15px solid rgba(172,18,37,0.9);
-  border-left: 15px solid rgba(172,18,37,0.9);
   border-radius: 5px;
   box-shadow:  0px 7px 15px rgba(231,4,10,0.8), 0px -7px 15px rgba(231,4,10,0.8);
   }
@@ -59,16 +55,6 @@
     background: rgba(172,18,37,0.9);
     box-shadow:  none;
     -webkit-filter: blur(1px);
-  }
-  .left-rays{
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    flex-direction: column;
-    height:160px;
-    justify-content: space-around;
-    padding-top: 25px;
-    width: 481.01px;
   }
 
   .lights{
@@ -580,10 +566,10 @@ z-index: -2;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
   }
-  .right-rays{
+  .rays{
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
@@ -591,18 +577,14 @@ z-index: -2;
     height:160px;
     justify-content: space-around;
     padding-top: 25px;
-    margin-left: -5%;
-    width: 481.01px;
+    width: 460px;
   }
   .line{
-  position: relative;
   height: 4.89px;
-  width: 100%;
+  width: 97%;
   background: #FFFFFF;
   -webkit-filter: blur(2px);
   border: 5px solid rgba(172,18,37,0.9);
-  border-right: 15px solid rgba(172,18,37,0.9);
-  border-left: 15px solid rgba(172,18,37,0.9);
   border-radius: 5px;
   box-shadow:  0px 7px 15px rgba(231,4,10,0.8), 0px -7px 15px rgba(231,4,10,0.8);
   }
@@ -610,16 +592,6 @@ z-index: -2;
     background: rgba(172,18,37,0.9);
     box-shadow:  none;
     -webkit-filter: blur(1px);
-  }
-  .left-rays{
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    flex-direction: column;
-    height:160px;
-    justify-content: space-around;
-    padding-top: 25px;
-    width: 481.01px;
   }
 
   .lights{
