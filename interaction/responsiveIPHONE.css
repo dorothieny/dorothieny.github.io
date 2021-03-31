@@ -895,7 +895,7 @@ content: url(mankiss.svg);
 transform: scale(0.6);
 position: absolute;
 top: -150px;
-left: -80px;
+left: -50px;
 z-index: -2;
 }
 .man:hover{
@@ -918,7 +918,7 @@ content: url(palez.svg);
 transform: scale(0.6);
 position: absolute;
 top: -15px;
-left: 110px;
+left: 90px;
 z-index: -2;
 }
 .mi> .nebol{
@@ -926,8 +926,8 @@ z-index: -2;
 content: url(ts.svg);
 transform: scale(0.6);
 position: absolute;
-top: -140px;
-left: -10px;
+top: -120px;
+left: -15px;
 z-index: -2;
 }
 .nebol:hover {
@@ -945,7 +945,7 @@ z-index: -2;
   content: url(hvost.svg);
   transform: scale(0.6);
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: 137px;
   z-index: -2;
 }
@@ -983,7 +983,7 @@ z-index: -2;
 .in{
   position: relative;
   margin:5px auto 0;
-  width: 110px;
+  width: 120px;
   height: 131px;
   background: #0E0101;
   -webkit-filter: blur(10px);
@@ -1034,9 +1034,9 @@ z-index: -2;
 
 }
 @keyframes kiss {
-  0%,100%{left: -80px;}
-40%{left:-65px;}
-70%{left:-65px;}
+  0%,100%{left: -50px;}
+40%{left:-25px;}
+70%{left:-25px;}
 }
 @keyframes stand {
   0%{
@@ -1094,12 +1094,12 @@ z-index: -2;
   -webkit-transform-origin: 0 100%}
 }
 @keyframes up{
-  0%{top:0px;}
+  0%{top:50px;}
   100%{top: -70px;}
 }
 @keyframes down {
   0%{top:-70px;}
-  100%{top: 0px;}
+  100%{top: 50px;}
 
 }
 @keyframes shit {
