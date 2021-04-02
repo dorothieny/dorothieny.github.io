@@ -1,0 +1,235 @@
+@import "reset.css";
+body{ background-color: #FFEBD4;
+width:100vw;
+height:100vh;}
+.plashka{
+  position: fixed;
+  width: 100%;
+  height:60px;
+  top: 0;
+  background-color:#EEB286;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button{
+  background-image: url(restart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border:none;
+  margin: 4px;
+  width: 60px;
+  height:50px;
+}
+#pravila{
+  position: relative;
+  margin:5px;
+}
+img#niz{
+  position: fixed;
+  width: 100%;
+  bottom:0;
+}
+#main{
+  position: absolute;
+  width: 70vw;
+  height:10vh;
+  top: -8.5vw;
+  left: 20vh;
+  background: transparent;
+}
+.rules{
+  position:relative;
+  width:100%;
+  height:90vh;
+}
+.wrapper{
+  position: relative;
+  margin:0 auto;
+  height:87%;
+  width:90%;
+}
+.box{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height:30vh;
+  width:15vw;
+}
+
+#s1{
+  position: absolute;
+  width: 18%;
+  left: 1%;
+  top: 8%;
+}
+#s2{
+  position: absolute;
+  width: 43%;
+  left: 28%;
+  top: 3%;
+}
+#s3{
+  position: absolute;
+  width: 16%;
+  left: 79%;
+  top: 6%;
+}
+#s4{
+  position: absolute;
+  width: 7%;
+  left: 20%;
+  top: 16%;
+}
+#s5{
+  position: absolute;
+  width: 15%;
+  left: 60%;
+  top: 18%;
+}
+#s6{
+  position: absolute;
+  width: 20%;
+  left: 38%;
+  top: 27%;
+}
+#s7{
+  position: absolute;
+  width: 6.5%;
+  left: 1.5%;
+  top: 37%;
+}
+#s8{
+  position: absolute;
+  width: 11%;
+  left: 12%;
+  top: 30%;
+}
+#s9{
+  position: absolute;
+  width: 7.5%;
+  left: 27%;
+  top: 33%;
+}
+#s10{
+  position: absolute;
+  width: 11%;
+  left: 62%;
+  top: 36%;
+}
+#s11{
+  position: absolute;
+  width: 10%;
+  left: 81%;
+  top: 30%;
+}
+#s12{
+  position: absolute;
+  width: 7%;
+  left: 95%;
+  top: 31%;
+}
+#s13{
+  position: absolute;
+  width: 11%;
+  left: 9.5%;
+  top: 45%;
+}
+#s14{
+  position: absolute;
+  width: 11%;
+  left: 32%;
+  top: 57%;
+}
+#s15{
+  position: absolute;
+  width: 28%;
+  left: 46.5%;
+  top: 52%;
+}
+#s16{
+  position: absolute;
+  width: 9%;
+  left: 19%;
+  top: 61.5%;
+}
+#s17{
+  position: absolute;
+  width: 11.5%;
+  left: 43%;
+  top: 72.5%;
+}
+#s18{
+  position: absolute;
+  width: 15%;
+  left: 77%;
+  top: 52%;
+}
+#s19{
+  position: absolute;
+  width: 17%;
+  left: -2%;
+  top: 69%;
+}
+#s20{
+  position: absolute;
+  width: 7%;
+  left: 49%;
+  top: 88%;
+}
+#s21{
+  position: absolute;
+  width: 6.5%;
+  left: 68%;
+  top: 71%;
+}
+#s22{
+  position: absolute;
+  width: 18%;
+  left: 81%;
+  top: 73.5%;
+}
+#s23{
+  position: absolute;
+  width: 20%;
+  left: 20%;
+  top: 77%;
+}
+#s24{
+  position: absolute;
+  width: 6%;
+  left: 58%;
+  top: 72.5%;
+}
+
+.colorPink:hover {
+  -webkit-filter: hue-rotate(280deg);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.colorGreen:hover {
+  -webkit-filter: hue-rotate(70deg);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.colorBlue:hover {
+  -webkit-filter: hue-rotate(191deg);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.colorRed:hover {
+  -webkit-filter: hue-rotate(315deg);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.colorYellow:hover {
+  -webkit-filter: hue-rotate(345deg);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

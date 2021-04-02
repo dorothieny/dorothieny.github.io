@@ -1,0 +1,39 @@
+<svg width="451" height="259" viewBox="0 0 451 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M330.026 254.675L1.73579 254.675L1.73579 82.209L67.7957 42.7788L133.856 3.34865L448.983 3.3486L448.983 162.221L330.026 254.675Z" fill="#F5A649"/>
+<path d="M1.73579 82.209L330.026 82.209M1.73579 82.209L1.73579 254.675L330.026 254.675M1.73579 82.209L67.7957 42.7788M330.026 82.209L330.026 254.675M330.026 82.209L390.292 45.1979M330.026 254.675L448.983 162.221L448.983 3.3486M448.983 3.3486L133.856 3.34865L67.7957 42.7788M448.983 3.3486L390.292 45.1979M390.292 45.1979L67.7957 42.7788" stroke="black"/>
+<path d="M449.015 4.0835L329.455 82.0558V254.627L449.015 161.748V4.0835Z" fill="url(#paint0_linear)" stroke="black"/>
+<path d="M329.455 82.0559H1.32812V255.2H329.455V82.0559Z" fill="url(#paint1_linear)" stroke="black"/>
+<rect x="182.25" y="87.25" width="142" height="72.625" fill="#C4C4C4" stroke="black" stroke-width="0.5"/>
+<rect x="315.125" y="94.5" width="1.875" height="60" fill="black"/>
+<rect x="309.5" y="94.5" width="3.75" height="60" fill="black"/>
+<rect x="264.5" y="94.5" width="3.75" height="60" fill="black"/>
+<rect x="258.875" y="94.5" width="3.75" height="60" fill="black"/>
+<rect x="303.875" y="94.5" width="3.75" height="60" fill="black"/>
+<rect x="302" y="94.5" width="3.75" height="60" fill="black"/>
+<rect x="298.25" y="94.5" width="1.875" height="60" fill="black"/>
+<rect x="294.5" y="94.5" width="1.875" height="60" fill="black"/>
+<line x1="292.875" y1="94.5" x2="292.875" y2="154.5" stroke="black" stroke-width="0.5"/>
+<line x1="291" y1="94.5" x2="291" y2="154.5" stroke="black" stroke-width="0.5"/>
+<line x1="277.875" y1="94.5" x2="277.875" y2="154.5" stroke="black" stroke-width="0.5"/>
+<line x1="274.375" y1="94.5" x2="274.375" y2="154.5" stroke="black"/>
+<line x1="272.25" y1="94.5" x2="272.25" y2="154.5" stroke="black" stroke-width="0.5"/>
+<line x1="270.375" y1="94.5" x2="270.375" y2="154.5" stroke="black" stroke-width="0.5"/>
+<line x1="289.125" y1="94.5" x2="289.125" y2="154.5" stroke="black" stroke-width="0.5"/>
+<line x1="285.625" y1="94.5" x2="285.625" y2="154.5" stroke="black"/>
+<line x1="255.625" y1="94.5" x2="255.625" y2="154.5" stroke="black"/>
+<line x1="251.875" y1="94.5" x2="251.875" y2="154.5" stroke="black"/>
+<line x1="280.5" y1="94.5" x2="280.5" y2="154.5" stroke="black" stroke-width="2"/>
+<path d="M7 203H29C29 203 28.6791 227.048 18.6037 227.973L19.5 228V248H23V250H13.5V248H17V227.924C7.31244 226.414 7 203 7 203Z" fill="black"/>
+<path d="M17 227.924C17.3228 227.974 17.656 228 18 228C28.6664 228 29 203 29 203H7C7 203 7.31244 226.414 17 227.924ZM17 227.924V248H19.5V228L17 227.924ZM13.5 248H23V250H13.5V248Z" stroke="black"/>
+<path d="M228 150H217.125V112.725L204.75 120.15V108.975L218.55 100.95H228V150Z" fill="black"/>
+<defs>
+<linearGradient id="paint0_linear" x1="337.426" y1="235.134" x2="422.828" y2="-0.897765" gradientUnits="userSpaceOnUse">
+<stop stop-color="#703C00"/>
+<stop offset="1" stop-color="#EF9F40" stop-opacity="0.95"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="243.77" y1="303.933" x2="42.7313" y2="49.6108" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B56A10"/>
+<stop offset="1" stop-color="#E9993B"/>
+</linearGradient>
+</defs>
+</svg>
