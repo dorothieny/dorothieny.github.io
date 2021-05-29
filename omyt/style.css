@@ -138,20 +138,37 @@ button:hover{
  display: flex;
  flex-direction: column;
 }
+.oneone{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.twotwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 15vw;
+}
+.oneone > .linne{
+  width: 800px;
+  height: auto;
+  border-bottom: solid 4px #D2BB83;
+  position:relative;
+  top:-.5vw;
+
+}
+.twotwo > .linne{
+ width: 800px;
+ height: auto;
+ border-top: solid 4px #D2BB83;
+ position:relative;
+ top: 3vw;
+}
 .one{
-  align-self: flex-start;
-  /* width: 30%; */
   display: flex;
   flex-direction: column;
   align-content: center;
-}
-
-
-.two{
-  position: relative;
-  top: 15vw;
-  align-self: flex-end;
-  /* width: 30%; */
 }
 .one > p, .two > p{
   font-family: 'HeadingNow';
