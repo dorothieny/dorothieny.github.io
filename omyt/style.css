@@ -145,6 +145,8 @@ button:hover{
 
 
 .two{
+  position: relative;
+  top: 15vw;
   align-self: flex-end;
   width: 30%;
 }
