@@ -140,7 +140,10 @@ button:hover{
 }
 .one{
   align-self: flex-start;
-  width: 30%;
+  /* width: 30%; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 
@@ -148,7 +151,7 @@ button:hover{
   position: relative;
   top: 15vw;
   align-self: flex-end;
-  width: 30%;
+  /* width: 30%; */
 }
 .one > p, .two > p{
   font-family: 'HeadingNow';
@@ -167,8 +170,4 @@ button:hover{
   text-align: center;
   letter-spacing: 0.185em;
   margin-top: 1vw;
-}
-span{
-  position: relative;
-  left: 15px;
 }
