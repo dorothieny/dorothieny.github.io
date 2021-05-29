@@ -1,0 +1,172 @@
+@import "reset.css";
+@font-face{
+font-family: 'OrganettoBold';
+src: url('OrganettoBold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+  font-family: 'HeadingNow';
+  src: url('HeadingNow.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OrganettoRegular';
+  src: url('OrganettoRegular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-color: #161616;
+  cursor: default;
+
+}
+.header{
+
+  position: absolute;
+  width: 100%;
+  padding-top: 2vw;
+  background-color: #161616;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.4));
+  z-index: 1;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.logo{
+  background: url(images/logo.svg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height:auto;
+  cursor: pointer;
+}
+.inside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  width:70%;
+  margin: 1vw 0;
+}
+.inside > a{
+    color: #D2BB83;
+    font-family: 'OrganettoRegular';
+    font-size: 10px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.inside > a:hover{
+    color: #A94F20;
+}
+button{
+  color: #161616;
+  background-color: #D2BB83;
+  border: none;
+  font-family: 'OrganettoBold';
+  font-size: 10px;
+  line-height: 13px;
+  padding: 10px 50px;
+  border-radius: 9px;
+  position: relative;
+  top:-1vw;
+  transition: all .1s ease-in;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #A94F20;
+}
+.first{
+  background-image: url(images/smile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  width: 100%;
+  height: 655px;
+}
+.first > .color{
+  background-color: #A94F20;
+  position:absolute;
+  width: 100%;
+  height: 655px;
+  mix-blend-mode: multiply;
+}
+.first > .gradient{
+  position:absolute;
+  width: 100%;
+  height: 655px;
+  background: linear-gradient(180deg, rgba(22, 22, 22, 0) 60.94%, #161616 100%);
+}
+.first > .line{
+  background-image: url(images/line.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position:absolute;
+  width: 100%;
+  height: 655px;
+}
+.first > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 40px;
+  line-height: 45px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 15vw;
+}
+.first > p{
+  color: #D2BB83;
+  font-family: 'HeadingNow';
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: .5%
+}
+.second{
+  position: relative;
+  top: 10vw;
+  width: 87%;
+  margin:0 auto;
+ color: #D2BB83;
+ display: flex;
+ flex-direction: column;
+}
+.one{
+  align-self: flex-start;
+  width: 30%;
+}
+
+
+.two{
+  align-self: flex-end;
+  width: 30%;
+}
+.one > p, .two > p{
+  font-family: 'HeadingNow';
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.one > h1, .two > h1{
+  font-family: 'OrganettoBold';
+  font-size: 30px;
+  line-height: 35px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.185em;
+  margin-top: 1vw;
+}
+span{
+  position: relative;
+  left: 15px;
+}
