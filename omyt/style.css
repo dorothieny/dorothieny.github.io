@@ -146,7 +146,7 @@ button:hover{
 .second{
   position: relative;
   width: 87%;
-  margin:10vw auto;
+  margin:14vw auto;
  color: #D2BB83;
  display: flex;
  flex-direction: column;
@@ -199,15 +199,60 @@ button:hover{
 
 .third{
 width: 100%;
-height: 500px;
-background-color: hotpink;
 display: flex;
 flex-direction: column;
 align-items: center;
+ position: relative;
 }
 .scroll{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.love, .diploma, .technology, .linza{
+  border: solid 4px #D2BB83;
+  background-color: #161616;
+  color: #D2BB83;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.love{
+  background-image: url('images/love.svg');
+
+}
+.diploma{
+  background-image: url('images/docs.svg');
+}
+.technology{
+  background-image: url('images/hightech.svg');
+}
+.linza{
+  background-image: url('images/lupa.svg');
+}
+h2{
+  font-family: 'OrganettoBold';
+  font-size: 25px;
+  line-height: 30px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.third > button{
+  margin-top: 10vw;
+}
+.third > hr{
+  width: 100%;
+  border: none;
+  height: 4px;
+  background-color: #D2BB83;
+  position: absolute;
+  top: 30%;
+  z-index: -2;
 }
