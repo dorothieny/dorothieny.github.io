@@ -256,3 +256,87 @@ h2{
   top: 30%;
   z-index: -2;
 }
+.fouth > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 40px;
+  line-height: 45px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.fouth > p{
+  color: #D2BB83;
+  font-family: 'HeadingNow';
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: .5%
+}
+.fouth{
+  background-image: url(images/psycho.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  width: 100%;
+  height: 655px;
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fouth > .color{
+  background-color: #A94F20;
+  position:absolute;
+  width: 100%;
+  height: 655px;
+  mix-blend-mode: multiply;
+}
+.fouth > .gradient{
+  position:absolute;
+  width: 100%;
+  height: 655px;
+  background:  linear-gradient(180deg, rgba(22, 22, 22, 0) 59.37%, #161616 100%), linear-gradient(180deg, #161616 0%, rgba(22, 22, 22, 0) 11.98%);
+}
+.fouth > button{
+  position: relative;
+  z-index: 3;
+  margin-top: 3vw;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 87%;
+  margin: 0 auto;
+  color: #D2BB83;
+  margin-top: 7vw;
+}
+.odin > h3, .dva > h3, .tri > h3{
+  font-family: OrganettoBold;
+  font-size: 13px;
+  margin-bottom: 6%;
+}
+.odin > a, .dva > a{
+  font-family: HeadingNow;
+  font-size: 13px;
+  margin-bottom: 6%;
+  display: block;
+  text-decoration: none;
+  color: #D2BB83;
+  transition: all .1s ease-in;
+}
+.odin > a:hover, .dva > a:hover{
+  color: #A94F20;
+}
+body > p{
+  font-family: HeadingNow;
+  font-size: 11px;
+  line-height: 18px;
+  width: 87%;
+  margin: 3vw auto;
+  color: #D2BB83;
+}
