@@ -246,6 +246,7 @@ h2{
 }
 .third > button{
   margin-top: 10vw;
+  padding: 10px 100px;
 }
 .third > hr{
   width: 100%;
@@ -305,6 +306,7 @@ h2{
   position: relative;
   z-index: 3;
   margin-top: 3vw;
+  padding: 10px 100px;
 }
 .footer{
   display: flex;
@@ -323,7 +325,7 @@ h2{
 .odin > a, .dva > a{
   font-family: HeadingNow;
   font-size: 13px;
-  margin-bottom: 6%;
+  margin-bottom: 8%;
   display: block;
   text-decoration: none;
   color: #D2BB83;
@@ -332,7 +334,14 @@ h2{
 .odin > a:hover, .dva > a:hover{
   color: #A94F20;
 }
-
+.odin > button, .tri > button{
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 50px;
+}
+.tri > button{
+  padding: 10px 80px;
+}
 body > p{
   font-family: HeadingNow;
   font-size: 11px;
