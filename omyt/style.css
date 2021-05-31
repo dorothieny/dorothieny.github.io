@@ -148,7 +148,7 @@ button:hover{
 }
 .second{
   position: relative;
-  width: 87%;
+  width: 90%;
   margin:14vw auto;
  color: #D2BB83;
  display: flex;
@@ -316,7 +316,7 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 87%;
+  width:  90%;
   margin: 0 auto;
   color: #D2BB83;
 }
@@ -349,7 +349,7 @@ body > p{
   font-family: HeadingNow;
   font-size: 11px;
   line-height: 18px;
-  width: 87%;
+  width:  90%;
   margin: 3vw auto;
   color: #D2BB83;
 }
@@ -407,3 +407,43 @@ height: 100%;
 .second > button{
 margin-top: 5vw;
 }
+.memory{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:  100%;
+  margin: 5vw auto 0;
+  color: #D2BB83;
+}
+.memory > .linne{
+  width: 800px;
+  height: auto;
+  border-top: solid 4px #D2BB83;
+  position:relative;
+  top: 3.5vw;
+}
+.memory > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 30px;
+  line-height: 35px;
+  width: 60%;
+  margin: 3vw auto 0;
+}
+.linne > p{
+  color: #D2BB83;
+  font-family: 'HeadingNow';
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 15%;
+  position: relative;
+}
+.service{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+ margin: 0 auto;}
+ .service > button{
+margin-top: 10vw;
+ }
