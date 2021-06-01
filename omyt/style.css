@@ -480,7 +480,7 @@ margin: 10vw 0;
 background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), linear-gradient(180deg, #161616 0%, rgba(22, 22, 22, 0) 34.54%);
 }
 .vtoroi{
-  width: 87%;
+  width:  90%;
   margin: 0 auto;
 }
 .apparat {
@@ -529,4 +529,36 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   height: 655px;
   background: linear-gradient(179.74deg, rgba(22, 22, 22, 0) 59.91%, #161616 99.77%), linear-gradient(180.18deg, #161616 0.15%, rgba(22, 22, 22, 0) 58.14%);
 }
+.stadii{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:100%;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+.stadiya{
+    border: solid 4px #D2BB83;
+    background-color: #161616;
+    color: #D2BB83;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .chetver{
+    position: relative;
+  }
+.chetver > hr{
+  width: 100%;
+  border: none;
+  height: 4px;
+  background-color: #D2BB83;
+  position: absolute;
+  top: 45%;
+  z-index: -2;
 }
