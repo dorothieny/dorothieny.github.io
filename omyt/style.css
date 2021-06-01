@@ -121,6 +121,7 @@ button:hover{
 .first > .line{
   background-image: url(images/line.svg);
   background-repeat: no-repeat;
+  background-size: auto;
   background-position: bottom;
   position:absolute;
   width: 100%;
