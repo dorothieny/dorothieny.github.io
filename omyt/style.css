@@ -593,3 +593,36 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   font-size: 20px;
   line-height: 30px;
 }
+.holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+margin-top: 10vw;
+
+}
+.card{
+  width: 60%;
+  border: solid 4px #D2BB83;
+  padding: 50px;
+  align-self: flex-start;
+}
+.card > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 30px;
+  line-height: 35px;
+}
+.card > p{
+  color: #D2BB83;
+  font-family: 'HeadingNow';
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.card:hover{
+background-color: #A94F20;
+border:solid 4px #161616 ;
+transition: all .3s ease-in
+}
