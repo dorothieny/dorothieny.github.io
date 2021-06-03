@@ -658,3 +658,46 @@ transition: all .3s ease-in;
 .holder :nth-child(2n){
   align-self: flex-end;
 }
+.page{
+  width: 90%;
+  margin: 10vw auto 0;
+
+}
+.contacts{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.titles{
+  display:flex;
+  flex-direction: column;
+}
+.titles > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 20px;
+  line-height: 40px;
+}
+.subtitles{
+  display:flex;
+  flex-direction: column;
+}
+.subtitles > a{
+  color: #D2BB83;
+  font-family: 'HeadingNow';
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  transition: all .1s ease-in;
+}
+.subtitles > a:hover{
+  color: #A94F20;
+}
+.contacts > .linne{
+  width: 500px;
+  height: auto;
+  border-top: solid 4px #D2BB83;
+  position:relative;
+  top:1vw;
+
+}
