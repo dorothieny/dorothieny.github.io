@@ -593,7 +593,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   font-size: 20px;
   line-height: 30px;
 }
-.holder{
+.cards{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -602,10 +602,20 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
 margin-top: 10vw;
 
 }
+.holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+
+}
 .card{
   width: 60%;
   border: solid 4px #D2BB83;
   padding: 50px;
+  transition: all .3s ease-in;
+  margin-bottom: 15vw;
   align-self: flex-start;
 }
 .card > h1{
@@ -613,6 +623,7 @@ margin-top: 10vw;
   font-family: 'OrganettoBold';
   font-size: 30px;
   line-height: 35px;
+
 }
 .card > p{
   color: #D2BB83;
@@ -623,6 +634,9 @@ margin-top: 10vw;
 }
 .card:hover{
 background-color: #A94F20;
-border:solid 4px #161616 ;
-transition: all .3s ease-in
+border:solid 4px #A94F20 ;
+transition: all .3s ease-in;
+}
+.holder :nth-child(2n){
+  align-self: flex-end;
 }
