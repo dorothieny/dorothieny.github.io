@@ -599,7 +599,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   align-items: center;
   width: 80%;
   margin: 0 auto;
-margin-top: 10vw;
+margin-top: 15vw;
 
 }
 .holder{
@@ -611,7 +611,9 @@ margin-top: 10vw;
 
 }
 .card{
+  position: relative;
   width: 60%;
+  background-color: #161616;
   border: solid 4px #D2BB83;
   padding: 50px;
   transition: all .3s ease-in;
@@ -627,6 +629,7 @@ margin-top: 10vw;
 }
 .card > p{
   color: #D2BB83;
+
   font-family: 'HeadingNow';
   font-size: 20px;
   line-height: 30px;
@@ -636,6 +639,21 @@ margin-top: 10vw;
 background-color: #A94F20;
 border:solid 4px #A94F20 ;
 transition: all .3s ease-in;
+}
+.card::before{
+  content: url('images/kavychka.svg');
+  position: absolute;
+  top: -82px;
+  left: -120px;
+  z-index: -1;
+
+}
+.card::after{
+  content: url('images/kavychka.svg');
+  transform: rotate(180deg);
+  position: absolute;
+  right: -120px;
+
 }
 .holder :nth-child(2n){
   align-self: flex-end;
