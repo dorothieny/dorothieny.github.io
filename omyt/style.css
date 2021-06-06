@@ -218,7 +218,7 @@ position: relative;
 }
 .love, .diploma, .technology, .linza{
   border: solid 4px #D2BB83;
-  background-color: #161616;
+  background: #161616;
   color: #D2BB83;
   height: 300px;
   width: 300px;
@@ -228,19 +228,43 @@ position: relative;
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
+  transition: all .3s ease-in;
 }
-.love{
+.after{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position:absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all .3s ease-in;
+  opacity: 0%;
+}
+.loving{
   background-image: url('images/love.svg');
-
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.diploma{
+.diploming{
   background-image: url('images/docs.svg');
 }
-.technology{
+.technologing{
   background-image: url('images/hightech.svg');
 }
-.linza{
-  background-image: url('images/lupa.svg');
+.linzaning{
+    background-image: url('images/lupa.svg');
+}
+.love:hover .loving{
+  opacity: 100%;
+}
+.diploma:hover .diploming{
+  opacity: 100%;
+}
+.technology:hover .technologing{
+  opacity: 100%;
+}
+.linza:hover .linzaning{
+  opacity: 100%;
 }
 h2{
   font-family: 'OrganettoBold';
