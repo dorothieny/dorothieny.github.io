@@ -172,7 +172,7 @@ button:hover{
   height: auto;
   border-top: solid 4px #D2BB83;
   position:relative;
-  top:6.5vw;
+  top:2.5vw;
 
 }
 .twotwo > .linne{
@@ -432,13 +432,12 @@ margin-top: 5vw;
   margin: 3vw auto 0;
 }
 .textline{
-
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 width: 100%;
 margin-top: 3%;
-  border-bottom: solid 4px #D2BB83;
+border-bottom: solid 4px #D2BB83;
 }
 .textline > p{
   color: #D2BB83;
@@ -492,7 +491,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   color: #D2BB83;
 }
 .apparat > .linne{
- width: 800px;
+ width: 80%;
  height: auto;
  border-top: solid 4px #D2BB83;
  position:relative;
@@ -572,7 +571,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   color: #D2BB83;
 }
 .pyati > .linne{
-  width: 800px;
+  width: 100%;
   height: auto;
   border-top: solid 4px #D2BB83;
   position:relative;
@@ -583,7 +582,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   font-family: 'OrganettoBold';
   font-size: 30px;
   line-height: 35px;
-  width: 60%;
+  width: 34%;
   margin: 3vw auto 0;
   text-align: center;
 }
@@ -694,7 +693,7 @@ transition: all .3s ease-in;
   color: #A94F20;
 }
 .contacts > .linne{
-  width: 700px;
+  width: 60%;
   height: auto;
   border-top: solid 4px #D2BB83;
   position:relative;
