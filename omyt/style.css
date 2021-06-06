@@ -176,7 +176,7 @@ button:hover{
 
 }
 .twotwo > .linne{
- width: 800px;
+ width: 100%;
  height: auto;
  border-top: solid 4px #D2BB83;
  position:relative;
@@ -417,7 +417,7 @@ margin-top: 5vw;
   color: #D2BB83;
 }
 .memory > .linne{
-  width: 800px;
+  width: 100%;
   height: auto;
   border-top: solid 4px #D2BB83;
   position:relative;
@@ -700,4 +700,27 @@ transition: all .3s ease-in;
   position:relative;
   top:1vw;
 
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:  100%;
+  margin: 5vw auto 0;
+  color: #D2BB83;
+}
+.list > .linne{
+  width: 100%;
+  height: auto;
+  border-top: solid 4px #D2BB83;
+  position:relative;
+  top: 1.5vw;
+}
+.list > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 30px;
+  line-height: 35px;
+  width: 60%;
+  margin: 3vw auto 0;
 }
