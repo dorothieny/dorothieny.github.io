@@ -720,7 +720,7 @@ transition: all .3s ease-in;
   height: 0;
   overflow: hidden;
   color: transparent;
-  transition: all .5s ease-in;
+  transition: all 1s ease-in;
 
 }
 .oneone:hover .hidehover{
