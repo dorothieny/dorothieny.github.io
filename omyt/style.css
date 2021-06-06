@@ -168,11 +168,11 @@ button:hover{
   margin-top: 10vw;
 }
 .oneone > .linne{
-  width: 800px;
+  width:100%;
   height: auto;
-  border-bottom: solid 4px #D2BB83;
+  border-top: solid 4px #D2BB83;
   position:relative;
-  top:-.5vw;
+  top:6.5vw;
 
 }
 .twotwo > .linne{
@@ -703,7 +703,7 @@ transition: all .3s ease-in;
 }
 .list{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   width:  100%;
   margin: 5vw auto 0;
@@ -716,11 +716,20 @@ transition: all .3s ease-in;
   position:relative;
   top: 1.5vw;
 }
-.list > h1{
+.hidehover{
+  height: 0;
+  overflow: hidden;
+  color: transparent;
+  transition: all .5s ease-in;
+
+}
+.oneone:hover .hidehover{
+  height:100%;
   color: #D2BB83;
-  font-family: 'OrganettoBold';
-  font-size: 30px;
-  line-height: 35px;
-  width: 60%;
-  margin: 3vw auto 0;
+  transition: all .5s ease-in;
+}
+.twotwo:hover .hidehover{
+  height:100%;
+  color: #D2BB83;
+  transition: all .5s ease-in;
 }
