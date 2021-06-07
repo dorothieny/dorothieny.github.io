@@ -771,3 +771,11 @@ body.not-transparent.mode-mini {
 /* .chetver:hover ~ .pyati h1{
   opacity: 0%;
 } */
+.cont{
+  width:60%;
+  margin: 5vw auto 0;
+  overflow: hidden;
+}
+img{
+  margin: 0 2vw;
+}
