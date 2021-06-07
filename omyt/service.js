@@ -1,4 +1,16 @@
 $(document).ready(function(){
+  let rez = $('<div class="blank"></div>');
+$('#zapis').click(function(){
+
+    console.log("shto");
+    $('body').append(rez);
+    $('#exit').removeClass("hidden");
+  });
+  $('#exit').click(function(){
+  rez.remove();
+  $(this).addClass("hidden");
+    });
+
   $(".s").click(function(){
     $(".s").addClass("colors");
     $('.k').removeClass("colors");
