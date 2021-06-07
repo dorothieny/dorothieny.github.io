@@ -394,6 +394,7 @@ body > p{
   height: 550px;
   position: relative;
   margin-bottom: 5vw;
+  cursor: pointer;
 }
 .textes{
 display: flex;
