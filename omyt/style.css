@@ -210,12 +210,13 @@ align-items: center;
 position: relative;
 }
 .scroll{
-  width: 133%;
+  width: 120%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-self: flex-start;
   position: relative;
+  left:0px;
 }
 .love, .diploma, .technology, .linza{
   border: solid 4px #D2BB83;
@@ -749,7 +750,7 @@ transition: all .3s ease-in;
   transition: all 1s ease-in;
 
 }
-.oneone:hover .hidehover{
+/* .oneone:hover .hidehover{
   height:100%;
   color: #D2BB83;
   transition: all .5s ease-in;
@@ -757,7 +758,7 @@ transition: all .3s ease-in;
 .twotwo:hover .hidehover{
   height:100%;
   color: #D2BB83;
-  transition: all .5s ease-in;
+  transition: all .5s ease-in; */
 }
 body.not-transparent.mode-mini {
     background: transparent;

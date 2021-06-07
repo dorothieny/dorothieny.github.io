@@ -1,12 +1,27 @@
 $(document).ready(function(){
 $(window).scroll(function(){
+  function is_fully_shown(target) {
 	var wt = $(window).scrollTop();
 	var wh = $(window).height();
-	var et = $('.scroll').offset().top;
-	var eh = $('.scroll').outerHeight();
-	var dh = $(document).height();
-	if (wt + wh >= et || wh + wt == dh || eh + et < wh){
-		console.log('Элемент показан');
+	var eh = $(target).height();
+	var et = $(target).offset().top;
+
+	if (et >= wt && et + eh <= wh + wt){
+		return true;
+	} else {
+		return false;
 	}
+}
+
+if (is_fully_shown('.scroll')) {
+	console.log(true);
+  var wt = $(window).scrollTop();
+  var s = $(".scroll").scrollLeft();
+  $(window).on('scroll', function() {
+    $(".scroll").css('left', 44 - parseInt(wt / 25) + 'vw');
+  });
+  console.log("scrollLeft = " + s);
+}
+
 });
 });
