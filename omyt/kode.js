@@ -55,7 +55,5 @@ $('.slider').slick({
    }
  ]
 });
-$('.buro').click(function(){
-  $(".")
-})
+
 });

@@ -115,7 +115,7 @@ button:hover{
 .first > .gradient{
   position:absolute;
   width: 100%;
-  height: 655px;
+  height: 100%;
   background: linear-gradient(180deg, rgba(22, 22, 22, 0) 60.94%, #161616 100%);
 }
 .first > .line{
@@ -335,7 +335,7 @@ h2{
 .fouth > .gradient{
   position:absolute;
   width: 100%;
-  height: 655px;
+  height: 100%;
   background:  linear-gradient(180deg, rgba(22, 22, 22, 0) 59.37%, #161616 100%), linear-gradient(180deg, #161616 0%, rgba(22, 22, 22, 0) 11.98%);
 }
 .fouth > button{
@@ -508,7 +508,7 @@ margin: 10vw 0;
 .girl > .gradient{
   position:absolute;
   width: 100%;
-  height: 400px;
+  height: 100%;
 background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), linear-gradient(180deg, #161616 0%, rgba(22, 22, 22, 0) 34.54%);
 }
 .vtoroi{
@@ -558,7 +558,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
 .treti > .gradient{
   position:absolute;
   width: 100%;
-  height: 655px;
+  height: 100%;
   background: linear-gradient(179.74deg, rgba(22, 22, 22, 0) 59.91%, #161616 99.77%), linear-gradient(180.18deg, #161616 0.15%, rgba(22, 22, 22, 0) 58.14%);
 }
 .stadii{
@@ -803,4 +803,63 @@ img{
   background-color:#A94F20;
   mix-blend-mode: multiply;
   z-index: 1;
+}
+.buro > .gradient{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background:  linear-gradient(179.58deg, rgba(22, 22, 22, 0) 76.65%, #161616 99.64%), linear-gradient(180.52deg, #161616 0.45%, rgba(22, 22, 22, 0) 18.97%);;
+}
+.boyboy{
+  background-image: url('images/boyboy.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cinema{
+  width: 100%;
+  background-image: url('images/cinema.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.specialfirst{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:  90%;
+  margin: 5vw auto 0;
+  color: #D2BB83;
+}
+.specialfirst > .linne{
+  width: 100%;
+  height: auto;
+  border-top: solid 4px #D2BB83;
+  position:relative;
+  top: 3.5vw;
+}
+.specialfirst > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 30px;
+  line-height: 35px;
+  width: 34%;
+  margin: 3vw auto 0;
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.block > .gradient{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(180deg, rgba(22, 22, 22, 0) 73.34%, #161616 100%), linear-gradient(180deg, #161616 0%, rgba(22, 22, 22, 0) 45.53%);
 }
