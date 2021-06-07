@@ -587,6 +587,10 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
     border: solid 4px #A94F20;
     background-color: #A94F20;
   }
+  .colors{
+    border: solid 4px #A94F20;
+    background-color: #A94F20;
+  }
   .chetver{
     position: relative;
   }
