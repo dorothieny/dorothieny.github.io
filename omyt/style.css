@@ -168,7 +168,7 @@ button:hover{
   justify-content: space-between;
   margin-top: 10vw;
   cursor: pointer;
-  
+
 }
 .oneone > .linne{
   width:100%;
@@ -580,6 +580,12 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all .3s ease-in;
+    cursor: pointer;
+  }
+  .stadiya:hover{
+    border: solid 4px #A94F20;
+    background-color: #A94F20;
   }
   .chetver{
     position: relative;
