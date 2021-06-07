@@ -15,6 +15,7 @@ $(document).ready(function(){
 
   $('.b4').click(function(){
     $('.b4').toggleClass('domiche');
+    $('.pairbut').toggleClass('hidden');
 
     // $('.specialfirst').toggleClass('hidden')
   });
