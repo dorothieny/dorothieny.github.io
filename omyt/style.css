@@ -758,6 +758,9 @@ transition: all .3s ease-in;
   color: #D2BB83;
   transition: all .5s ease-in;
 }
+body.not-transparent.mode-mini {
+    background: transparent;
+}
 /* .chetver:hover ~ .pyati h1{
   opacity: 0%;
 } */
