@@ -897,3 +897,19 @@ body.not-transparent.mode-mini {
 .hidden{
   display: none;
 }
+.blank{
+  position:fixed;
+  top:15%;
+  left:30%;
+  width: 40vw;
+  height: 70vh;
+  background-color: #ffffff;
+  border-radius: 50px;
+  z-index:3;
+}
+#exit{
+  position:fixed;
+  top:15%;
+  right:18%;
+  z-index: 5;
+}
