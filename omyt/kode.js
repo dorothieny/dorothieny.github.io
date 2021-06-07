@@ -24,4 +24,10 @@ if (is_fully_shown('.scroll')) {
 }
 
 });
+$(".oneone").click(function(){
+  $(".hidehover").toggleClass("width");
+});
+$(".twotwo").click(function(){
+  $(".hidehovering").toggleClass("width");
+});
 });

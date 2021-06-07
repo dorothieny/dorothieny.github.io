@@ -160,12 +160,15 @@ button:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer;
 }
 .twotwo{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10vw;
+  cursor: pointer;
+  
 }
 .oneone > .linne{
   width:100%;
@@ -743,23 +746,19 @@ transition: all .3s ease-in;
   position:relative;
   top: 1.5vw;
 }
-.hidehover{
+.hidehover, .hidehovering{
   height: 0;
   overflow: hidden;
   color: transparent;
   transition: all 1s ease-in;
 
 }
-/* .oneone:hover .hidehover{
+.width{
   height:100%;
   color: #D2BB83;
   transition: all .5s ease-in;
 }
-.twotwo:hover .hidehover{
-  height:100%;
-  color: #D2BB83;
-  transition: all .5s ease-in; */
-}
+
 body.not-transparent.mode-mini {
     background: transparent;
 }
