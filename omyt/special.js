@@ -4,7 +4,11 @@ $(document).ready(function(){
     $('.specialfirst').toggleClass('hidden')
   });
 
+  $('.b2').click(function(){
+    $('.b2').toggleClass('');
+    $('.').toggleClass('hidden')
 
+  });
 
 
   $('.b3').click(function(){
@@ -19,4 +23,5 @@ $(document).ready(function(){
 
     // $('.specialfirst').toggleClass('hidden')
   });
+  $('.slider').slick();
 })

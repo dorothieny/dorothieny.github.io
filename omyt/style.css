@@ -785,7 +785,7 @@ body.not-transparent.mode-mini {
   filter: drop-shadow(-20px 0px 20px rgba(0, 0, 0, 0.4));;
   margin: 0 .4vw;
 }
-img{
+.shadow > img{
   width:100%;
 }
 .slider > button{
@@ -867,4 +867,16 @@ img{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.b2 > .slider{
+  position: relative;
+  height: 30vw;
+  width:55%;
+
+}
+.size > img{
+  position:relative;
+  height: 30vw;
+  margin: 0 auto;
+
 }
