@@ -771,11 +771,15 @@ body.not-transparent.mode-mini {
 /* .chetver:hover ~ .pyati h1{
   opacity: 0%;
 } */
-.cont{
-  width:60%;
+.slider{
+  width:100%;
   margin: 5vw auto 0;
   overflow: hidden;
 }
+.shadow{
+  filter: drop-shadow(-20px 0px 10px rgba(0, 0, 0, 0.6));;
+  margin: 0 .4vw;
+}
 img{
-  margin: 0 2vw;
+  width:100%;
 }
