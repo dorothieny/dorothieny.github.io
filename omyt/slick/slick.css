@@ -3,7 +3,9 @@
 {
     position: relative;
 
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     box-sizing: border-box;
 
     -webkit-user-select: none;

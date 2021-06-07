@@ -783,3 +783,6 @@ body.not-transparent.mode-mini {
 img{
   width:100%;
 }
+.slider > button{
+  margin: 0 15px;
+}
