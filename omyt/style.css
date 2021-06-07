@@ -785,4 +785,6 @@ img{
 }
 .slider > button{
   margin: 0 15px;
+  padding: 5px 20px;
+
 }
