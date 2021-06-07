@@ -823,7 +823,7 @@ body.not-transparent.mode-mini {
   background-repeat: no-repeat;
 
 }
-.specialfirst{
+.specialfirst, .specialsecond{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -847,9 +847,23 @@ body.not-transparent.mode-mini {
   margin: 3vw auto 0;
   text-align: center;
 }
-.hidden{
-  display: none;
+.specialsecond > .linne{
+  width: 100%;
+  height: auto;
+  border-top: solid 4px #D2BB83;
+  position:relative;
+  top: 3.5vw;
 }
+.specialsecond > h1{
+  color: #D2BB83;
+  font-family: 'OrganettoBold';
+  font-size: 30px;
+  line-height: 35px;
+  width: 34%;
+  margin: 3vw auto 0;
+  text-align: center;
+}
+
 .block {
   display: flex;
   flex-direction: column;
@@ -868,7 +882,7 @@ body.not-transparent.mode-mini {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.b2 > .slider{
+.block > .slider{
   position: relative;
   height: 30vw;
   width:55%;
@@ -879,4 +893,7 @@ body.not-transparent.mode-mini {
   height: 30vw;
   margin: 0 auto;
 
+}
+.hidden{
+  display: none;
 }

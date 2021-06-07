@@ -6,7 +6,9 @@ $(document).ready(function(){
 
   $('.b2').click(function(){
     $('.b2').toggleClass('');
-    $('.').toggleClass('hidden')
+    $('.specialsecond').toggleClass('hidden');
+    $('.slider').toggleClass('hidden')
+    $('.slider').slick();
 
   });
 
@@ -23,5 +25,5 @@ $(document).ready(function(){
 
     // $('.specialfirst').toggleClass('hidden')
   });
-  $('.slider').slick();
+
 })
