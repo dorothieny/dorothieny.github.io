@@ -758,3 +758,6 @@ transition: all .3s ease-in;
   color: #D2BB83;
   transition: all .5s ease-in;
 }
+/* .chetver:hover ~ .pyati h1{
+  opacity: 0%;
+} */
