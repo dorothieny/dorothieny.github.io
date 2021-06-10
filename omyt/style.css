@@ -771,7 +771,7 @@ transition: all .3s ease-in;
 }
 
 body.not-transparent.mode-mini {
-    background: transparent;
+    background: transparent !important;
 }
 /* .chetver:hover ~ .pyati h1{
   opacity: 0%;
