@@ -1,0 +1,48 @@
+@mixin font ($color, $smth){
+  font-size: 1.1em;
+  font-weight: $smth;
+  font-family: Arial, sans-serif;
+  color: $color;
+}
+@mixin link($link, $hover, $active, $visited){
+  a {
+    color: $link;
+
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+@content;
+}
+}
+@mixin grid ($colums, $margin){
+float: left;
+background: hotpink;
+margin-right: $margin;
+margin-bottom: $margin;
+height: 150px;
+
+@if ($colums >= 5) {
+  width: 100%;
+  margin-right: 0;
+
+}
+ @else{
+   width: ((100% - (($colums - 1) * $margin)) / $colums);
+   margin-right: $margin;
+}
+
+@for $i from 24 to 29{
+  .#{$someVar}-#{$i} {
+    width: 50px + $i;
+    height: 50px + $i;
+  }
+}
+
+ &:nth-child(#{$colums}n){
+   margin-right: 0;
+
+ }
+}

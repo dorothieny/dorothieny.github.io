@@ -1,0 +1,49 @@
+//
+@import "variables";
+@import "mixins";
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ @include link(black, yellow, blue, red);
+.header{
+  @include link(black, yellow, blue, red){
+    background-color: black;
+    &:visited{
+      color: yellow;
+    }
+  }
+
+}
+
+.block:not(.first){
+  background: $bgcolor;
+  height:200px;
+  margin-bottom: 20px;
+  width: $blockwidth
+}
+#central_block{
+  padding: 10px;
+  ul{
+    list-style: none;
+  }
+  li{
+    @include font(blue, light);
+    float: left;
+    margin: 4px;
+    width: (100% / 3);
+  &:hover{
+    color: yellow;
+  }
+  }
+}
+#grid{
+  float: left;
+  width: 100%;
+
+  div{
+    float: left;
+    @include grid(5, 1%);
+  }
+}
