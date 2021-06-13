@@ -978,3 +978,33 @@ margin-top: 1vw; */
     transition: all .1s ease-in;
     cursor: pointer;
   }
+  .reviewarea{
+    width: 70%;
+    margin-top: 5vw;
+  }
+  .textinput{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3vw;
+  }
+  input[name="imya"]{
+    background-color: #161616;
+    border: solid 4px #D2BB83;
+    box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+    height: 5vw;
+    width: 100%;
+  }
+  input[name="review"]{
+    background-color: #161616;
+    border: solid 4px #D2BB83;
+    box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+    height: 15vw;
+    width: 100%;
+    margin-top: 1vw;
+  }
