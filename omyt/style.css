@@ -186,6 +186,7 @@ button:hover{
  border-top: solid 4px #D2BB83;
  position:relative;
  top: 3vw;
+ transition: height .5s ease-in;
 }
 .one > p, .two > p{
   font-family: 'HeadingNow';
@@ -452,18 +453,19 @@ margin-top: 5vw;
 }
 .memory > .linne{
   width: 100%;
-  height: auto;
+  height: 100%;
   border-top: solid 4px #D2BB83;
   position:relative;
-  top: 3.5vw;
+  margin-top: 3vw;
 }
 .memory > h1{
   color: #D2BB83;
   font-family: 'OrganettoBold';
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 25px;
+  line-height: 30px;
   width: 60%;
   margin: 3vw auto 0;
+  margin-right: 20px;
 }
 .textline{
 display: flex;
@@ -478,8 +480,16 @@ border-bottom: solid 4px #D2BB83;
   font-family: 'HeadingNow';
   font-size: 20px;
   line-height: 30px;
-
   position: relative;
+}
+.textline :nth-child(2n){
+    color: transparent;
+    transition: color .2s ease-in;
+}
+.textline:nth-child(n):hover :nth-child(2n){
+  color: #D2BB83;
+  transition: color .2s ease-in;
+
 }
 .service{
 width: 90%;
@@ -497,6 +507,7 @@ margin: 10vw 0;
   background-size: cover;
   background-position: center;
   position:relative;
+  margin-top:5vw;
   width: 100%;
   height: 400px;
 }
@@ -537,7 +548,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   font-size: 20px;
   line-height: 30px;
   width:50%;
-  margin-top: 3%;
+  margin-top: 1.5%;
 }
 .treti{
   background-image: url(images/аппар.png);
