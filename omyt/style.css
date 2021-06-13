@@ -56,7 +56,7 @@ button{
   margin: 0 auto;
 }
 .logo{
-  background: url(images/logo.svg);
+  background: url('images/logo.svg');
   background-repeat: no-repeat;
   width: 100px;
   height:auto;
@@ -119,8 +119,8 @@ button:hover{
   background: linear-gradient(180deg, rgba(22, 22, 22, 0) 60.94%, #161616 100%);
 }
 .first > .line{
-  background-image: url(images/line.svg);
-  background-repeat: no-repeat;
+  background-image: url('images/line.svg');
+  background-repeat: repeat-x;
   background-size: auto;
   background-position: bottom;
   position:absolute;
@@ -425,8 +425,8 @@ height: 100%;
   margin-top: .5%;
 }
 .buro > .line{
-  background-image: url(images/vectorline.svg);
-  background-repeat: no-repeat;
+  background-image: url('images/vectorline.svg');
+  background-repeat: repeat-x;
   background-position: bottom;
   position:absolute;
   width: 100%;
@@ -456,7 +456,7 @@ margin-top: 5vw;
   height: 100%;
   border-top: solid 4px #D2BB83;
   position:relative;
-  margin-top: 3vw;
+  margin-top: 3.5vw;
 }
 .memory > h1{
   color: #D2BB83;
