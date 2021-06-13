@@ -920,8 +920,8 @@ body.not-transparent.mode-mini {
   position:fixed;
   top:15%;
   left:30%;
-  width: 40vw;
-  height: 70vh;
+  width: 35vw;
+  height: 50vh;
   background-color: #ffffff;
   border-radius: 15px;
   z-index:3;
@@ -933,3 +933,48 @@ body.not-transparent.mode-mini {
   z-index: 5;
   padding:5px 20px;
 }
+#form{
+ width: 80%;
+ height: 90%;
+ margin: 0 auto;
+ position: relative;
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+ font-size: 20px;
+ font-family: "HeadingNow";
+}
+#form  h1, span{
+  color: #161616;
+  font-family: 'OrganettoBold';
+  font-size: 20px;
+  line-height: 30px;
+}
+span,label{
+    display: block;
+  }
+  #inline{
+    display:inline-block;
+  }
+  #phone, #name{
+    /* margin-top:1vw; */
+    width:100%;
+    height: 30px;
+  }
+#form:first-child{
+margin-top: 1vw; */
+}
+  input[name="submit"]{
+    align-self: center;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 50px;
+    color: #161616;
+    background-color: #D2BB83;
+    border: none;
+    font-family: 'OrganettoBold';
+    padding: 10px 50px;
+    border-radius: 9px;
+    transition: all .1s ease-in;
+    cursor: pointer;
+  }
