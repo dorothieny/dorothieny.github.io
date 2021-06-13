@@ -37,9 +37,11 @@ if (is_fully_shown('.scroll')) {
 });
 $(".oneone").click(function(){
   $(".hidehover").toggleClass("width");
+  $(".pa").toggleClass('css');
 });
 $(".twotwo").click(function(){
   $(".hidehovering").toggleClass("width");
+  $(".ap").toggleClass('css');
 });
 $('.slider').slick({
   centerMode: true,

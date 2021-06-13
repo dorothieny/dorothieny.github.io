@@ -172,15 +172,17 @@ button:hover{
 }
 .oneone > .linne{
   width:100%;
-  height: auto;
+  height:0vw;
+  overflow:hidden;
   border-top: solid 4px #D2BB83;
   position:relative;
   top:2.5vw;
+  transition: height .5s ease-in;
 
 }
 .twotwo > .linne{
  width: 100%;
- height: auto;
+ height: 0;
  border-top: solid 4px #D2BB83;
  position:relative;
  top: 3vw;
@@ -758,15 +760,19 @@ transition: all .3s ease-in;
   top: 1.5vw;
 }
 .hidehover, .hidehovering{
-  height: 0;
+  height: 0%;
   overflow: hidden;
   color: transparent;
   transition: all 1s ease-in;
 
 }
+.css{
+  height: 30vw !important;
+  transition: height 1s ease-in;
+}
 .width{
-  height:100%;
   color: #D2BB83;
+  height:100%;
   transition: all .5s ease-in;
 }
 
