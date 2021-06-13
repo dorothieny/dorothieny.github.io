@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    let rez = $('<div class="blank"></div>');
+    let rez = $('<div class="blank"><></div>');
   $('#zapis').click(function(){
 
       console.log("shto");
