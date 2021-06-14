@@ -5,6 +5,39 @@ $('#zapis').click(function(){
     console.log("shto");
     $('body').append(rez);
     $('#exit').removeClass("hidden");
+    document.getElementById('form').addEventListener("submit", checkForm);
+
+function checkForm(event){
+  event.preventDefault();
+  var el = document.getElementById('form');
+  var name = el.name.value;
+  var phone = el.phone.value;
+  var state = el.state.value;
+
+  var fail = ""
+
+  if (name == "" || phone == "" || state == ""){
+     fail = "Заполните все поля";
+  }
+  else if (name.length <= 1 || name.length > 10){
+    fail = "Введите корректное имя";
+  }
+  else if(phone.split("+").length != 2 || phone.length != 12){
+    fail = "Некорректный телефон";
+  }
+
+  if(fail != ""){
+    document.getElementById('error').innerHTML = fail;
+
+    return false;
+  }
+  else{
+    alert("Все данные получены");
+    window.location = "https://dorothieny.github.io/omyt/";
+  }
+}
+
+
   });
   $('#exit').click(function(){
   rez.remove();
