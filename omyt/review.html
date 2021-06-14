@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Отзывы</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="service.js"></script>
+    <script src="review.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -46,10 +46,11 @@
   </div>
   <div class="reviewarea">
     <input type="text" name="imya" value="" placeholder="Ваше имя">
-    <input type="text" name="review" value="" placeholder="Напишите свой отзыв">
+    <!-- <input type="text" name="review" value="" placeholder="Напишите свой отзыв"> -->
+    <textarea  placeholder=" Напишите ваш отзыв" name="review" rows="8" cols="80"></textarea>
     <div class="textinput">
       <button type="button" name="button" style ="width: 40%; opacity: 50%;">сбросить</button>
-      <button type="button" name="button" style ="width: 59%">оставить отзыв</button>
+      <button id="add" type="button" name="button" style ="width: 59%">оставить отзыв</button>
     </div>
   </div>
 

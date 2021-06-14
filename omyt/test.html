@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td, .new_row > * {
+        border: 1px solid #bbb;
+        padding: 5px 8px 6px;
+        font-size: 14px;
+        text-align: left;
+        font-weight: 400;
+        height: 32px;
+        width: 20%;
+        border-radius: 0;
+        -webkit-appearance: none;
+        background: transparent;
+      }
+      th:first-child,
+      td:first-child,
+      .new_row > *:first-child {
+        border-left: 1px solid transparent;
+        width: 10%;
+      }
+      th:nth-child(3),
+      td:nth-child(3),
+      .new_row > *:nth-child(3) {
+        width: calc(30% - 32px);
+      }
+      th:last-child,
+      td:last-child,
+      .new_row > *:last-child {
+        /* border-right: none; */
+        border-right: 1px solid transparent;
+        width: 32px;
+      }
+      th {
+        color: #999;
+      }
+      th:hover {
+        background-color: #eee;
+        cursor: pointer;
+      }
+      td > span {
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+      .new_row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-collapse: collapse;
+      }
+      .new_row > * {
+        border-top: none;
+        display: table-cell;
+        border-left: 1px solid transparent;
+        /* border-left: 1px solid #bbb; */
+      }
+      .new_row > *:focus {
+        outline: none;
+      }
+      .sp_red {
+        background-color: rgba(255, 0, 26, 0.2);
+      }
+      .sp_yellow {
+        background-color: rgba(233, 168, 0, 0.2);
+      }
+
+    </style>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        let week;
+        let date;
+        let name_of;
+        let desc;
+        let type;
+        let add_row
+        $(".new_row button").click(function() {
+          week = $('[name="week"]').val();
+          date = $('[name="date"]').val();
+          name_of = $('[name="name_of"]').val();
+          desc = $('[name="desc"]').val();
+          type = $('[name="type"]').val();
+          add_row = '<tr><td>'+week+'</td><td>'+date+'</td><td>'+name_of+'</td><td><span class="sp_red">'+desc+'</span></td><td><span class="sp_yellow">'+type+'</span></td><td></td></tr>'
+          $("table").append(add_row);
+          // $("table tr").last().after(add_row);
+
+          // $('.test').html(week+', '+date+', '+name_of+', '+desc+', '+type);
+          $('.new_row input').val("");
+        })
+
+      })
+    </script>
+  </head>
+  <body>
+    <table>
+      <h3>Расписание</h3>
+      <tr>
+        <th>Неделя</th>
+        <th>Дата</th>
+        <th>Название</th>
+        <th>Предмет</th>
+        <th>Тип</th>
+        <th>+</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Apr 6, 2021</td>
+        <td>Вводная лекция</td>
+        <td><span class="sp_red">Арт-практика</span></td>
+        <td><span class="sp_yellow">Лекция</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Apr 6, 2021</td>
+        <td>Вводная лекция</td>
+        <td><span class="sp_red">Арт-практика</span></td>
+        <td><span class="sp_yellow">Лекция</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Apr 6, 2021</td>
+        <td>Вводная лекция</td>
+        <td><span class="sp_red">Арт-практика</span></td>
+        <td><span class="sp_yellow">Лекция</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Apr 6, 2021</td>
+        <td>Вводная лекция</td>
+        <td><span class="sp_red">Арт-практика</span></td>
+        <td><span class="sp_yellow">Лекция</span></td>
+        <td></td>
+      </tr>
+    </table>
+    <form class="new_row">
+      <input type="text" name="week" value="">
+      <input type="text" name="date" value="">
+      <input type="text" name="name_of" value="">
+      <select class="" name="desc">
+        <option value="Арт-практика">Арт-практика</option>
+      </select>
+      <select class="" name="type">
+        <option value="Лекция">Лекция</option>
+      </select>
+      <button type="button" name="button">+</button>
+    </form>
+    <div class="test">
+
+    </div>
+
+  </body>
+</html>

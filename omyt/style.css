@@ -997,8 +997,12 @@ margin-top: 1vw; */
    -webkit-box-sizing: border-box;
     height: 5vw;
     width: 100%;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: "HeadingNow";
+
   }
-  input[name="review"]{
+  textarea[name="review"]{
     background-color: #161616;
     border: solid 4px #D2BB83;
     box-sizing: border-box;
@@ -1007,4 +1011,16 @@ margin-top: 1vw; */
     height: 15vw;
     width: 100%;
     margin-top: 1vw;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: "HeadingNow";
+    word-wrap: break-word;
+    resize: vertical;
   }
+    textarea[name="review"]:focus , input[name="imya"]:focus {
+    color: #D2BB83;
+  /*   border: solid 4px #A94F20; */
+    }
+    textarea[name="review"]:not(:focus) , input[name="imya"]:not(:focus){
+    color: #D2BB83;
+    }
