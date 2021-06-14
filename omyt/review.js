@@ -28,5 +28,8 @@ $('#zapis').click(function(){
     $('[name="imya"]').val("");
     $('[name="review"]').val("");
   })
+  $("#remove").click(function() {
+    $('[name="imya"]').val("");
+    $('[name="review"]').val("");})
 
 })
