@@ -28,7 +28,9 @@
 
 // const user = "Ivan";
 // alert(`Hello ${user}`);
-let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
+
+
+let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 const personaMovieDB = {
   count: numberOfFilms,
   movies: {},
@@ -42,16 +44,26 @@ let movies = {
    name: null,
    raiting: null,
 };
-//console.log(personaMovieDB.count);
-for (let i = 1; i <= 2; i++) {
+let i = 1;
+let films = personaMovieDB.count;
+while ( i <= 2) {
   title = prompt("Один из последних просмотренных фильмов","");
   mark = prompt("на сколько оцените его?", "");
-  //console.log(title);
-  //console.log(mark);
-  // movies['name'] = title;
-  // movies['raiting'] = mark;
-  // console.log(movies.name + " : " +movies.raiting);
-  personaMovieDB.movies[title] = mark;
- 
+  if (mark == "" || title.length > 10 || title == ""){
+    alert("Ошибка: введите данные повторно!");
+    i = i;
+  }else{
+    i++;
+  }
+  
 }
-console.log(personaMovieDB.movies);
+if (films < 10){
+ alert("Просмотрено мало фильмов");
+} else if ( films < 30 && films > 10){
+  alert("Достаточно фильмов");
+}else{
+  alert("Да вы киноман");
+}
+ 
+  personaMovieDB.movies[title] = mark;
+console.log(personaMovieDB);
