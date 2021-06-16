@@ -707,8 +707,8 @@ transition: all .3s ease-in;
   content: url('images/kavychka.svg');
   transform:;
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 45px;
+  top: 45px;
 
 }
 .holder :nth-child(2n){
@@ -995,11 +995,12 @@ margin-top: 1vw; */
     box-sizing: border-box;
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
-    height: 5vw;
+    height: 3vw;
     width: 100%;
     font-size: 15px;
     line-height: 30px;
     font-family: "HeadingNow";
+    padding-left:7px;
 
   }
   textarea[name="review"]{
