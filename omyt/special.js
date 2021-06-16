@@ -45,15 +45,17 @@ function checkForm(event){
 
   $('.b1').click(function(){
     $('.b1').toggleClass('boyboy');
-    $('.specialfirst').toggleClass('hidden')
+      $(".specialfirst").toggleClass('css1');
   });
 
   $('.b2').click(function(){
     $('.b2').toggleClass('');
-    $('.specialsecond').toggleClass('hidden');
-    $('.slider').toggleClass('hidden')
-    $('.slider').slick();
+    $('.specialsecond').toggleClass('css1');
 
+    setTimeout(function(){
+      $('.slider').toggleClass('hidden')
+      $('.slider').slick();
+    }, 800);  
   });
 
 

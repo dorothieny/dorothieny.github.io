@@ -182,7 +182,7 @@ button:hover{
   transition: height .5s ease-in;
 
 }
-.oneone:hover .linne{
+.oneone:hover .pa{
   animation: move 1s 1 ease-in-out;
 }
 .twotwo > .linne{
@@ -193,7 +193,7 @@ button:hover{
  top: 3vw;
  transition: height .5s ease-in;
 }
-.twotwo:hover .linne{
+.twotwo:hover .ap{
   animation: moveback 1s 1 ease-in-out;
 }
 .one > p, .two > p{
@@ -535,7 +535,11 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
 .vtoroi{
   width:  90%;
   margin: 0 auto;
+  overflow: hidden;
 }
+/* .vtoroi:hover .linne{
+  animation: moveback 1s 1 ease-in-out;
+} */
 .apparat {
   display: flex;
   flex-direction: row;
@@ -649,12 +653,12 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   margin: 3vw auto 0;
   text-align: center;
 }
-.linne > p{
+.linne p{
   color: #D2BB83;
   font-family: 'HeadingNow';
   font-size: 20px;
   line-height: 30px;
-  width: 70%;
+  /* width: 70%; */
 }
 .cards{
   display: flex;
@@ -791,6 +795,10 @@ transition: all .3s ease-in;
   height: 30vw !important;
   transition: height 1s ease-in;
 }
+.css1{
+  height:15vw !important;
+  transition: height 1s ease-in;
+}
 .width{
   color: #D2BB83;
   height:100%;
@@ -806,6 +814,7 @@ body.not-transparent.mode-mini {
 .slider{
   width:100%;
   margin: 5vw auto 0;
+  height:0vw;
   overflow: hidden;
 }
 .shadow{
@@ -842,6 +851,7 @@ body.not-transparent.mode-mini {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 2s ease-in;
 }
 .cinema{
   background-image: url('images/cinema.png');
@@ -855,8 +865,10 @@ body.not-transparent.mode-mini {
   flex-direction: row;
   justify-content: space-between;
   width:  90%;
-  margin: 5vw auto;
   color: #D2BB83;
+  height: 0vw;
+  overflow: hidden;
+  transition: height 1s ease-in;
 }
 .specialfirst > .linne{
   width: 100%;
@@ -896,6 +908,14 @@ body.not-transparent.mode-mini {
   flex-direction: column;
   align-items: center;
   position: relative;
+}
+.block:hover h1{
+transform: scale(1.05);
+transition: 0.3s ease-in-out;
+}
+.block p{
+  margin-top:1.5vw;
+  width: 80%;
 }
 .block > .gradient{
     position:absolute;
@@ -1033,9 +1053,7 @@ margin-top: 1vw; */
     textarea[name="review"]:not(:focus) , input[name="imya"]:not(:focus){
     color: #D2BB83;
     }
-    .animation{
 
-    }
     @keyframes move {
   from{
     transform: translateX(500px);
