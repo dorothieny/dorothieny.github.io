@@ -240,7 +240,7 @@ position: relative;
   justify-content: space-around;
   align-self: flex-start;
   position: relative;
-  left:0px;
+  left:0%;
 }
 .love, .diploma, .technology, .linza{
   border: solid 4px #D2BB83;
@@ -460,6 +460,7 @@ height: 100%;
   margin-top: .5%;
 }
 .second > button{
+padding: 10px 150px
 margin-top: 5vw;
 }
 .memory{

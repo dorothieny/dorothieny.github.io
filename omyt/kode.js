@@ -45,7 +45,11 @@ function checkForm(event){
     $(this).addClass("hidden");
       });
       $('.menue').click(function(){
-        $('.menu').toggleClass('css2');
+        $('.menu').toggleClass('hidden');
+        setTimeout(function(){
+          $('.menu').toggleClass('css2');
+        }, 300);
+
       })
 $(window).scroll(function(){
   function is_fully_shown(target) {
@@ -53,6 +57,7 @@ $(window).scroll(function(){
 	var wh = $(window).height();
 	var eh = $(target).height();
 	var et = $(target).offset().top;
+  //var sc = $(window).innerWidth
 
 	if (et >= wt && et + eh <= wh + wt){
 		return true;
@@ -66,7 +71,10 @@ if (is_fully_shown('.scroll')) {
   var wt = $(window).scrollTop();
   var s = $(".scroll").scrollLeft();
   $(window).on('scroll', function() {
-    $(".scroll").css('left', 44 - parseInt(wt / 25) + 'vw');
+  if (window.innerWidth < 500){
+  (".scroll").css('left', 10 - parseInt(wt / 45) + 'vw');
+}
+    $(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
   });
   console.log("scrollLeft = " + s);
 }

@@ -43,6 +43,13 @@ function checkForm(event){
   rez.remove();
   $(this).addClass("hidden");
     });
+    $('.menue').click(function(){
+      $('.menu').toggleClass('hidden');
+      setTimeout(function(){
+        $('.menu').toggleClass('css2');
+      }, 300);
+
+    })
 
 
 

@@ -40,10 +40,17 @@ function checkForm(event){
 }
 
 });
-    $('#exit').click(function(){
-    rez.remove();
-    $(this).addClass("hidden");
-      });
+$('#exit').click(function(){
+rez.remove();
+$(this).addClass("hidden");
+  });
+  $('.menue').click(function(){
+    $('.menu').toggleClass('hidden');
+    setTimeout(function(){
+      $('.menu').toggleClass('css2');
+    }, 300);
+
+  })
 
 $('.slider').slick({
   centerMode: true,

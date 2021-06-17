@@ -42,7 +42,13 @@ function checkForm(event){
   rez.remove();
   $(this).addClass("hidden");
     });
+    $('.menue').click(function(){
+      $('.menu').toggleClass('hidden');
+      setTimeout(function(){
+        $('.menu').toggleClass('css2');
+      }, 300);
 
+    })
   $('.b1').click(function(){
     $('.image').toggleClass('boyboy');
       $(".specialfirst").toggleClass('css1');
