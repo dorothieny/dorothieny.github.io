@@ -814,7 +814,6 @@ body.not-transparent.mode-mini {
 .slider{
   width:100%;
   margin: 5vw auto 0;
-  height:0vw;
   overflow: hidden;
 }
 .shadow{
@@ -909,7 +908,6 @@ body.not-transparent.mode-mini {
   flex-direction: column;
   align-items: center;
   position: relative;
-  transition: all 5s ease-in;
 }
 .block:hover h1{
 transform: scale(1.05);
@@ -934,7 +932,7 @@ transition: 0.3s ease-in-out;
 }
 .block > .slider{
   position: relative;
-  height: 30vw;
+  height: 30vw !important;
   width:55%;
 
 }
