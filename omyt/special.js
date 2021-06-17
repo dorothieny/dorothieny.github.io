@@ -44,7 +44,7 @@ function checkForm(event){
     });
 
   $('.b1').click(function(){
-    $('.b1').toggleClass('boyboy');
+    $('.image').toggleClass('boyboy');
       $(".specialfirst").toggleClass('css1');
   });
 
@@ -59,13 +59,13 @@ function checkForm(event){
 
 
   $('.b3').click(function(){
-    $('.b3').toggleClass('cinema');
+    $('.image1').toggleClass('cinema');
     $('.button').toggleClass('hidden')
 
   });
 
   $('.b4').click(function(){
-    $('.b4').toggleClass('domiche');
+    $('.image2').toggleClass('domiche');
     setTimeout(function(){
     $('.domiche').css("opacity", "100%")
   }, 4000);

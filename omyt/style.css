@@ -182,7 +182,7 @@ button:hover{
   transition: height .5s ease-in;
 
 }
-.oneone:hover .pa{
+.oneone:hover .linne{
   animation: move 1s 1 ease-in-out;
 }
 .twotwo > .linne{
@@ -193,7 +193,7 @@ button:hover{
  top: 3vw;
  transition: height .5s ease-in;
 }
-.twotwo:hover .ap{
+.twotwo:hover .linne{
   animation: moveback 1s 1 ease-in-out;
 }
 .one > p, .two > p{
@@ -404,7 +404,7 @@ body > p{
   width: 100%;
   height: 550px;
   position: relative;
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
   cursor: pointer;
 }
 .textes{
@@ -421,6 +421,7 @@ height: 100%;
   width: 40%;
   text-align: center;
   margin: 3vw auto 0;
+  z-index: 0;
 }
 .textes > p{
   color: #D2BB83;
@@ -554,6 +555,9 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
  position:relative;
  top: 3vw;
 }
+.apparat:hover  .linne{
+  animation: moveback 1s ease-in-out 1;
+}
 .vtoroi > p{
   color: #D2BB83;
   font-family: 'HeadingNow';
@@ -636,15 +640,16 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   width:  90%;
   margin: 5vw auto 0;
   color: #D2BB83;
+  overflow: hidden;
 }
-.pyati > .linne{
+.pyati  .linne{
   width: 100%;
   height: auto;
   border-top: solid 4px #D2BB83;
   position:relative;
   top: 3.5vw;
 }
-.pyati > h1{
+.pyati  h1{
   color: #D2BB83;
   font-family: 'OrganettoBold';
   font-size: 30px;
@@ -653,13 +658,17 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   margin: 3vw auto 0;
   text-align: center;
 }
-.linne p{
+.pyati:hover .linne{
+  animation: move 1s ease-in-out 1;
+}
+p{
   color: #D2BB83;
   font-family: 'HeadingNow';
   font-size: 20px;
   line-height: 30px;
   /* width: 70%; */
 }
+
 .cards{
   display: flex;
   flex-direction: column;
@@ -729,7 +738,11 @@ transition: all .3s ease-in;
 .page{
   width: 90%;
   margin: 10vw auto 0;
+  overflow: hidden;
 
+}
+.page:hover .linne{
+  animation: move 1s 1 ease-in-out;
 }
 .contacts{
   display: flex;
@@ -843,21 +856,26 @@ body.not-transparent.mode-mini {
   position:absolute;
   width: 100%;
   height: 100%;
-  background:  linear-gradient(179.58deg, rgba(22, 22, 22, 0) 76.65%, #161616 99.64%), linear-gradient(180.52deg, #161616 0.45%, rgba(22, 22, 22, 0) 18.97%);;
+  background:  linear-gradient(179.58deg, rgba(22, 22, 22, 0) 76.65%, #161616 99.64%), linear-gradient(180.52deg, #161616 0.45%, rgba(22, 22, 22, 0) 18.97%);
+}
+.image, .image1, .image2 {
+  position:absolute;
+  width: 100%;
+  height: 100%;
 }
 .boyboy{
   background-image: url('images/boyboy.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: all 2s ease-in;
+  animation: opa 1s ease-in 1;
 }
 .cinema{
   background-image: url('images/cinema.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: all 2s ease-in;
+  animation: opa 1s ease-in 1;
 
 }
 .specialfirst, .specialsecond{
@@ -928,7 +946,7 @@ transition: 0.3s ease-in-out;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: all 3s ease-in;
+  animation: opa 1s ease-in 1;
 }
 .block > .slider{
   position: relative;
@@ -1070,6 +1088,15 @@ margin-top: 1vw; */
       };
         to{
             transform: translateX(-100px);
+        };
+
+    }
+    @keyframes opa {
+      from{
+        opacity:0%;
+      };
+        to{
+          opacity:100%;
         };
 
     }
