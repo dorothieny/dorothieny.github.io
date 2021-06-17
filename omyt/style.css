@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "responsive.css";
 @font-face{
 font-family: 'OrganettoBold';
 src: url('OrganettoBold.ttf');
@@ -69,6 +70,15 @@ button{
   position: relative;
   width:70%;
   margin: 1vw 0;
+}
+.menue{
+  display:none;
+}
+.menu{
+  display: none;
+}
+.css2{
+  height: 30vw;
 }
 .inside > a{
     color: #D2BB83;

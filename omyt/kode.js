@@ -44,6 +44,9 @@ function checkForm(event){
     rez.remove();
     $(this).addClass("hidden");
       });
+      $('.menue').click(function(){
+        $('.menu').toggleClass('css2');
+      })
 $(window).scroll(function(){
   function is_fully_shown(target) {
 	var wt = $(window).scrollTop();
