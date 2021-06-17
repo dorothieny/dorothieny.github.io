@@ -51,11 +51,10 @@ function checkForm(event){
   $('.b2').click(function(){
     $('.b2').toggleClass('');
     $('.specialsecond').toggleClass('css1');
-
     setTimeout(function(){
       $('.slider').toggleClass('hidden')
       $('.slider').slick();
-    }, 800);  
+    }, 800);
   });
 
 
@@ -67,6 +66,9 @@ function checkForm(event){
 
   $('.b4').click(function(){
     $('.b4').toggleClass('domiche');
+    setTimeout(function(){
+    $('.domiche').css("opacity", "100%")
+  }, 4000);
     $('.pairbut').toggleClass('hidden');
 
     // $('.specialfirst').toggleClass('hidden')
