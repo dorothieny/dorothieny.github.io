@@ -96,30 +96,4 @@ $(".scroll").css('left', 30 - parseInt(wt / 9) + '%');
 $(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
 }
 
-$('.slider').slick({
-  centerMode: true,
- centerPadding: '0px',
- slidesToShow: 3,
- responsive: [
-   {
-     breakpoint: 1024,
-     settings: {
-       arrows: false,
-       centerMode: true,
-       centerPadding: '0px',
-       slidesToShow: 1
-     }
-   },
-   {
-     breakpoint: 600,
-     settings: {
-       arrows: false,
-       centerMode: true,
-       centerPadding: '0px',
-       slidesToShow: 1
-     }
-   }
- ]
-});
-
 });

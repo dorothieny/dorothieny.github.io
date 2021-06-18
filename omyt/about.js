@@ -58,12 +58,12 @@ $('.slider').slick({
  slidesToShow: 3,
  responsive: [
    {
-     breakpoint: 900,
+     breakpoint: 1024,
      settings: {
        arrows: false,
        centerMode: true,
        centerPadding: '0px',
-       slidesToShow: 3
+       slidesToShow: 1
      }
    },
    {
