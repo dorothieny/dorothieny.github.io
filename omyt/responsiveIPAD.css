@@ -1324,7 +1324,7 @@
   position: relative;
   }
   .scroll{
-    width: 150%;
+    width: 130%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1354,7 +1354,7 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: all .3s ease-in;
-    opacity: 0%;
+    opacity: 100%;
   }
   .loving{
     background-image: url('images/love.svg');

@@ -683,7 +683,9 @@ p{
   line-height: 30px;
   /* width: 70%; */
 }
-
+.changing{
+  width: 80%;
+}
 .cards{
   display: flex;
   flex-direction: column;

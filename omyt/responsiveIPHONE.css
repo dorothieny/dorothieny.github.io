@@ -156,6 +156,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    margin-bottom: 5vw;
     overflow:hidden;
   }
 .one{
@@ -169,7 +170,7 @@
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10vw;
+    margin: 10vw 0 5vw;
     cursor: pointer;
     overflow:hidden;
 
@@ -220,35 +221,39 @@
   position: relative;
   }
   .scroll{
-    width: 180%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-self: flex-start;
+    align-items: center;
     position: relative;
     left:0px;
   }
   .love, .diploma, .technology, .linza{
-    border: solid 4px #D2BB83;
-    background: #161616;
+    border: none;
+    background-image:url('images/iphoneline.svg');
     color: #D2BB83;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    background-size: contain;
+    background-position: bottom;
+    height: 250px;
+    width: 100%;
+    border-radius: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 3vw;
     transition: all .3s ease-in;
   }
   .after{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    height: 150px;
+    width: 100%;
+    border-radius: 0px;
     position:absolute;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     transition: all .3s ease-in;
     opacity: 100%;
   }
@@ -285,19 +290,16 @@
     position: relative;
     width: 100%;
     text-align: center;
+    margin-top: 10vw;
   }
   .third > button{
+    width: 90%;
     margin-top: 10vw;
-    padding: 8px 80px;
+    padding: 8px 0px;
+
   }
   .third > hr{
-    width: 100%;
-    border: none;
-    height: 4px;
-    background-color: #D2BB83;
-    position: absolute;
-    top: 35%;
-    z-index: -2;
+    display: none;
   }
   .fouth > h1{
     color: #D2BB83;
@@ -314,9 +316,9 @@
     font-size: 15px;
     line-height: 21px;
     position: relative;
-    width: 100%;
+    width: 80%;
     text-align: center;
-    margin-top: .5%
+    margin-top: 3vw;
   }
   .fouth{
     background-image: url(images/psycho.jpg);
@@ -331,6 +333,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .fouth > .color{
     background-color: #A94F20;
@@ -347,27 +350,28 @@
   }
   .fouth > button{
     position: relative;
-    z-index: 3;
-    margin-top: 3vw;
+    z-index: 0;
+    margin-top: 15vw;
     padding:8px 90px;
   }
   .footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width:  90%;
+    height: 70vw;
     margin: 0 auto;
     color: #D2BB83;
   }
   .odin > h3, .dva > h3, .tri > h3{
-    font-family: OrganettoBold;
+    font-family: 'OrganettoBold';
     font-size: 10px;
-    margin-bottom: 6%;
+    margin-bottom: 3vw;
   }
   .odin > a, .dva > a{
-    font-family: HeadingNow;
+    font-family: 'HeadingNow';
     font-size: 10px;
-    margin-bottom: 8%;
+    margin-bottom: 2vw;
     display: block;
     text-decoration: none;
     color: #D2BB83;
@@ -376,10 +380,14 @@
   .odin > a:hover, .dva > a:hover{
     color: #A94F20;
   }
+  .odin :last-child{
+    margin-top: 3vw;
+  }
   .odin > button, .tri > button{
     font-size: 10px;
     line-height: 10px;
-    padding: 4px 8px;
+    padding: 8px 0;
+    width: 70%;
   }
   body > p{
     font-family: HeadingNow;
@@ -395,7 +403,7 @@
   }
   .buro{
     width: 100%;
-    height: 550px;
+    height: 330px;
     position: relative;
     margin-bottom: 3vw;
     cursor: pointer;
@@ -403,17 +411,19 @@
   .textes{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 20vw;
+  height: 90%;
   }
   .textes > h1{
     color: #D2BB83;
     font-family: 'OrganettoBold';
-    font-size: 30px;
-    line-height: 35px;
-    width: 50%;
+    font-size: 25px;
+    line-height: 30px;
+    width: 100%;
     text-align: center;
-    margin: 3vw auto 0;
+    margin:0;
     z-index: 0;
   }
   .textes > p{
@@ -421,39 +431,38 @@
     font-family: 'HeadingNow';
     font-size: 15px;
     line-height: 21px;
-    width: 50%;
+    width: 80%;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 1vw;
   }
   .buro > .line{
-    background-image: url('images/vectorline.svg');
+    background-image: url('images/iphoneline.svg');
     background-repeat: repeat-x;
-    background-size: auto;
-    background-position: bottom;
+    background-size: contain;
+    background-position:center;
     position:absolute;
     width: 100%;
-    height: 550px;
+    height: 170px;
   }
   .second > p{
     color: #D2BB83;
     font-family: 'HeadingNow';
     font-size: 15px;
+    text-align: center;
     line-height: 21px;
-    width: 60%;
-    margin-top: .5%;
+    width: 100%;
+    margin-top: 0;
   }
   .second > button{
   width: 100%;
-  padding: 0px;
+  padding: 8px 0px;
   margin-top: 5vw !important;
   }
   .memory{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width:  100%;
-    margin: 5vw auto 0;
+    margin: 13vw auto 0;
     color: #D2BB83;
   }
   .memory > .linne{
@@ -468,16 +477,15 @@
     font-family: 'OrganettoBold';
     font-size: 25px;
     line-height: 30px;
-    width: 60%;
+    width: 100%;
     margin: 3vw auto 0;
-    margin-right: 20px;
   }
   .textline{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin-top: 3%;
+  margin-top: 3vw;
   border-bottom: solid 4px #D2BB83;
   }
   .textline > p{
@@ -486,10 +494,13 @@
     font-size: 15px;
     line-height: 21px;
     position: relative;
+
   }
   .textline :nth-child(2n){
       color: #D2BB83;
       transition: color .2s ease-in;
+        margin-bottom: 3vw;
+        text-align: right;
   }
   .textline:nth-child(n):hover :nth-child(2n){
     color: #D2BB83;
@@ -531,7 +542,7 @@
   }
   .vtoroi{
     width:  90%;
-    margin: 0 auto;
+    margin: 10vw auto;
     overflow: hidden;
   }
 
@@ -557,7 +568,7 @@
     font-family: 'HeadingNow';
     font-size: 15px;
     line-height: 21px;
-    width:70%;
+    width:100%;
     margin-top: 1.5%;
   }
   .treti{
@@ -567,14 +578,14 @@
     position:relative;
     background-position: center;
     width: 100%;
-    height: 655px;
+    height: 450px;
     margin-top: 4vw;
   }
   .treti > .color{
     background-color:#E18C3E;
     position:absolute;
     width: 100%;
-    height: 655px;
+    height: 450px;
     mix-blend-mode: multiply;
   }
   .treti > .gradient{
@@ -583,20 +594,28 @@
     height: 100%;
     background: linear-gradient(179.74deg, rgba(22, 22, 22, 0) 59.91%, #161616 99.77%), linear-gradient(180.18deg, #161616 0.15%, rgba(22, 22, 22, 0) 58.14%);
   }
-  .stadii{
+  .fd{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width:100%;
+    width: 90%;
     margin: 0 auto;
+  }
+
+  .stadii{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    height:100%;
+    margin-right: 5vw;
     margin-top: 15%;
   }
   .stadiya{
       border: solid 4px #D2BB83;
       background-color: #161616;
       color: #D2BB83;
-      height: 230px;
-      width: 230px;
+      height: 155px;
+      width: 155px;
       border-radius: 50%;
       display: flex;
       flex-direction: column;
@@ -610,6 +629,12 @@
       border: solid 4px #A94F20;
       background-color: #A94F20;
     }
+    .stadiya h2{
+      margin: 0px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
     .colors{
       border: solid 4px #A94F20;
       background-color: #A94F20;
@@ -618,19 +643,13 @@
       position: relative;
     }
   .chetver > hr{
-    width: 100%;
-    border: none;
-    height: 4px;
-    background-color: #D2BB83;
-    position: absolute;
-    top: 45%;
-    z-index: -2;
+    display:none;
   }
   .pyati{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width:  90%;
+    flex-direction: column;
+    justify-content: center;
+    width:  70%;
     margin: 5vw auto 0;
     color: #D2BB83;
     overflow: hidden;
@@ -645,11 +664,11 @@
   .pyati  h1{
     color: #D2BB83;
     font-family: 'OrganettoBold';
-    font-size: 20px;
-    line-height: 25px;
-    width: 34%;
-    margin-right: 5vw;
-    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+    margin:0;
+    text-align: left;
   }
 /*   .pyati:hover .linne{
   animation: move 1s ease-in-out 1;
@@ -661,14 +680,18 @@
     line-height: 21px;
     /* width: 70%; */
   }
-
+  .changing{
+    width: 100%;
+    /* font-size: 11px;
+    line-height: 15px; */
+  }
   .cards{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-  margin-top: 10vw;
+  margin-top: 15vw;
 
   }
   .holder{
@@ -681,10 +704,10 @@
   }
   .card{
     position: relative;
-    width: 60%;
+    width: 75%;
     background-color: #161616;
     border: solid 4px #D2BB83;
-    padding: 50px;
+    padding: 20px;
     transition: all .3s ease-in;
     margin-bottom: 5vw;
     align-self: flex-start;
@@ -692,16 +715,16 @@
   .card > h1{
     color: #D2BB83;
     font-family: 'OrganettoBold';
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 20px;
 
   }
   .card > p{
     color: #D2BB83;
     font-family: 'HeadingNow';
-    font-size: 15px;
-    line-height: 21px;
-    margin-top: 20px;
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 10px;
     width: 95%;
   }
   .card:hover{
@@ -720,10 +743,10 @@
     content: url('images/kavychka.svg');
     transform:;
     position: absolute;
-    right: 50px;
-    width: 240px;
+    right: 20px;
+    width: 140px;
     overflow: hidden;
-    top: 45px;
+    top: 15px;
 
   }
   .holder :nth-child(2n){
@@ -801,7 +824,7 @@
 
   }
   .css{
-    height: 40vw !important;
+    height: 60vw !important;
     transition: height 1s ease-in;
   }
   .css1{
@@ -1036,13 +1059,13 @@
       cursor: pointer;
     }
     .reviewarea{
-      width: 70%;
+      width: 100%;
       margin-top: 5vw;
     }
     .textinput{
       width:100%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column-reverse;
       justify-content: space-between;
       margin-top: 3vw;
     }
@@ -1052,10 +1075,10 @@
       box-sizing: border-box;
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
-      height: 3vw;
+      height: 10vw;
       width: 100%;
-      font-size: 12px;
-      line-height: 24px;
+      font-size: 11px;
+      line-height: 15px;
       font-family: "HeadingNow";
       padding-left:7px;
 
@@ -1066,11 +1089,11 @@
       box-sizing: border-box;
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
-      height: 15vw;
+      height: 30vw;
       width: 100%;
       margin-top: 1vw;
-      font-size: 12px;
-      line-height:24px;
+      font-size: 11px;
+      line-height:15px;
       font-family: "HeadingNow";
       word-wrap: break-word;
       resize: vertical;
@@ -1081,6 +1104,15 @@
       }
       textarea[name="review"]:not(:focus) , input[name="imya"]:not(:focus){
       color: #D2BB83;
+      }
+      #add{
+        width:100% !important;
+        padding: 8px 0;
+        margin-bottom: 3vw;
+      }
+      #remove{
+        width:100% !important;
+        padding: 8px 0;
       }
 
       @keyframes move {

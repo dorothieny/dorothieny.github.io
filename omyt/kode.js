@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 
+
     let rez = $('<div class="blank">  <form id="form" method="post"><div class=form1><label for="name"><h1>Имя:</h1></label><input type="text" name="name" placeholder="Ваше имя" id="name"></div><div class=form2><label for="phone"><h1>Телефон:</h1></label><input type="phone" name="phone" placeholder="+7" id="phone"></div><div class="form3"><span>Пол:</span><div class="male"><input type="radio" name="state" id="male inline" value="Мужской"><label id="inline"for="male">Мужской</label></div><div class="female"><input type="radio" name="state" id="female inline" value="Женский"><label  id="inline" for="male">Женский</label></div></div><div id="error" style="color: red"></div><input type="submit" name="submit" value="Готово"></form></div>');
   $('#zapis, #zapisi').click(function(){
 
@@ -71,9 +72,12 @@ if (is_fully_shown('.scroll')) {
   var wt = $(window).scrollTop();
   var s = $(".scroll").scrollLeft();
   $(window).on('scroll', function() {
-    if (window.matchMedia('all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait').matches) {
+    if (window.matchMedia('all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)').matches) {
     $(".scroll").css('left', 30 - parseInt(wt / 9) + '%');
-  } else {
+  } else if((window.matchMedia('all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)').matches)){
+    $(".scroll").css('left', 32 - parseInt(wt / 18) + '%');
+  }
+  else {
   $(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
   }
 });
@@ -89,11 +93,5 @@ $(".twotwo").click(function(){
   $(".hidehovering").toggleClass("width");
   $(".ap").toggleClass('css');
 });
-
-if (window.matchMedia('all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait').matches) {
-$(".scroll").css('left', 30 - parseInt(wt / 9) + '%');
-} else {
-$(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
-}
 
 });
