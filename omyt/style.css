@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "responsive.css";
+@import "responsiveIPAD.css";
 @font-face{
 font-family: 'OrganettoBold';
 src: url('OrganettoBold.ttf');
@@ -145,7 +145,7 @@ button:hover{
   position: relative;
   width: 100%;
   text-align: center;
-  padding-top: 15vw;
+  padding-top: 15vw !important;
 }
 .first > p{
   color: #D2BB83;
