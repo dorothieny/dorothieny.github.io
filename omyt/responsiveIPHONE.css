@@ -32,6 +32,7 @@
   .logo{
     background: url('images/logo.svg');
     background-repeat: no-repeat;
+    background-position: center;
     width: 100px;
     height:auto;
     cursor: pointer;
@@ -43,6 +44,7 @@
     display:inline-block;
     background: url('images/menue.svg');
     background-repeat: no-repeat;
+    background-position: center;
     width: 60px;
     height:auto;
     cursor: pointer;
@@ -596,14 +598,14 @@
   }
   .fd{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
   }
 
   .stadii{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     width:100%;
     height:100%;
@@ -614,8 +616,8 @@
       border: solid 4px #D2BB83;
       background-color: #161616;
       color: #D2BB83;
-      height: 155px;
-      width: 155px;
+      height: 110px;
+      width: 110px;
       border-radius: 50%;
       display: flex;
       flex-direction: column;
@@ -631,8 +633,8 @@
     }
     .stadiya h2{
       margin: 0px;
-      font-size: 15px;
-      line-height: 20px;
+      font-size: 10px;
+      line-height: 15px;
     }
 
     .colors{
@@ -643,13 +645,19 @@
       position: relative;
     }
   .chetver > hr{
-    display:none;
+    width: 100%;
+    border: none;
+    height: 4px;
+    background-color: #D2BB83;
+    position: absolute;
+    top: 40%;
+    z-index: -2;
   }
   .pyati{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:  70%;
+    width:  90%;
     margin: 5vw auto 0;
     color: #D2BB83;
     overflow: hidden;
@@ -664,8 +672,8 @@
   .pyati  h1{
     color: #D2BB83;
     font-family: 'OrganettoBold';
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
     width: 100%;
     margin:0;
     text-align: left;
