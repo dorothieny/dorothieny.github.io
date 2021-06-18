@@ -59,7 +59,31 @@ function checkForm(event){
     $('.specialsecond').toggleClass('css1');
     setTimeout(function(){
       $('.slider').toggleClass('hidden')
-      $('.slider').slick();
+      $('.slider').slick({
+        centerMode: true,
+       centerPadding: '0px',
+       slidesToShow: 1,
+       responsive: [
+         {
+           breakpoint: 1024,
+           settings: {
+             arrows: true,
+             centerMode: true,
+             centerPadding: '0px',
+             slidesToShow: 1
+           }
+         },
+         {
+           breakpoint: 600,
+           settings: {
+             arrows: true,
+             centerMode: true,
+             centerPadding: '0px',
+             slidesToShow: 1
+           }
+         }
+       ]
+      });
     }, 800);
   });
 

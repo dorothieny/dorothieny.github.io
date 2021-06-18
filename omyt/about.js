@@ -60,7 +60,7 @@ $('.slider').slick({
    {
      breakpoint: 1024,
      settings: {
-       arrows: false,
+       arrows: true,
        centerMode: true,
        centerPadding: '0px',
        slidesToShow: 1
@@ -69,7 +69,7 @@ $('.slider').slick({
    {
      breakpoint: 600,
      settings: {
-       arrows: false,
+       arrows: true,
        centerMode: true,
        centerPadding: '0px',
        slidesToShow: 1

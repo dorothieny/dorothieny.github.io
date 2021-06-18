@@ -425,7 +425,7 @@
     font-family: 'HeadingNow';
     font-size: 11px;
     line-height: 15px;
-    width: 80%;
+    width: 60%;
     text-align: center;
   }
   .textes{
@@ -465,6 +465,7 @@
     width: 100%;
     height: 330px;
   }
+
   .buro > .l{
     background-image: url('images/iphoneline.svg');
     background-repeat: repeat-x;
@@ -865,7 +866,7 @@
     transition: height 1s ease-in;
   }
   .css1{
-    height:20vw !important;
+    height:53vw !important;
     transition: height 1s ease-in;
   }
   .width{
@@ -936,7 +937,7 @@
   }
   .specialfirst, .specialsecond{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width:  90%;
     color: #D2BB83;
@@ -944,9 +945,15 @@
     overflow: hidden;
     transition: height 1s ease-in;
   }
+  .specialfirst{
+    flex-direction: column-reverse;
+  }
+  .linne p{
+    width: 100% !important;
+  }
   .specialfirst > .linne{
     width: 100%;
-    height: auto;
+    height: 55vw;
     border-top: solid 4px #D2BB83;
     position:relative;
     top: 3.5vw;
@@ -956,13 +963,13 @@
     font-family: 'OrganettoBold';
     font-size: 20px;
     line-height: 25px;
-    width: 34%;
-    margin: 3vw auto 0;
-    text-align: center;
+    width: 100%;
+    margin-left: 2vw;
+    text-align:left;
   }
   .specialsecond > .linne{
     width: 100%;
-    height: auto;
+    height: 55vw;
     border-top: solid 4px #D2BB83;
     position:relative;
     top: 3.5vw;
@@ -972,9 +979,9 @@
     font-family: 'OrganettoBold';
     font-size: 20px;
     line-height: 25px;
-    width: 34%;
-    margin: 3vw auto 0;
-    text-align: center;
+    width: 100%;
+    margin-left: 2vw;
+    text-align: left;
   }
 
   .block {
@@ -988,8 +995,7 @@
   transition: 0.3s ease-in-out;
   }
   .block p{
-    margin-top:1.5vw;
-    width: 80%;
+    width:70%;
   }
   .block > .gradient{
       position:absolute;
@@ -1006,13 +1012,13 @@
   }
   .block > .slider{
     position: relative;
-    height: 40vw !important;
-    width:80%;
+    height: 60vw !important;
+    width:100%;
 
   }
   .size > img{
     position:relative;
-    height: 40vw;
+    height: 60vw;
     margin: 0 auto;
     filter: drop-shadow(-5px 0px 5px rgba(0, 0, 0, 0.4));;
   }
@@ -1150,6 +1156,13 @@
       #remove{
         width:100% !important;
         padding: 8px 0;
+      }
+      .pairbut{
+        width:100%;
+        margin-bottom: 3vw;
+      }
+      .d{
+        margin-top: 20vw;
       }
 
       @keyframes move {
