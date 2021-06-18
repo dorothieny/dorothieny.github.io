@@ -950,7 +950,7 @@
     position:relative;
     height: 40vw;
     margin: 0 auto;
-
+    filter: drop-shadow(-5px 0px 5px rgba(0, 0, 0, 0.4));;
   }
   .hidden{
     display: none;

@@ -91,7 +91,7 @@ $(".twotwo").click(function(){
 });
 
 if (window.matchMedia('all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait').matches) {
-$(".slider").css('left', 30 - parseInt(wt / 9) + '%');
+$(".scroll").css('left', 30 - parseInt(wt / 9) + '%');
 } else {
 $(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
 }
@@ -102,7 +102,7 @@ $('.slider').slick({
  slidesToShow: 3,
  responsive: [
    {
-     breakpoint: 900,
+     breakpoint: 700,
      settings: {
        arrows: false,
        centerMode: true,

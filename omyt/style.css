@@ -460,7 +460,7 @@ height: 100%;
   margin-top: .5%;
 }
 .second > button{
-padding: 10px 150px
+padding: 10px 150px;
 margin-top: 5vw;
 }
 .memory{
@@ -969,6 +969,7 @@ transition: 0.3s ease-in-out;
   position:relative;
   height: 30vw;
   margin: 0 auto;
+  filter: drop-shadow(-5px 0px 5px rgba(0, 0, 0, 0.4));;
 
 }
 .hidden{
