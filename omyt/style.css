@@ -112,6 +112,10 @@ button:hover{
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   height: 655px;
 }
@@ -135,7 +139,7 @@ button:hover{
   background-position: bottom;
   position:absolute;
   width: 100%;
-  height: 655px;
+  height: 700px;
 }
 .first > h1{
   color: #D2BB83;
@@ -143,9 +147,9 @@ button:hover{
   font-size: 40px;
   line-height: 45px;
   position: relative;
-  width: 100%;
   text-align: center;
-  padding-top: 15vw !important;
+  width: 100%;
+  align-self: center;
 }
 .first > p{
   color: #D2BB83;
@@ -155,7 +159,7 @@ button:hover{
   position: relative;
   width: 100%;
   text-align: center;
-  margin-top: .5%
+  margin-top: 1vw;
 }
 .second{
   position: relative;
@@ -430,7 +434,7 @@ height: 100%;
   line-height: 45px;
   width: 40%;
   text-align: center;
-  margin: 3vw auto 0;
+  margin: 5vw auto 0;
   z-index: 0;
 }
 .textes > p{
