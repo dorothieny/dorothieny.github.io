@@ -968,7 +968,7 @@
   #exit{
     position:fixed;
     top:10%;
-    right:25%;
+    right:20%;
     z-index: 5;
     padding:5px 15px;
   }
