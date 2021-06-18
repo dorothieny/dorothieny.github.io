@@ -71,11 +71,12 @@ if (is_fully_shown('.scroll')) {
   var wt = $(window).scrollTop();
   var s = $(".scroll").scrollLeft();
   $(window).on('scroll', function() {
-  if (window.innerWidth < 500){
-  (".scroll").css('left', 10 - parseInt(wt / 45) + 'vw');
-}
-    $(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
-  });
+    if (window.matchMedia('all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait').matches) {
+    $(".scroll").css('left', 30 - parseInt(wt / 9) + '%');
+  } else {
+  $(".scroll").css('left', 44 - parseInt(wt / 25) + '%');
+  }
+});
   console.log("scrollLeft = " + s);
 }
 
