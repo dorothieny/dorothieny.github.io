@@ -109,13 +109,14 @@
     background: linear-gradient(180deg, rgba(22, 22, 22, 0) 60.94%, #161616 100%);
   }
   .first > .line{
-    background-image: url('images/line.svg');
+    background-image: url('images/vectorline.svg');
     background-repeat: repeat-x;
-    background-size: contain;
+    background-size: auto;
     background-position: bottom;
     position:absolute;
     width: 100%;
-    height: 450px;
+    height: 500px;
+  }
   }
   .first > h1{
     color: #D2BB83;
@@ -125,6 +126,7 @@
     position: relative;
     width: 100%;
     text-align: center;
+    padding: 0 !important;
   }
   .first > p{
     color: #D2BB83;
@@ -942,13 +944,13 @@
   }
   .block > .slider{
     position: relative;
-    height: 30vw !important;
-    width:55%;
+    height: 40vw !important;
+    width:80%;
 
   }
   .size > img{
     position:relative;
-    height: 30vw;
+    height: 40vw;
     margin: 0 auto;
 
   }
