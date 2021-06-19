@@ -56,7 +56,7 @@ $('#f3').click(function(){
 });
 $('#f4').click(function(){
      i = 4;
-    let rez = $('<div class="card"><button id="exit" type="button" name="button">X</button><div class="bl1"><h2>GALAXY CRUISE</h2><p>Cтоимость одного билета: <br>' + price[i] + ' </p><button id="buy" type="button" name="button">Купить билет</button></div><div class="bl2"></div>' + image[i] + '</div>');
+    let rez = $('<div class="card"><button id="exit" type="button" name="button">X</button><div class="bl1"><h2>GALAXY CRUISE</h2><p>Cтоимость одного билета: <br>' + price[i] + ' </p><button id="buy" type="button" name="button">Купить билет</button></div><div class="bl2">' + image[i] + '</div></div>');
     $('body').append(rez);
       $('#buy').click(function(){
         $(this).html('Вы купили билет');

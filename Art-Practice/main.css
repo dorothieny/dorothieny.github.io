@@ -571,6 +571,9 @@ background: linear-gradient(180.03deg, #FFFFFF -30.98%, rgba(255, 255, 255, 0) 9
   color: black;
   z-index: 2;
 }
+.card img{
+  width:
+}
 .carding{
   display:flex;
   flex-direction: column;
@@ -659,9 +662,10 @@ p b{
 }
 .bl2{
 /*   background-image: url('pictures/card1.png'); */
-  background-position: center;
-  background-size: contain;
-  background-repeat:no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* height:300px;
   width:300px; */
 }
