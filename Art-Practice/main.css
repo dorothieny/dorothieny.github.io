@@ -450,7 +450,7 @@ margin:0 auto 8%;
   flex-direction: column;
   justify-content: space-between;
   width:50%;
-  height:70%;
+  height:83%;
   margin-left: 15%;
 }
 .dv{
@@ -500,7 +500,6 @@ background: linear-gradient(180.03deg, #FFFFFF -30.98%, rgba(255, 255, 255, 0) 9
   color:white;
   font-family: 'Main';
   margin-bottom: 18px;
-  margin-left: 60px;
 
 }
 .plakat:hover{
