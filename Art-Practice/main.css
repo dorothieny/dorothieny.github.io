@@ -83,7 +83,6 @@ p{
   position: absolute;
   font-family: 'Main';
   font-size: 20px;
-  bottom: 20px;
 }
 .information{
   display: flex;
@@ -396,9 +395,9 @@ margin:0 auto 8%;
  position: absolute;
  bottom: 0;
   font-size: 20px;
+  line-height: 25px;
   color:black;
   font-family: 'Main';
-  margin-bottom: 13px;
 }
 .gr{
   position: relative;
@@ -411,7 +410,7 @@ margin:0 auto 8%;
   font-size: 20px;
   color:black;
   font-family: 'Main';
-  margin-top: 13px;
+/*   margin-top: 13px; */
 }
 .rg{
   position: relative;
@@ -672,7 +671,9 @@ p b{
      width: 100%;
      white-space: nowrap;
      overflow: hidden;
+     background: white;
 }
+
 .running span {
     display: inline-block;
     -webkit-animation: scroll 10s infinite linear;
