@@ -676,15 +676,20 @@ p b{
 
 .running span {
     display: inline-block;
+    position: relative;
+    left: -100%;
     -webkit-animation: scroll 10s infinite linear;
     -moz-animation: scroll 10s infinite linear;
     animation: scroll 10s infinite linear;
+}
+.polosa img, .cosmos img{
+  width: 100%;
 }
 @keyframes scroll {
    0% {
        transform: translate(0, 0);
    }
    100% {
-       transform: translate(-100%, 0)
+       transform: translate(100%, 0)
    }
 }

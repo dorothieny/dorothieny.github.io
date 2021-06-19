@@ -68,7 +68,7 @@ $('#f4').click(function(){
 });
 $('#d').click(function(){
   i = 0;
-    let zer = $('<div class="carding"><button id="exit" type="button" name="button">X</button><div class="ds"><h1>GALAXY CRUISE</h1>'+ text [i]+'<p>+7(989)789-04-01</p><p>+7(123)189-14-21</p></div><div class="sd"></div></div>');
+    let zer = $('<div class="carding"><button id="exit" type="button" name="button">X</button><div class="ds"><h1>GALAXY CRUISE</h1>'+ text [i]+'<p><b>Для заказа тура необходимо связаться с нашим менеджером:</b></p><p>+7(989)789-04-01</p><p>+7(123)189-14-21</p></div><div class="sd"></div></div>');
     $('body').append(zer);
     $('.sd').css("background-image", "url('pictures/love.png')")
       $('#exit').click(function(){
