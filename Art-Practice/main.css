@@ -280,6 +280,9 @@ background-size: auto; */
   text-align: left;
   width: 100%;
 }
+h1 span{
+  margin-left: .7%;
+}
 .textes{
   display: flex;
   flex-direction: column;
