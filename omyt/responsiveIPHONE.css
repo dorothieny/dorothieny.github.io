@@ -508,8 +508,9 @@
   .memory > h1{
     color: #D2BB83;
     font-family: 'OrganettoBold';
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
     width: 100%;
     margin: 3vw auto 0;
   }
@@ -602,7 +603,7 @@
     font-size: 15px;
     line-height: 21px;
     width:100%;
-    margin-top: 1.5%;
+    margin-top: 5vw;
   }
   .treti{
     background-image: url(images/аппар.png);
