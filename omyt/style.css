@@ -404,8 +404,8 @@ h2{
 }
 body > p{
   font-family: HeadingNow;
-  font-size: 11px;
-  line-height: 18px;
+  font-size: 10px;
+  line-height: 16px;
   width:  90%;
   margin: 3vw auto;
   color: #D2BB83;
@@ -967,8 +967,9 @@ transition: 0.3s ease-in-out;
 }
 .block > .slider{
   position: relative;
-  height: 30vw !important;
-  width:55%;
+  /* height: 30vw !important; */
+  margin: 0 auto;
+  width:60%;
 
 }
 .size > img{
@@ -1035,7 +1036,7 @@ margin-top: 1vw; */
   text-align:center
 }
 input[name="name"], input[name="phone"]{
-  font-size: 13px;
+  font-size: 15px;
   color: #777;
   font-family: "HeadingNow";
 }
