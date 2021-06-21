@@ -374,12 +374,52 @@ width: 100%;
 }
 .mapping{
   width:100%;
-  background: #000000;
+  background:  linear-gradient(180deg, rgba(12, 12, 12, 0.02) 42.92%, rgba(10, 9, 10, 0.2) 100%), #050505;
   background-image: url('pictures/galaxy.png');
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
-  height: 500px;
+  height: 700px;
+  position: relative;
+}
+.karta{
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  margin: 5vw auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Main';
+  font-size: 13px;
+}
+.p1, .p2, .p3{
+  align-self:flex-start;
+}
+.p1, .p3{
+margin-top: 3vw;
+}
+.rr{
+  cursor: pointer;
+}
+.rr :first-child{
+  font-family: 'MainBold';
+}
+.rr::after{
+  content: url('pictures/linii.png');
+  height: 200px;
+  width: 200px;
+  position:relative;
+  left: -20px;
+  top: -28px;
+}
+.hidden{
+  color: transparent;
+
+}
+.rr:hover .hidden{
+  color: white;
+  transition: .3s;
 }
 .map h1{
 font-size: 130px;
@@ -477,7 +517,6 @@ background: linear-gradient(180.03deg, #FFFFFF -30.98%, rgba(255, 255, 255, 0) 9
   height: 420px;
   width:auto;
   box-sizing: content-box;
-  /* border: solid 5px white; */
     -webkit-filter: grayscale(100%);
     position: relative;
     margin-top: 15%;
