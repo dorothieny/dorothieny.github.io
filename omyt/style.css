@@ -1118,6 +1118,15 @@ input[name="name"], input[name="phone"]{
       margin: 5vw auto;
     }
 
+@-webkit-keyframes move {
+from{
+transform: translateX(500px);
+  };
+    to{
+        transform: translateX(100px);
+    };
+
+};
     @keyframes move {
   from{
     transform: translateX(500px);
@@ -1126,7 +1135,18 @@ input[name="name"], input[name="phone"]{
             transform: translateX(100px);
         };
 
-    }
+    };
+
+    @-webkit-keyframes moveback {
+    from{
+    transform: translateX(-500px);
+      };
+        to{
+            transform: translateX(-100px);
+        };
+
+    };
+
     @keyframes moveback {
     from{
     transform: translateX(-500px);
@@ -1135,7 +1155,7 @@ input[name="name"], input[name="phone"]{
             transform: translateX(-100px);
         };
 
-    }
+    };
     @keyframes opa {
       from{
         opacity:0%;
