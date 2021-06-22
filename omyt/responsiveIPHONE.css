@@ -2285,18 +2285,18 @@
       color: #D2BB83;
       }
 
-      @keyframes move {
+      @-webkit-keyframes move {
     from{
-      transform: translateX(500px);
+      transform: translateX(200px);
         };
           to{
               transform: translateX(100px);
           };
 
       }
-      @keyframes moveback {
+      @-webkit-keyframes moveback {
       from{
-      transform: translateX(-500px);
+      transform: translateX(-200px);
         };
           to{
               transform: translateX(-100px);
