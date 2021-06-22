@@ -60,7 +60,7 @@
     width: 100%;
     height: 0vh;
     background: #161616;
-    padding: 5vw 0 1vw;
+    padding: 5vw 0;
     z-index: 1;
     overflow: hidden;
     filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.4));
@@ -82,7 +82,7 @@
   }
   .css2{
     top:3vw;
-    height: 100vh;
+    height: 96vh;
   }
   .css2 a{
     color: #D2BB83;
@@ -959,7 +959,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialfirst > h1{
+  .specialfirst > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
@@ -1028,24 +1028,24 @@
   }
   .blank{
     position:fixed;
-    top:10%;
-    left:12%;
-    width: 75vw;
-    height: 50vh;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
     background-color: #ffffff;
     border-radius: 15px;
     z-index:3;
   }
   #exit{
     position:fixed;
-    top:12%;
-    right:18%;
+    top:2%;
+    right:2%;
     z-index: 5;
     padding:5px 15px;
   }
   #form{
    width: 80%;
-   height: 90%;
+   height: 55%;
    margin: 3vw auto;
    position: relative;
    display: flex;
@@ -1197,51 +1197,55 @@
 
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: landscape) {
   .blank{
     position:fixed;
-    top:10%;
-    left:15%;
+    top:0;
+    left:0;
     width: 100vw;
     height: 100vh;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 0px;
     z-index:3;
   }
   .scroll{
-    width: 180%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-self: flex-start;
+    align-items: center;
     position: relative;
     left:0px;
   }
   .love, .diploma, .technology, .linza{
-    border: solid 4px #D2BB83;
-    background: #161616;
+    border: none;
+    background-image:url('images/horizont.svg');
     color: #D2BB83;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    background-size: contain;
+    background-position: bottom;
+    height: 250px;
+    width: 100%;
+    border-radius: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 3vw;
     transition: all .3s ease-in;
   }
   .after{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    height: 150px;
+    width: 100%;
+    border-radius: 0px;
     position:absolute;
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     transition: all .3s ease-in;
     opacity: 100%;
   }
+
   button{
     align-self: center;
     font-size: 12px;
@@ -1445,7 +1449,7 @@
     width: 100%;
     text-align: center;
     letter-spacing: 0.185em;
-    margin-top: 5vw;
+    margin-top: 1vw;
   }
 
   .third{
@@ -1489,6 +1493,7 @@
     position: relative;
     width: 100%;
     text-align: center;
+    margin-top: 3vw;
   }
   .third > button{
     margin-top: 10vw;
@@ -1584,6 +1589,7 @@
     font-size: 10px;
     line-height: 10px;
     padding: 8px 25px;
+    margin-right: 20px;
   }
   .tri > button{
     padding: 8px 70px;
@@ -2097,7 +2103,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialfirst > h1{
+  .specialfirst > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
@@ -2167,8 +2173,8 @@
   }
   #exit{
     position:fixed;
-    top:10%;
-    right:20%;
+    top:3%;
+    right:2%;
     z-index: 5;
     padding:5px 15px;
   }
@@ -2306,6 +2312,5 @@
           };
 
       }
-
 
 }

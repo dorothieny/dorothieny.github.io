@@ -889,7 +889,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialfirst > h1{
+  .specialfirst > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
@@ -960,7 +960,7 @@
   .blank{
     position:fixed;
     top:10%;
-    left:25%;
+    left:28%;
     width: 45vw;
     height: 35vh;
     background-color: #ffffff;
@@ -1111,7 +1111,7 @@
 
 
 }
-@media all and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media all and (min-device-width: 700px) and (max-device-width: 1024px) and (orientation: landscape) {
   button{
     align-self: center;
     font-size: 12px;
@@ -1315,7 +1315,7 @@
     width: 100%;
     text-align: center;
     letter-spacing: 0.185em;
-    margin-top: 5vw;
+    margin-top: 1vw;
   }
 
   .third{
@@ -2000,7 +2000,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialfirst > h1{
+  .specialfirst > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
@@ -2071,7 +2071,7 @@
   .blank{
     position:fixed;
     top:10%;
-    left:25%;
+    left:28%;
     width: 45vw;
     height: 35vh;
     background-color: #ffffff;
