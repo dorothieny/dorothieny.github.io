@@ -11,6 +11,14 @@
       <link rel="stylesheet" href="responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="kode.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        setTimeout(function(){
+          $('.linne').css('animation', 'move 1s ease-in-out 1');
+        }, 500);
+
+      });
+    </script>
   </head>
   <body>
     <div class="header">
@@ -60,10 +68,10 @@
     <div class="linne">
     </div>
     </div>
-    <button type="button" name="button" style="margin-top: 5vw">Показать карту</button>
   </div>
-
-
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.216751041757!2d37.74043711583501!3d55.68521928053533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab45093353429%3A0xf44d8ee0a5eb0ac3!2z0KLQuNGF0LDRjyDRg9C7Liwg0JzQvtGB0LrQstCwLCAxMDkzODc!5e0!3m2!1sru!2sru!4v1624396918349!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
 </div>
 

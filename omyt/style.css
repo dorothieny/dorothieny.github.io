@@ -37,6 +37,10 @@ button{
   transition: all .1s ease-in;
   cursor: pointer;
 }
+button a{
+  text-decoration: none;
+  color:#161616;
+}
 .header{
 
   position: fixed;
@@ -196,9 +200,9 @@ button:hover{
   transition: height .5s ease-in;
 
 }
-.oneone:hover .linne{
+/* .move{
   animation: move 1s 1 ease-in-out;
-}
+}  */
 .twotwo > .linne{
  width: 100%;
  height: 0;
@@ -207,9 +211,9 @@ button:hover{
  top: 3vw;
  transition: height .5s ease-in;
 }
-.twotwo:hover .linne{
+/* .twotwo:hover .linne{
   animation: moveback 1s 1 ease-in-out;
-}
+} */
 .one > p, .two > p{
   font-family: 'HeadingNow';
   font-size: 20px;
@@ -229,6 +233,10 @@ button:hover{
   margin-top: 1vw;
 }
 
+.one > h1:hover, .two > h1:hover{
+  transform: scale(1.03);
+  transition: all .2s ease-in;
+}
 .third{
 width: 100%;
 overflow: hidden;
@@ -570,9 +578,9 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
  position:relative;
  top: 3vw;
 }
-.apparat:hover  .linne{
+/* .apparat:hover  .linne{
   animation: moveback 1s ease-in-out 1;
-}
+} */
 .vtoroi > p{
   color: #D2BB83;
   font-family: 'HeadingNow';
@@ -673,9 +681,9 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   margin: 3vw auto 0;
   text-align: center;
 }
-.pyati:hover .linne{
+/* .pyati:hover .linne{
   animation: move 1s ease-in-out 1;
-}
+} */
 p{
   color: #D2BB83;
   font-family: 'HeadingNow';
@@ -912,7 +920,7 @@ body.not-transparent.mode-mini {
   position:relative;
   top: 3.5vw;
 }
-.specialfirst > h1{
+.specialfirst > h2{
   color: #D2BB83;
   font-family: 'OrganettoBold';
   font-size: 30px;
@@ -950,7 +958,7 @@ transition: 0.3s ease-in-out;
 }
 .block p{
   margin-top:1.5vw;
-  width: 37%;
+  width: 70%;
 }
 .block > .gradient{
     position:absolute;
@@ -1104,6 +1112,10 @@ input[name="name"], input[name="phone"]{
     }
     textarea[name="review"]:not(:focus) , input[name="imya"]:not(:focus){
     color: #D2BB83;
+    }
+    .map{
+      width: 90%;
+      margin: 5vw auto;
     }
 
     @keyframes move {
