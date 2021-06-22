@@ -2238,7 +2238,7 @@
       cursor: pointer;
     }
     .reviewarea{
-      width: 70%;
+      width: 100%;
       margin-top: 5vw;
     }
     .textinput{
@@ -2254,7 +2254,7 @@
       box-sizing: border-box;
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
-      height: 3vw;
+      height: 6vw;
       width: 100%;
       font-size: 12px;
       line-height: 24px;
