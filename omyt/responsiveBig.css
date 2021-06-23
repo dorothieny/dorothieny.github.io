@@ -449,8 +449,11 @@
     margin-top: .5%;
   }
   .second > button{
-  padding: 10px 150px;
+  padding: 10px 60px;
   margin-top: 5vw;
+  }
+  .pairbut{
+    margin-right: 20px;
   }
   .memory{
     display: flex;

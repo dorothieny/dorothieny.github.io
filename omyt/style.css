@@ -474,10 +474,9 @@ height: 100%;
 padding: 10px 60px;
 margin-top: 5vw;
 }
-/* .second button span{
-  width: 300px;
-
-} */
+.pairbut{
+  margin-right: 10px;
+}
 .memory{
   display: flex;
   flex-direction: row;
