@@ -39,7 +39,7 @@ function checkForm(event){
 
   });
 
-  $(window).scroll(function(){
+  $(window).on('scroll', function(){
     function is_fully_shown(target) {
   	var wt = $(window).scrollTop();
   	var wh = $(window).height();
