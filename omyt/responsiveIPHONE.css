@@ -161,12 +161,12 @@
     margin-bottom: 5vw;
     overflow:hidden;
   }
-.one{
+/* .one{
   margin-right: 3vw;
 }
 .two{
   margin-left: 3vw;
-}
+} */
   .twotwo{
     display: flex;
     flex-direction: column-reverse;
@@ -582,13 +582,13 @@
 
   .apparat {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
     margin-top: 10vw;
     color: #D2BB83;
   }
   .apparat > .linne{
-   width: 80%;
+   width: 100%;
    height: auto;
    border-top: solid 4px #D2BB83;
    position:relative;
@@ -603,6 +603,7 @@
     font-size: 15px;
     line-height: 21px;
     width:100%;
+    text-align: center;
     margin-top: 5vw;
   }
   .treti{
@@ -690,7 +691,7 @@
     flex-direction: column;
     justify-content: center;
     width:  90%;
-    margin: 5vw auto 0;
+    margin: 10vw auto 0;
     color: #D2BB83;
     overflow: hidden;
   }
@@ -699,7 +700,8 @@
     height: auto;
     border-top: solid 4px #D2BB83;
     position:relative;
-    top: 3.5vw;
+    top: 1vw;
+    margin-bottom: 5vw;
   }
   .pyati  h1{
     color: #D2BB83;
@@ -708,11 +710,15 @@
     line-height: 25px;
     width: 100%;
     margin:0;
-    text-align: left;
+    text-align: center;
   }
 /*   .pyati:hover .linne{
   animation: move 1s ease-in-out 1;
 } */
+.pyati p{
+  text-align: center;
+  margin-top: 5vw;
+}
   p{
     color: #D2BB83;
     font-family: 'HeadingNow';
