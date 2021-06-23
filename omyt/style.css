@@ -178,7 +178,6 @@ button:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  cursor: pointer;
   overflow:hidden;
 }
 .twotwo{
@@ -186,7 +185,6 @@ button:hover{
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10vw;
-  cursor: pointer;
   overflow:hidden;
 
 }
@@ -231,6 +229,7 @@ button:hover{
   text-align: center;
   letter-spacing: 0.185em;
   margin-top: 1vw;
+  cursor: pointer;
 }
 
 .one > h1:hover, .two > h1:hover{
@@ -472,9 +471,13 @@ height: 100%;
   margin-top: .5%;
 }
 .second > button{
-padding: 10px 150px;
+padding: 10px 60px;
 margin-top: 5vw;
 }
+/* .second button span{
+  width: 300px;
+
+} */
 .memory{
   display: flex;
   flex-direction: row;
@@ -827,6 +830,7 @@ transition: all .3s ease-in;
   overflow: hidden;
   color: transparent;
   transition: all 1s ease-in;
+  cursor: default;
 
 }
 .css{
