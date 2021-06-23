@@ -905,7 +905,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialsecond > h1{
+  .specialsecond > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
@@ -2016,7 +2016,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialsecond > h1{
+  .specialsecond > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
@@ -2203,7 +2203,7 @@
       }
       @keyframes moveback {
       from{
-      transform: translateX(-500px);
+        transform: translateX(-500px);
         };
           to{
               transform: translateX(-100px);

@@ -54,13 +54,6 @@ function checkForm(event){
   	}
   }
 
-  if (is_fully_shown('.apparat')) {
-    console.log(true);
-    setTimeout(function(){
-      $('.ip').css('animation', 'moveback 1s ease-in-out 1');
-    }, 500);
-
-  }
   if (is_fully_shown('.dop')) {
     console.log(true);
     setTimeout(function(){
@@ -87,21 +80,21 @@ function checkForm(event){
     $('.k').removeClass("colors");
     $('.j').removeClass("colors");
     $(".changable").html("1 этап");
-      $(".changing").html("кабинка наполняется специальным раствором с высоким содержанием солей,что помогает обезопасить людей от воздействия электричества, проходящего через аппарат");
+      $(".changing").html("кабинка наполняется специальным раствором с&nbsp;высоким содержанием солей,что помогает обезопасить людей от&nbsp;воздействия электричества, проходящего через аппарат");
   });
   $(".k").click(function(){
       $(".k").addClass("colors");
       $('.s').removeClass("colors");
       $('.j').removeClass("colors");
     $(".changable").html("2 этап");
-    $(".changing").html("трубки проводят внутрь аппарата ток и магнитные шарики; их задача проникать в нейроны мозга и прилипать к участкам со скоплением “тяжелых” воспоминаний");
+    $(".changing").html("трубки проводят внутрь аппарата ток и&nbsp;магнитные шарики; их задача проникать в&nbsp;нейроны мозга и&nbsp;прилипать к&nbsp;участкам со&nbsp;скоплением “тяжелых” воспоминаний");
   });
   $(".j").click(function(){
       $('.j').addClass("colors");
       $('.k').removeClass("colors");
       $('.s').removeClass("colors");
     $(".changable").html("3 этап");
-    $(".changing").html("после сбора магнитные шарики выходят, по трубкам возращаются в общий канал и там проходят общую процедуру очищения в конце рабочего дня");
+    $(".changing").html("после сбора магнитные шарики выходят, по&nbsp;трубкам возращаются в&nbsp;общий канал и&nbsp;там проходят общую процедуру очищения в&nbsp;конце рабочего дня");
 
   });
 });

@@ -971,8 +971,7 @@
     font-size: 20px;
     line-height: 25px;
     width: 100%;
-    margin-left: 2vw;
-    text-align:left;
+    text-align:center;
   }
   .specialsecond > .linne{
     width: 100%;
@@ -981,16 +980,19 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialsecond > h1{
+  .specialsecond > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;
     line-height: 25px;
     width: 100%;
-    margin-left: 2vw;
-    text-align: left;
+    text-align: center;
   }
 
+.specialsecond  p, .specialfirst p{
+  text-align: center;
+  width: 100%;
+}
   .block {
     display: flex;
     flex-direction: column;
@@ -2125,7 +2127,7 @@
     position:relative;
     top: 3.5vw;
   }
-  .specialsecond > h1{
+  .specialsecond > h2{
     color: #D2BB83;
     font-family: 'OrganettoBold';
     font-size: 20px;

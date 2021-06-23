@@ -85,11 +85,11 @@ if (is_fully_shown('.pa')) {
   }, 500);
 
 }
-if (is_fully_shown('.pa')) {
+if (is_fully_shown('.ap')) {
   console.log(true);
   setTimeout(function(){
     $('.ap').css('animation', 'moveback 1s ease-in-out 1');
-  }, 1000);
+  }, 800);
 
 }
 });

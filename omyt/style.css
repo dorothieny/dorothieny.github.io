@@ -677,7 +677,7 @@ background: linear-gradient(180deg, rgba(22, 22, 22, 0) 45.6%, #161616 100%), li
   font-family: 'OrganettoBold';
   font-size: 30px;
   line-height: 35px;
-  width: 34%;
+  width: 40%;
   margin: 3vw auto 0;
   text-align: center;
 }
@@ -936,7 +936,7 @@ body.not-transparent.mode-mini {
   position:relative;
   top: 3.5vw;
 }
-.specialsecond > h1{
+.specialsecond > h2{
   color: #D2BB83;
   font-family: 'OrganettoBold';
   font-size: 30px;
@@ -1118,15 +1118,6 @@ input[name="name"], input[name="phone"]{
       margin: 5vw auto;
     }
 
-@-webkit-keyframes move {
-from{
-transform: translateX(500px);
-  };
-    to{
-        transform: translateX(100px);
-    };
-
-};
     @keyframes move {
   from{
     transform: translateX(500px);
@@ -1135,27 +1126,17 @@ transform: translateX(500px);
             transform: translateX(100px);
         };
 
-    };
-
-    @-webkit-keyframes moveback {
-    from{
-    transform: translateX(-500px);
-      };
-        to{
-            transform: translateX(-100px);
-        };
-
-    };
+    }
 
     @keyframes moveback {
     from{
-    transform: translateX(-500px);
+      transform: translateX(-500px);
       };
         to{
             transform: translateX(-100px);
         };
 
-    };
+    }
     @keyframes opa {
       from{
         opacity:0%;
