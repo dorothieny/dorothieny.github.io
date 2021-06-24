@@ -50,10 +50,10 @@ rez.remove();
 $(this).addClass("hidden");
   });
   $('.menue').click(function(){
-    $('.menu').toggleClass('hidden');
+    //$('.menu').toggleClass('hidden');
     setTimeout(function(){
       $('.menu').toggleClass('css2');
-    }, 300);
+    }, 500);
 
   })
 
