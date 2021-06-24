@@ -839,9 +839,7 @@
     transition: all .1s ease-in;
     margin-right: 3vw;
   }
-  .subtitles > a:hover{
-    color: #A94F20;
-  }
+
   .contacts > .linne{
   display: none;
 
@@ -1987,9 +1985,7 @@
     transition: all .1s ease-in;
     margin-right: 3vw;
   }
-  .subtitles > a:hover{
-    color: #A94F20;
-  }
+
   .contacts > .linne{
     width: 60%;
     height: auto;

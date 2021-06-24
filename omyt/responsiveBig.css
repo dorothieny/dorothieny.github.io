@@ -775,10 +775,9 @@
     line-height: 50px;
     text-decoration: none;
     transition: all .1s ease-in;
+    cursor: default;
   }
-  .subtitles > a:hover{
-    color: #A94F20;
-  }
+
   .contacts > .linne{
     width: 60%;
     height: auto;

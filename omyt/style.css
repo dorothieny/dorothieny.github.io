@@ -797,10 +797,9 @@ transition: all .3s ease-in;
   line-height: 40px;
   text-decoration: none;
   transition: all .1s ease-in;
+  cursor:default;
 }
-.subtitles > a:hover{
-  color: #A94F20;
-}
+
 .contacts > .linne{
   width: 60%;
   height: auto;
@@ -1120,6 +1119,9 @@ input[name="name"], input[name="phone"]{
       width: 90%;
       margin: 5vw auto;
     }
+.style{
+  filter: blur(10px);
+}
 
     @keyframes move {
   from{

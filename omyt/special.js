@@ -4,6 +4,7 @@ $('#zapis, #zapisi').click(function(){
 
     console.log("shto");
     $('body').append(rez);
+      $('.main').addClass('style');
     $('#exit').removeClass("hidden");
     document.getElementById('form').addEventListener("submit", checkForm);
 
@@ -39,6 +40,7 @@ function checkForm(event){
 
   });
   $('#exit').click(function(){
+      $('.main').removeClass('style');
   rez.remove();
   $(this).addClass("hidden");
     });
