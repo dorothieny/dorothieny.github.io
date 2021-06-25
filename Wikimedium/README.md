@@ -1,2 +1,0 @@
-# Wikimedium_Dom
- технологии

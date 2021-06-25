@@ -1,9 +1,0 @@
-* {
-  box-sizing:border-box-box;
-}
-body { -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'PT Sans', sans-serif;
-}
-a { color: inherit;
-}
