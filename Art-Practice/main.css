@@ -68,7 +68,7 @@ body{
  margin-top: 5%;
 }
 .osnovnoe h1{
-  font-size: 160px;
+  font-size: 140px;
   font-family: 'Galaxy';
   position: absolute;
   text-align: center;
@@ -95,27 +95,30 @@ p{
   padding-top: 68px;
   position: relative;
 }
+.hours{
+  margin-left:5vw;
+}
 .decoration{
   position: relative;
 height: 400px;
 overflow: hidden;
 }
 .grad{
-  height: 300px;
+  height: 200px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #FFFFFF 100%), #040404;
   width: 100%;
   position: absolute;
-  bottom: 100px;
+  bottom: 232px;
   z-index: -1
 }
 .circle{
-  height: 300px;
+  height: 229px;
 background: #050505;
-border-radius: 70%;
-width: 150%;
+border-radius: 51%;
+width: 146%;
 left: -20%;
 position: absolute;
-bottom: -90px;
+bottom: 43px;
 z-index: 0;
 }
 .information p {
@@ -161,7 +164,7 @@ margin-bottom: 18px;
 }
 
 .nas h1{
-  font-size: 130px;
+  font-size: 100px;
   font-family: 'Galaxy';
   text-align: left;
   width: 100%;
@@ -273,14 +276,14 @@ position: relative;
 }
 .races{
   width: 95%;
-  margin: 5% auto 0;
+  margin: 8% auto 0;
 /*   background-image: url('pictures/pal.png');
 background-repeat: no-repeat;
 background-position:left;
 background-size: auto; */
 }
 .races h1{
-  font-size: 130px;
+  font-size: 100px;
   font-family: 'Galaxy';
   text-align: left;
   width: 100%;
@@ -381,10 +384,12 @@ width: 100%;
   background-size: cover;
   height: 700px;
   position: relative;
+  overflow: hidden;
 }
 .karta{
   position: absolute;
-  width: 100%;
+  width: 90%;
+left: 7vw;
   height: 60%;
   margin: 5vw auto;
   display: flex;
@@ -422,11 +427,11 @@ margin-top: 3vw;
   transition: .3s;
 }
 .map h1{
-font-size: 130px;
+font-size: 100px;
 font-family: 'Galaxy';
 text-align: left;
 width: 95%;
-margin:0 auto 8%;
+margin:8% auto 3%;
 }
 .block{
   margin: 5% 0 8% 0;
@@ -462,7 +467,7 @@ margin:0 auto 8%;
   margin:0 auto;
 }
 .gallery h1{
-  font-size: 130px;
+  font-size: 100px;
   font-family: 'Galaxy';
   text-align: left;
   width: 100%;
@@ -479,7 +484,7 @@ margin:0 auto 8%;
 .flex{
   display: flex;
   flex-direction: row;
-  width:80%;
+  width:85%;
   justify-content: space-between;
   height: 120vw;
   margin-top:20%;
@@ -490,8 +495,14 @@ margin:0 auto 8%;
   flex-direction: column;
   justify-content: space-between;
   width:50%;
-  height:83%;
+  height:100%;
   margin-left: 15%;
+}
+.od p{
+  width:80%;
+  font-family:"Main";
+  font-size: 20px;
+  color:white;
 }
 .dv{
   display: flex;
@@ -547,7 +558,7 @@ background: linear-gradient(180.03deg, #FFFFFF -30.98%, rgba(255, 255, 255, 0) 9
 }
 .conta{
   width: 95%;
-  margin: 8% auto;
+  margin: 0 auto 8% ;
 }
 .con{
   display: flex;
@@ -557,7 +568,7 @@ background: linear-gradient(180.03deg, #FFFFFF -30.98%, rgba(255, 255, 255, 0) 9
   margin-bottom: 8%;
 }
 .conta h1{
-  font-size: 130px;
+  font-size: 100px;
   font-family: 'Galaxy';
   text-align: left;
   width: 100%;
@@ -589,7 +600,6 @@ background: linear-gradient(180.03deg, #FFFFFF -30.98%, rgba(255, 255, 255, 0) 9
   left:0;
 }
 .luna img{
-  transform: rotate(180deg);
   position: absolute;
   right:0;
 }
