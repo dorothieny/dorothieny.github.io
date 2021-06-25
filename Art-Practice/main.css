@@ -126,7 +126,7 @@ margin-bottom: 18px;
 }
 .nas{
   width: 95%;
-  margin:0 auto;
+  margin:-100px auto;
   position: relative;
   background-image: url('pictures/star.png');
   background-size: contain;
